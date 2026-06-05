@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallel - Le Journal des Bonnes Nouvelles</title>
+  <meta name="description" content="Découvrez Parallel, votre dose quotidienne d'actualités positives, d'initiatives porteuses d'espoir et de solutions à travers le monde.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement / Quote Banner -->
+  <div class="top-bar-quote">
+    <div class="container quote-banner-content">
+      <span class="quote-sparkle">☀</span>
+      <p id="quote-display" class="top-quote-text">« Commencer la journée avec le sourire la rend tout de suite plus douce. »</p>
+      <button id="btn-next-quote" class="btn-refresh-quote" title="Changer de citation">↻</button>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <a href="#" class="logo-container" id="logo-link">
+        <img src="assets/logo.png" alt="Parallel Logo" class="logo-image" style="height: 110px; display: block; object-fit: contain;">
+      </a>
+      
+      <div class="header-actions">
+        <!-- Social Media Icons (Header) -->
+        <div class="social-icons">
+          <!-- Instagram icon -->
+          <a href="https://instagram.com" target="_blank" class="social-icon-link" aria-label="Suivez-nous sur Instagram">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <!-- X (Twitter) icon -->
+          <a href="https://x.com" target="_blank" class="social-icon-link" aria-label="Suivez-nous sur X">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+        </div>
+        <div class="date-badge" id="current-date">--/--/----</div>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Categories Navigation & Search -->
+  <section class="navigation-section">
+    <div class="container">
+      <div class="filter-tabs" id="filter-tabs">
+        <button class="filter-tab active" data-category="Tous">À la Une</button>
+        <button class="filter-tab" data-category="Environnement & Planète">Environnement</button>
+        <button class="filter-tab" data-category="Santé">Santé</button>
+        <button class="filter-tab" data-category="IA & Tech">IA & Tech</button>
+        <button class="filter-tab" data-category="Politique & Société">Société</button>
+        <button class="filter-tab" data-category="Business & Économie Positive">Économie</button>
+        <button class="filter-tab" data-category="France">France</button>
+        <button class="filter-tab" data-category="Monde">Monde</button>
+        <button class="filter-tab" data-category="Sport">Sport</button>
+      </div>
+      
+      <div class="search-bar-container">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+        <input type="text" id="search-input" class="search-input" placeholder="Rechercher une bonne nouvelle, une initiative, un pays...">
+      </div>
+    </div>
+  </section>
+
+  <!-- Les Echos Style Hero Grid -->
+  <section class="hero-grid-section container" id="hero-grid-section">
+    <div class="hero-layout" id="hero-layout">
+      <!-- Generated Dynamically -->
+    </div>
+  </section>
+
+  <!-- Today's Subjects List -->
+  <main class="container">
+    <div class="section-title" id="section-title-container">
+      <h2 id="main-section-title">Les sujets du jour</h2>
+      <div class="title-line"></div>
+    </div>
+    
+    <div class="articles-grid" id="articles-grid">
+      <!-- Populated Dynamically -->
+    </div>
+  </main>
+
+  <!-- Full Width Newsletter Section -->
+  <section class="full-newsletter-section">
+    <div class="container newsletter-box">
+      <div class="newsletter-info">
+        <h3>Recevez votre dose quotidienne d'optimisme</h3>
+        <p>Inscrivez-vous gratuitement à la lettre d'actualités Parallel. Chaque matin à 7h, recevez les 3 meilleures actualités positives de la journée directement dans votre boîte mail, accompagnées d'une citation motivante.</p>
+      </div>
+      <form class="newsletter-form" id="main-newsletter-form">
+        <input type="email" id="news-email-input" class="newsletter-input" placeholder="Votre adresse e-mail..." required>
+        <button type="submit" class="btn-newsletter-submit">S'abonner à la dose Parallel ☀</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Grand Footer (Style Les Echos) -->
+  <footer>
+    <div class="container footer-grid">
+      <!-- Col 1: Brand & Socials -->
+      <div class="footer-brand-col">
+        <div class="footer-logo" style="margin-bottom: 15px;">
+          <img src="assets/logo.png" alt="Parallel Logo" class="logo-image-footer" style="height: 38px; display: block; object-fit: contain;">
+        </div>
+        <p class="footer-brand-desc">Le quotidien indépendant qui brise la gravité de l'actualité avec des histoires inspirantes, porteuses d'espoir et de solutions réelles.</p>
+        <div class="footer-social-links">
+          <a href="https://instagram.com" target="_blank" class="footer-social-icon" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://x.com" target="_blank" class="footer-social-icon" aria-label="X (Twitter)">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Col 2: Categories -->
+      <div class="footer-links-col">
+        <h5>Thématiques</h5>
+        <ul>
+          <li><a href="#" class="footer-cat-link" data-cat="Environnement & Planète">Environnement</a></li>
+          <li><a href="#" class="footer-cat-link" data-cat="Santé">Santé</a></li>
+          <li><a href="#" class="footer-cat-link" data-cat="IA & Tech">IA & Tech</a></li>
+          <li><a href="#" class="footer-cat-link" data-cat="Politique & Société">Société</a></li>
+          <li><a href="#" class="footer-cat-link" data-cat="Business & Économie Positive">Économie</a></li>
+          <li><a href="#" class="footer-cat-link" data-cat="Sport">Sport</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Sections locales -->
+      <div class="footer-links-col">
+        <h5>Zones géographiques</h5>
+        <ul>
+          <li><a href="#" class="footer-cat-link" data-cat="France">France</a></li>
+          <li><a href="#" class="footer-cat-link" data-cat="Monde">Monde</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Ethique & A propos -->
+      <div class="footer-links-col">
+        <h5>À propos</h5>
+        <ul>
+          <li><a href="#">La charte éditoriale</a></li>
+          <li><a href="#">Notre équipe</a></li>
+          <li><a href="#">Rigueur journalistique</a></li>
+          <li><a href="#">Contact / Proposer une initiative</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container footer-copyright-row">
+      <p>&copy; 2026 Parallel - Le quotidien qui fait du bien. Informations 100% vérifiées et sourcées. Tous droits réservés.</p>
+      <div class="legal-links">
+        <a href="admin.html">Administration ⚙</a>
+        <a href="#">Mentions légales</a>
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">Gestion des cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Article Detail Modal -->
+  <div class="modal-overlay" id="article-modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close" aria-label="Fermer">✕</button>
+      <div class="modal-image-container">
+        <img src="" alt="" class="modal-image" id="modal-image">
+      </div>
+      <div class="modal-body-content">
+        <span class="category-tag" id="modal-category">Catégorie</span>
+        <h2 id="modal-title">Titre de l'article</h2>
+        <div class="smile-factor" id="modal-smile-factor">Angle Parallèle</div>
+        <p class="full-text" id="modal-body">Corps du texte...</p>
+        <div class="modal-footer" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+          <span id="modal-date">Date</span>
+          <div style="display: flex; gap: 16px;">
+            <span>
+              Source : <a href="#" target="_blank" class="source-link" id="modal-source-link"><span id="modal-source-name">Source</span> ↗</a>
+            </span>
+            <span id="modal-photo-source-container" style="display: none;">
+              Photo : <a href="#" target="_blank" class="source-link" id="modal-photo-link"><span id="modal-photo-name">Unsplash</span> ↗</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Original Vertically Centered Side Newsletter Popup -->
+  <div class="side-newsletter-popup" id="side-newsletter-popup">
+    <button class="side-popup-close" id="side-popup-close" aria-label="Fermer">✕</button>
+    <div class="side-popup-icon">☀</div>
+    <h4>Restez positif !</h4>
+    <p>Rejoignez 45 000 lecteurs heureux. Recevez chaque matin nos meilleures ondes positives par e-mail.</p>
+    <form class="side-popup-form" id="side-newsletter-form">
+      <input type="email" id="side-email-input" class="side-popup-input" placeholder="Votre e-mail..." required>
+      <button type="submit" class="btn-side-submit">M'abonner</button>
+    </form>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast-notification">
+    <span class="toast-icon">☀</span>
+    <span class="toast-message" id="toast-message">Merci pour votre contribution !</span>
+  </div>
+
+  <!-- Script tags -->
+  <script src="articles.js?v=1.0.4"></script>
+  <script src="app.js?v=1.0.4"></script>
+</body>
+</html>

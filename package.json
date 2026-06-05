@@ -1,0 +1,13 @@
+{
+  "name": "parallel-automation",
+  "version": "1.0.0",
+  "description": "Script de veille automatique de bonnes nouvelles pour Parallel",
+  "main": "cron-fetch.js",
+  "scripts": {
+    "start": "node cron-fetch.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.11.0",
+    "rss-parser": "^3.13.0"
+  }
+}
