@@ -1,12 +1,7 @@
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import Parser from 'rss-parser';
-import { GoogleGenerativeAI } from '@google/generative-ai';
-
-// Configuration pour utiliser __dirname en mode ES Module
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const fs = require('fs');
+const path = require('path');
+const Parser = require('rss-parser');
+const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 // Initialiser le parseur RSS et l'IA Gemini
 const parser = new Parser({
@@ -14,7 +9,6 @@ const parser = new Parser({
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
   }
 });
-
 const apiKey = process.env['parallel.lemedia'] || process.env.parallel_lemedia || process.env.PARALLEL_LEMEDIA || process.env.GEMINI_API_KEY;
 
 if (!apiKey) {
@@ -33,7 +27,7 @@ const model = genAI.getGenerativeModel({
 
 const articlesFilePath = path.join(__dirname, 'articles.js');
 
-// Sources RSS cibles de bonnes nouvelles
+// Sources RSS cibles de bonnes nouvelles (élargi au maximum)
 const feeds = [
   { name: "Point AFP", url: "https://www.lepoint.fr/tags/afp/rss.xml" },
   { name: "Le Monde Une", url: "https://www.lemonde.fr/rss/une.xml" },
@@ -53,7 +47,7 @@ const feeds = [
   { name: "Pitchfork News", url: "https://pitchfork.com/feed/feed-news/rss" }
 ];
 
-// Fonction utilitaire pour le minuteur (60 secondes)
+// Fonction utilitaire pour faire une pause
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 async function run() {
@@ -67,7 +61,7 @@ async function run() {
   
   const fileContent = fs.readFileSync(articlesFilePath, 'utf8');
   
-  // Isolement sécurisé du tableau brut d'articles
+  // Extraire le tableau JSON articles
   const startIdx = fileContent.indexOf('[');
   const endIdx = fileContent.lastIndexOf(']');
   if (startIdx === -1 || endIdx === -1) {
@@ -78,22 +72,15 @@ async function run() {
   const articlesJSON = fileContent.substring(startIdx, endIdx + 1);
   let articlesList = [];
   try {
-    // Nettoyage de la chaîne et conversion en JSON valide sans utiliser eval() pour éviter les conflits ESM
-    articlesList = JSON.parse(articlesJSON);
+    articlesList = eval(articlesJSON);
   } catch (err) {
-    // Si JSON.parse échoue à cause de petits résidus de formatage JS, on utilise une extraction Regex robuste
-    try {
-      const sanitized = articlesJSON.replace(/[\u201C\u201D]/g, '"').replace(/[\u2018\u2019]/g, "'");
-      articlesList = JSON.parse(sanitized);
-    } catch (fallbackErr) {
-      console.error("Erreur critique lors du décodage de la base de données :", fallbackErr.message);
-      process.exit(1);
-    }
+    console.error("Erreur lors de la lecture du JSON des articles :", err);
+    process.exit(1);
   }
 
   console.log(`Base de données actuelle : ${articlesList.length} articles.`);
 
-  // 2. Décaler l'historique (+1 jour)
+  // 2. Décaler l'historique : Tous les articles existants prennent +1 jour (offsetDays++)
   console.log("Mise à jour de l'historique : décalage de +1 jour pour les actualités existantes...");
   articlesList.forEach(art => {
     art.offsetDays = (art.offsetDays || 0) + 1;
@@ -106,8 +93,12 @@ async function run() {
   for (const feed of feeds) {
     try {
       console.log(`Lecture du flux : ${feed.name}...`);
-      const res = await fetch(feed.url, { headers: { 'User-Agent': ua } });
-      if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+      const res = await fetch(feed.url, {
+        headers: { 'User-Agent': ua }
+      });
+      if (!res.ok) {
+        throw new Error(`HTTP error! status: ${res.status}`);
+      }
       const xml = await res.text();
       const parsedFeed = await parser.parseString(xml);
       console.log(`Trouvé ${parsedFeed.items.length} articles dans ${feed.name}.`);
@@ -144,13 +135,12 @@ async function run() {
 
   let hasFlip = false;
   const storiesToProcess = rawStories.slice(0, 300);
+
   let processedCount = 0;
 
   for (const story of storiesToProcess) {
-    if (!story.title) continue;
-
     const duplicate = articlesList.some(art => 
-      art.title && art.title.toLowerCase().includes(story.title.toLowerCase().substring(0, 15))
+      art.title.toLowerCase().includes(story.title.toLowerCase().substring(0, 15))
     );
     if (duplicate) {
       console.log(`Passage de l'article (doublon potentiel) : ${story.title}`);
@@ -159,9 +149,9 @@ async function run() {
 
     const isGeneratingFlip = !hasFlip;
 
-    // ⏳ PAUSE DE 60 SECONDES (Sauf pour le tout premier appel)
+    // 🔥 PAUSE ANTI-QUOTA DE 60 SECONDES (Sauf pour le tout premier article)
     if (processedCount > 0) {
-      console.log(`⏳ [ANTI-QUOTA] Pause réglementaire de 60 secondes pour préserver le forfait gratuit Google...`);
+      console.log(`⏳ [ANTI-QUOTA] Pause réglementaire de 60 secondes...`);
       await sleep(60000);
     }
     processedCount++;
@@ -240,7 +230,7 @@ async function run() {
       if (parsedData.isPositive) {
         const cat = parsedData.category;
         
-        // 📸 Génération d'image Unsplash unique dynamique et sans clé
+        // 📸 LIEN D'IMAGE UNIQUE ET DIFFÉRENT GÉNÉRÉ EN DIRECT
         const query = parsedData.imageQueryEnglish ? parsedData.imageQueryEnglish.replace(/\s+/g, ',') : 'news';
         const randomId = Math.floor(Math.random() * 1000);
         const generatedImageUrl = `https://images.unsplash.com/featured/800x600/?${encodeURIComponent(query)}&sig=${randomId}`;
@@ -249,4 +239,68 @@ async function run() {
           const newArt = {
             id: articlesList.length + newArticles.length + 1,
             category: cat,
-            title: parsedData
+            title: parsedData.title,
+            smileFactor: parsedData.smileFactor,
+            visualText: parsedData.visualText || parsedData.title.substring(0, 25).toUpperCase(),
+            imageQueryEnglish: parsedData.imageQueryEnglish || "",
+            bad_news_resume: parsedData.bad_news_resume || "",
+            content_parallel: parsedData.content_parallel || "",
+            body: parsedData.body,
+            source: parsedData.source,
+            sourceLink: story.link,
+            image: generatedImageUrl, // Ajout de l'image unique
+            offsetDays: 0,
+            featured: true 
+          };
+          newArticles.push(newArt);
+          hasFlip = true;
+          console.log(`[SUCCÈS - FLIP] Article Flip ajouté : ${newArt.title} (${newArt.category})`);
+        } else if (categoryCounts[cat] < 3) {
+          const newArt = {
+            id: articlesList.length + newArticles.length + 1,
+            category: cat,
+            title: parsedData.title,
+            smileFactor: parsedData.smileFactor,
+            visualText: parsedData.visualText || parsedData.title.substring(0, 25).toUpperCase(),
+            imageQueryEnglish: parsedData.imageQueryEnglish || "",
+            body: parsedData.body,
+            source: parsedData.source,
+            sourceLink: story.link,
+            image: generatedImageUrl, // Ajout de l'image unique
+            offsetDays: 0,
+            featured: false
+          };
+          newArticles.push(newArt);
+          categoryCounts[cat]++;
+          console.log(`[SUCCÈS] Article thématique ajouté : ${newArt.title} (${newArt.category}) [${categoryCounts[cat]}/3]`);
+        }
+        
+        const allThemesDone = categories.every(cat => categoryCounts[cat] >= 3);
+        if (hasFlip && allThemesDone) {
+          console.log("Quota quotidien de publication complété (1 Flip + 24 articles thématiques) !");
+          break;
+        }
+      }
+    } catch (err) {
+      console.error(`Erreur d'analyse de l'article : ${story.title}`, err.message);
+    }
+  }
+
+  if (newArticles.length === 0) {
+    console.log("Aucune nouvelle actualité validée aujourd'hui. Fin du script.");
+    process.exit(0);
+  }
+
+  // Fusionner les nouveaux articles en tête de liste
+  const updatedArticlesList = [...newArticles, ...articlesList];
+  const finalArticlesList = updatedArticlesList.slice(0, 200);
+
+  // 5. Réécrire le fichier articles.js
+  const stringifiedList = JSON.stringify(finalArticlesList, null, 2);
+  const updatedContent = fileContent.substring(0, startIdx) + stringifiedList + fileContent.substring(endIdx + 1);
+
+  fs.writeFileSync(articlesFilePath, updatedContent, 'utf8');
+  console.log(`[SUCCÈS] Fichier articles.js mis à jour avec ${newArticles.length} nouvelles actualités du jour !`);
+}
+
+run();
