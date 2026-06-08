@@ -105,6 +105,87 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("parallel-theme", isDark ? "dark" : "light");
   });
 
+  // --- Article Image Unsplash Resolver ---
+  function getArticleImageUrl(art) {
+    if (art.image && art.image.trim() !== "" && !art.image.includes("placeholder")) {
+      return art.image;
+    }
+
+    // Curated high-resolution professional Unsplash CDN photo IDs for each category
+    const IMAGE_POOLS = {
+      "Environnement & Planète": [
+        "photo-1470071459604-3b5ec3a7fe05", // Green hills
+        "photo-1500485035595-cbe6f645feb1", // Forest pathway
+        "photo-1466611653911-95081537e5b7", // Wind turbines
+        "photo-1542601906990-b4d3fb778b09", // Young plant
+        "photo-1509391366360-2e959784a276"  // Solar panels roof
+      ],
+      "Santé": [
+        "photo-1530026405186-ed1ea0ac7a63", // Laboratory scientific research
+        "photo-1576091160550-2173dba999ef", // Stethoscope and doctor
+        "photo-1506126613408-eca07ce68773", // Peaceful sunset yoga / wellness
+        "photo-1476480862126-209bfaa8edc8", // Active running trail path
+        "photo-1490645935967-10de6ba17061"  // Vibrant healthy vegetables
+      ],
+      "IA & Tech": [
+        "photo-1518770660439-4636190af475", // Future circuit board / chips
+        "photo-1485827404703-89b55fcc595e", // Modern sleek robotic interaction
+        "photo-1526374965328-7f61d4dc18c5", // Abstract cyber codes and data streams
+        "photo-1531297484001-80022131f5a1", // Modern laptop details
+        "photo-1550751827-4bd374c3f58b"  // High security tech / firewalls
+      ],
+      "Politique & Société": [
+        "photo-1541872703-74c5e44368f9", // Large public assembly
+        "photo-1509062522246-3755977927d7", // Modern student classroom
+        "photo-1517245386807-bb43f82c33c4", // Workshop brainstorm team
+        "photo-1517486808906-6ca8b3f04846", // Diverse group of conversationalists
+        "photo-1529156069898-49953e39b3ac"  // Portrait grid of joyful diverse people
+      ],
+      "Business & Économie Positive": [
+        "photo-1522071820081-009f0129c71c", // Creative co-working greenhouse space
+        "photo-1579621970563-ebec7560ff3e", // Young green plant jar growth coin
+        "photo-1556742049-0cfed4f6a45d", // High energy positive smart retail
+        "photo-1454165804606-c3d57bc86b40", // Business process optimization
+        "photo-1531538606174-0f90ff5dce83"  // Dynamic corporate team high fives
+      ],
+      "France": [
+        "photo-1502602898657-3e91760cbb34", // Paris street café close up Eiffel view
+        "photo-1499856871958-5b9627545d1a", // Parisian Seine sunset skyline
+        "photo-1543007630-9710e4a00a20", // Warm french boulangerie croissants
+        "photo-1500382017468-9049fed747ef", // Provence dream lavender rows
+        "photo-1512100356356-de1b84283e18"  // Beautiful French Riviera coastline
+      ],
+      "Monde": [
+        "photo-1451187580459-43490279c0fa", // Digital globe in futuristic deep colors
+        "photo-1508009603885-50cf7c579365", // Beautiful ancient architecture landmarks
+        "photo-1464822759023-fed622ff2c3b", // Sunrise on global high snowy peaks
+        "photo-1447752875215-b2761acb3c5d", // Iconic suspension bridge over rainforest
+        "photo-1530789253388-586c48b70355"  // Global explorer traveling
+      ],
+      "Sport": [
+        "photo-1486218119243-13883505764c", // Athlete sprinter legs track
+        "photo-1485965120184-e220f721d03e", // Outdoor bicycle riding path
+        "photo-1508098682722-e99c43a406b2", // Grass soccer ball and stadium floodlights
+        "photo-1519766304817-4f37bda74a27", // Playground basketball hoop dusk
+        "photo-1517649763962-0c623066013b"  // Gym training wellness weights
+      ],
+      "Default": [
+        "photo-1490730141103-6cac27aaab94", // Golden sunset dream
+        "photo-1518531933037-91b2f5f229cc", // Morning dew on green plant leaf
+        "photo-1513542789411-b6a5d4f31634"  // Creative abstract optimistic design
+      ]
+    };
+
+    const cat = art.category || "Default";
+    const pool = IMAGE_POOLS[cat] || IMAGE_POOLS["Default"];
+    
+    // Deterministic selection based on the article's unique ID
+    const index = Math.abs(art.id || 0) % pool.length;
+    const photoId = pool[index];
+    
+    return `https://images.unsplash.com/${photoId}?auto=format&fit=crop&w=800&q=80`;
+  }
+
   // --- SVG Placeholder Generator for missing images ---
   function getCategoryColors(category) {
     switch (category) {
@@ -254,9 +335,15 @@ document.addEventListener("DOMContentLoaded", () => {
       const sideFeatured = filtered.filter(art => art.id !== mainFeatured.id).slice(0, 4);
 
       // Générer l'HTML pour le grand article de gauche
-      const mainImgHTML = mainFeatured.image 
-        ? `<img src="${mainFeatured.image}" alt="${mainFeatured.title}" class="hero-main-image">`
-        : renderPlaceholderSVG(mainFeatured.category, mainFeatured.title, 60, 18);
+      const mainImgHTML = `
+        <img src="${getArticleImageUrl(mainFeatured)}" alt="${mainFeatured.title}" class="hero-main-image">
+        ${mainFeatured.visualText ? `
+          <div class="visual-text-overlay ${getCategoryClass(mainFeatured.category)}">
+            <div class="visual-text-indicator"></div>
+            <div class="visual-text-content">${mainFeatured.visualText.replace(/\n/g, '<br>')}</div>
+          </div>
+        ` : ''}
+      `;
 
       const mainHTML = `
         <div class="hero-main-card" data-id="${mainFeatured.id}">
@@ -282,9 +369,15 @@ document.addEventListener("DOMContentLoaded", () => {
       const sideHTML = `
         <div class="hero-side-container">
           ${sideFeatured.map(art => {
-            const sideImgHTML = art.image
-              ? `<img src="${art.image}" alt="${art.title}" class="hero-side-image">`
-              : renderPlaceholderSVG(art.category, art.title, 30, 12);
+            const sideImgHTML = `
+              <img src="${getArticleImageUrl(art)}" alt="${art.title}" class="hero-side-image">
+              ${art.visualText ? `
+                <div class="visual-text-overlay ${getCategoryClass(art.category)}">
+                  <div class="visual-text-indicator"></div>
+                  <div class="visual-text-content">${art.visualText.replace(/\n/g, '<br>')}</div>
+                </div>
+              ` : ''}
+            `;
             return `
               <div class="hero-side-card" data-id="${art.id}">
                 <div class="hero-side-image-container">
@@ -316,9 +409,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     articlesGrid.innerHTML = remainingArticles.map(art => {
-      const cardImgHTML = art.image
-        ? `<img src="${art.image}" alt="${art.title}" class="card-image" loading="lazy">`
-        : renderPlaceholderSVG(art.category, art.title, 45, 14);
+      const cardImgHTML = `
+        <img src="${getArticleImageUrl(art)}" alt="${art.title}" class="card-image" loading="lazy">
+        ${art.visualText ? `
+          <div class="visual-text-overlay ${getCategoryClass(art.category)}">
+            <div class="visual-text-indicator"></div>
+            <div class="visual-text-content">${art.visualText.replace(/\n/g, '<br>')}</div>
+          </div>
+        ` : ''}
+      `;
 
       return `
         <div class="article-card" data-id="${art.id}">
@@ -363,9 +462,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const photoName = document.getElementById("modal-photo-name");
     const photoContainer = document.getElementById("modal-photo-source-container");
 
-    if (article.image) {
+    const resolvedImg = getArticleImageUrl(article);
+    if (resolvedImg) {
       modalImage.style.display = "block";
-      modalImage.src = article.image;
+      modalImage.src = resolvedImg;
       modalImage.alt = article.title;
       
       if (article.photoSource && article.photoSourceLink) {

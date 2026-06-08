@@ -1,0 +1,6 @@
+{
+  "name": "Parallel",
+  "description": "Le Journal des Bonnes Nouvelles - Quotidien d'actualités positives, d'initiatives porteuses d'espoir et de solutions à travers le monde.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

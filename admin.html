@@ -13,7 +13,9 @@
     <!-- Admin Sidebar -->
     <aside class="admin-sidebar">
       <div class="admin-logo-area">
-        <img src="assets/logo.png" alt="Parallel Logo" class="admin-logo">
+        <svg viewBox="0 0 360 90" class="admin-logo" style="height: 48px; display: block; width: auto;" aria-label="Parallel Logo Backoffice">
+          <text x="5" y="72" font-family="'Arvo', serif" font-weight="700" font-size="72px" fill="var(--dark)" letter-spacing="-3.5px">paralle<tspan fill="var(--secondary)">l</tspan><tspan fill="var(--dark)">.</tspan></text>
+        </svg>
         <span class="admin-badge">BACKOFFICE</span>
       </div>
       
@@ -78,6 +80,33 @@
 
       <!-- Panel: Stats -->
       <section id="panel-stats" class="admin-panel active">
+        <!-- Veille Automatique IA Section -->
+        <div class="panel-card" style="margin-bottom: 24px;">
+          <div class="panel-card-header" style="border-bottom: 1px solid var(--gray-light); padding-bottom: 12px; margin-bottom: 16px;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <span style="font-size: 20px;">☀</span>
+              <h2 style="margin: 0; font-family: var(--font-heading);">Veille automatique & Curation IA (Gemini)</h2>
+            </div>
+            <span class="admin-badge" style="background: var(--secondary); color: white;">Planifié à 7h00 Paris</span>
+          </div>
+          <p style="color: var(--gray); font-size: 14px; margin-bottom: 16px; line-height: 1.5;">
+            Ce module utilise l'intelligence artificielle Gemini pour scanner les flux RSS d'actualités brutes, filtrer les innovations constructives, réécrire l'édition complète sous l'angle de rupture du journalisme de solutions (1 article principal de type Une FLIP et 24 articles thématiques) et associer des visuels d'illustrations via Unsplash.
+          </p>
+          <div class="curation-controls" style="display: flex; gap: 16px; flex-wrap: wrap; align-items: center; margin-bottom: 16px;">
+            <button id="btn-trigger-curation" class="btn-admin-action" style="background-color: var(--secondary); border: none; display: flex; align-items: center; gap: 8px; font-weight: bold; cursor: pointer; color: white;">
+              🚀 Lancer la curation maintenant
+            </button>
+            <div id="curation-status-text" class="date-td" style="font-weight: 500;">Statut : En attente d'action</div>
+          </div>
+          <div id="curation-logs-container" style="display: none; background: #111; color: #10B981; font-family: monospace; font-size: 12px; padding: 15px; border-radius: 6px; max-height: 250px; overflow-y: auto; line-height: 1.6; border: 1px solid #333;">
+            <div style="color: #888; border-bottom: 1px solid #333; padding-bottom: 5px; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;">
+              <span>Console Curation Live Logs :</span>
+              <span id="curation-logs-spinner" style="display: none; font-size: 10px; color: var(--secondary);">● ANALYSE EN COURS...</span>
+            </div>
+            <div id="curation-logs-content"></div>
+          </div>
+        </div>
+
         <!-- Stats Summary Grid -->
         <div class="stats-summary-grid">
           <div class="stats-card">

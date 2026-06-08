@@ -1305,3 +1305,60 @@ footer {
   margin-top: 2px;
 }
 
+/* Visual Text Overlay inside card image containers (bas gauche, incrusté en blanc précédé du rectangle thématique) */
+.visual-text-overlay {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
+  z-index: 10;
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  pointer-events: none;
+}
+
+.visual-text-indicator {
+  width: 6px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* Thématiques Colors matching Category class */
+.visual-text-overlay.environnement .visual-text-indicator { background-color: #10B981; } /* Vert Menthe */
+.visual-text-overlay.sante .visual-text-indicator { background-color: #EC4899; } /* Rose/Rouge */
+.visual-text-overlay.tech .visual-text-indicator { background-color: #3B82F6; } /* Bleu IA */
+.visual-text-overlay.societe .visual-text-indicator { background-color: #8B5CF6; } /* Violet */
+.visual-text-overlay.economie .visual-text-indicator { background-color: #D97706; } /* Orange/Jaune */
+.visual-text-overlay.france .visual-text-indicator { background-color: #06B6D4; } /* Cyan */
+.visual-text-overlay.monde .visual-text-indicator { background-color: #14B8A6; } /* Turquoise/Teal */
+.visual-text-overlay.sport .visual-text-indicator { background-color: #EF4444; } /* Rouge Sport */
+.visual-text-overlay.default .visual-text-indicator { background-color: var(--secondary); }
+
+.visual-text-content {
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 800;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.95), 0 1px 2px rgba(0, 0, 0, 0.85);
+}
+
+/* Larger styling for the hero main card overlay */
+.hero-main-image-container .visual-text-content {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.hero-main-image-container .visual-text-overlay {
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+.hero-main-image-container .visual-text-indicator {
+  width: 8px;
+}
+

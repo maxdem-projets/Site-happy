@@ -420,6 +420,107 @@ document.addEventListener("DOMContentLoaded", () => {
     renderArticlesTable(e.target.value);
   });
 
+  // --- 3. Curation / Veille IA Backoffice Client Module ---
+  const btnTriggerCuration = document.getElementById("btn-trigger-curation");
+  const curationStatusText = document.getElementById("curation-status-text");
+  const curationLogsContainer = document.getElementById("curation-logs-container");
+  const curationLogsContent = document.getElementById("curation-logs-content");
+  const curationLogsSpinner = document.getElementById("curation-logs-spinner");
+
+  let statusPollingInterval = null;
+
+  async function checkCurationStatus() {
+    try {
+      const res = await fetch("/api/cron-status");
+      if (!res.ok) return;
+      const status = await res.json();
+      
+      updateCurationUI(status);
+    } catch (e) {
+      console.error("Erreur de récupération de l'état de la curation", e);
+    }
+  }
+
+  function updateCurationUI(status) {
+    if (status.isRunning) {
+      btnTriggerCuration.disabled = true;
+      btnTriggerCuration.style.opacity = "0.6";
+      btnTriggerCuration.textContent = "⚙ Curation en cours...";
+      curationStatusText.innerHTML = `Statut : <span style="color: #10B981; font-weight: bold; animation: pulse 2s infinite;">Analyse active</span> (En cours)`;
+      curationLogsContainer.style.display = "block";
+      curationLogsSpinner.style.display = "inline";
+      
+      // Start polling if not already started
+      if (!statusPollingInterval) {
+        statusPollingInterval = setInterval(checkCurationStatus, 2000);
+      }
+    } else {
+      btnTriggerCuration.disabled = false;
+      btnTriggerCuration.style.opacity = "1";
+      btnTriggerCuration.textContent = "🚀 Lancer la curation maintenant";
+      curationLogsSpinner.style.display = "none";
+
+      if (status.lastRunTime) {
+        curationStatusText.innerHTML = `Dernière curation : <strong>${status.lastRunTime} (Paris)</strong>`;
+      } else {
+        curationStatusText.innerHTML = `Statut : En attente d'action`;
+      }
+
+      // Stop polling if running
+      if (statusPollingInterval) {
+        clearInterval(statusPollingInterval);
+        statusPollingInterval = null;
+
+        // Show choice to reload and populate
+        setTimeout(() => {
+          // Clear localStorage so the newly written articles.js is fetched from disk fresh
+          localStorage.removeItem("parallel_articles");
+          
+          if (confirm("Félicitations, la curation IA s'est terminée avec succès ! Souhaitez-vous recharger la page pour charger la toute nouvelle édition complète ?")) {
+            window.location.reload();
+          } else {
+            initArticlesData();
+          }
+        }, 1500);
+      }
+    }
+
+    // Render logs
+    if (status.logs && status.logs.length > 0) {
+      curationLogsContainer.style.display = "block";
+      const newLogsHTML = status.logs.map(line => `<div>${line}</div>`).join("");
+      if (curationLogsContent.innerHTML !== newLogsHTML) {
+        curationLogsContent.innerHTML = newLogsHTML;
+        // Scroll to bottom of logs
+        curationLogsContainer.scrollTop = curationLogsContainer.scrollHeight;
+      }
+    }
+  }
+
+  btnTriggerCuration.addEventListener("click", async () => {
+    if (confirm("Voulez-vous lancer la veille des solutions maintenant ? Gemini contactera les flux RSS et réécrira entièrement l'édition d'aujourd'hui (25 articles). Cela peut prendre de 1 à 2 minutes.")) {
+      try {
+        curationLogsContainer.style.display = "block";
+        curationLogsContent.innerHTML = "<div>[Système] Initialisation du processus de veille Parallel...</div>";
+        btnTriggerCuration.disabled = true;
+        
+        const res = await fetch("/api/run-cron", { method: "POST" });
+        if (res.ok) {
+          const data = await res.json();
+          updateCurationUI(data.status);
+        } else {
+          showToast("Désolé, impossible de lancer la curation, elle est déjà en cours.");
+        }
+      } catch (err) {
+        showToast("Erreur lors du lancement de la curation.");
+        console.error(err);
+      }
+    }
+  });
+
+  // Check on load
+  checkCurationStatus();
+
   // --- Initial Startup ---
   initNewsletterData();
   initArticlesData();
