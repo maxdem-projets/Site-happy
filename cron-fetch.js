@@ -132,7 +132,7 @@ async function run() {
   let hasFlip = false;
   const storiesToProcess = rawStories.slice(0, 300);
   
-  let processedCount = 0; // Compteur pour savoir quand appliquer la pause
+  let processedCount = 0;
 
   for (const story of storiesToProcess) {
     const duplicate = articlesList.some(art => 
@@ -145,9 +145,9 @@ async function run() {
 
     const isGeneratingFlip = !hasFlip;
 
-    // 🔥 MODIFICATION 1 : Pause stricte d'une minute avant chaque appel Gemini pour préserver les quotas gratuits
+    // 🔥 PAUSE DE 60 SECONDES (Sauf premier article)
     if (processedCount > 0) {
-      console.log(`⏳ [ANTI-QUOTA] Pause de 60 secondes pour préserver le forfait gratuit de Google...`);
+      console.log(`⏳ [ANTI-QUOTA] Pause réglementaire de 60 secondes pour le forfait gratuit...`);
       await sleep(60000);
     }
     processedCount++;
@@ -186,12 +186,7 @@ async function run() {
           "source": "${story.sourceName}"
         }
       `;
-    } catch (err) {
-      console.error(`Erreur lors de la génération du prompt pour l'article : ${story.title}`, err.message);
-    }
-    
-    // Le reste de la boucle suit...
-    if (!isGeneratingFlip) {
+    } else {
       prompt = `
         Tu es le rédacteur en chef de "Parallel", un quotidien d'actualité positive.
         Analyse cette nouvelle :
@@ -231,7 +226,7 @@ async function run() {
       if (parsedData.isPositive) {
         const cat = parsedData.category;
         
-        // 🔥 MODIFICATION 2 : Fabriquer un lien d'image dynamique unique basé sur le mot-clé généré par Gemini
+        // 📸 GÉNÉRATION DU LIEN D'IMAGE UNIQUE SANS CLÉ API
         const query = parsedData.imageQueryEnglish ? parsedData.imageQueryEnglish.replace(/\s+/g, ',') : 'news';
         const randomId = Math.floor(Math.random() * 1000);
         const generatedImageUrl = `https://images.unsplash.com/featured/800x600/?${encodeURIComponent(query)}&sig=${randomId}`;
@@ -249,7 +244,7 @@ async function run() {
             body: parsedData.body,
             source: parsedData.source,
             sourceLink: story.link,
-            image: generatedImageUrl, // Intégration de l'image unique
+            image: generatedImageUrl,
             offsetDays: 0,
             featured: true
           };
@@ -267,7 +262,7 @@ async function run() {
             body: parsedData.body,
             source: parsedData.source,
             sourceLink: story.link,
-            image: generatedImageUrl, // Intégration de l'image unique
+            image: generatedImageUrl,
             offsetDays: 0,
             featured: false
           };
