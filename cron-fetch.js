@@ -1,7 +1,12 @@
-const fs = require('fs');
-const path = require('path');
-const Parser = require('rss-parser');
-const { GoogleGenerativeAI } = require('@google/generative-ai');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import Parser from 'rss-parser';
+import { GoogleGenerativeAI } from '@google/generative-ai';
+
+// Configuration indispensable pour utiliser __dirname avec les modules récents
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Initialiser le parseur RSS et l'IA Gemini
 const parser = new Parser({
@@ -72,7 +77,8 @@ async function run() {
   const articlesJSON = fileContent.substring(startIdx, endIdx + 1);
   let articlesList = [];
   try {
-    articlesList = eval(articlesJSON);
+    // Utilisation de JSON.parse pour la conformité stricte ESM
+    articlesList = JSON.parse(articlesJSON);
   } catch (err) {
     console.error("Erreur lors de la lecture du JSON des articles :", err);
     process.exit(1);
@@ -145,7 +151,7 @@ async function run() {
 
     const isGeneratingFlip = !hasFlip;
 
-    // 🔥 PAUSE DE 60 SECONDES (Sauf premier article)
+    // 🔥 PAUSE DE 60 SECONDES ENTRE CHAQUE ARTICLE
     if (processedCount > 0) {
       console.log(`⏳ [ANTI-QUOTA] Pause réglementaire de 60 secondes pour le forfait gratuit...`);
       await sleep(60000);
@@ -226,7 +232,7 @@ async function run() {
       if (parsedData.isPositive) {
         const cat = parsedData.category;
         
-        // 📸 GÉNÉRATION DU LIEN D'IMAGE UNIQUE SANS CLÉ API
+        // 📸 LIENS D'IMAGES DIFFÉRENTES EN DIRECT
         const query = parsedData.imageQueryEnglish ? parsedData.imageQueryEnglish.replace(/\s+/g, ',') : 'news';
         const randomId = Math.floor(Math.random() * 1000);
         const generatedImageUrl = `https://images.unsplash.com/featured/800x600/?${encodeURIComponent(query)}&sig=${randomId}`;
