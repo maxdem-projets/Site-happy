@@ -2,6 +2,162 @@
 // Les articles ont été rallongés substantiellement pour offrir une véritable profondeur journalistique.
 const articles = [
   {
+    "id": 68,
+    "category": "Politique & Société",
+    "title": "Face à la défaillance, un maire courageux réveille la conscience collective !",
+    "smileFactor": "Quand une voix s'élève avec force et bienveillance, c'est tout un chœur d'espoir qui résonne pour un avenir meilleur !",
+    "visualText": "VOIX\nCITOYENNE",
+    "imageQueryEnglish": "community leader speaking",
+    "bad_news_resume": "La tragique disparition de la jeune Lyhanna a mis en lumière une douloureuse défaillance sociétale, laissant un vide et des questions profondes sur la protection de nos enfants.",
+    "content_parallel": "### La Ligne Parallèle\nQuand l'émotion se transforme en action, c'est toute une communauté qui se lève pour exiger le changement !\n\n- **Le contenu** : À Fleurance, Grégory Bobbato, un maire fraîchement élu, a refusé de rester silencieux face à cette \"défaillance sociétale\". Loin des \"palabres ministérielles\", cet agriculteur de 42 ans a eu le courage de pointer du doigt les manquements et de rappeler l'État à ses devoirs. Sa voix, claire et forte, est un véritable coup de poing sur la table ! Il ne se contente pas de déplorer, il exige des solutions concrètes, une meilleure protection pour nos enfants, et une vraie prise de conscience collective. C'est un exemple inspirant de leadership local qui ose bousculer les lignes pour le bien commun. Son engagement montre qu'il est possible de transformer la douleur en un moteur de changement positif, en demandant des comptes et en œuvrant pour que de tels drames ne se reproduisent plus. C'est ça, l'esprit \"Parallel\" : trouver la lumière même dans les moments les plus sombres !\n- **[Analogie Pop/Humoristique]** : Un peu comme un super-héros local qui, sans cape ni pouvoirs, utilise sa voix comme une arme pour défendre les plus vulnérables, à la manière d'un David contre Goliath, mais avec un micro !",
+    "body": "La disparition tragique de la jeune Lyhanna a secoué les cœurs et mis en lumière une faille profonde dans notre société. Un drame qui nous rappelle que derrière chaque enfant, il y a une responsabilité collective. Mais même dans la peine, l'espoir peut germer !\n\nÀ Fleurance, Grégory Bobbato, un maire fraîchement élu, a refusé de rester silencieux face à cette \"défaillance sociétale\". Loin des \"palabres ministérielles\", cet agriculteur de 42 ans a eu le courage de pointer du doigt les manquements et de rappeler l'État à ses devoirs. Sa voix, claire et forte, est un véritable coup de poing sur la table ! Il ne se contente pas de déplorer, il exige des solutions concrètes, une meilleure protection pour nos enfants, et une vraie prise de conscience collective. C'est un exemple inspirant de leadership local qui ose bousculer les lignes pour le bien commun. Son engagement montre qu'il est possible de transformer la douleur en un moteur de changement positif, en demandant des comptes et en œuvrant pour que de tels drames ne se reproduisent plus. C'est ça, l'esprit \"Parallel\" : trouver la lumière même dans les moments les plus sombres ! Un peu comme un super-héros local qui, sans cape ni pouvoirs, utilise sa voix comme une arme pour défendre les plus vulnérables, à la manière d'un David contre Goliath, mais avec un micro !",
+    "source": "Le Monde",
+    "sourceLink": "https://www.lemonde.fr/societe/article/2026/06/09/affaire-lyhanna-gregory-bobbato-le-maire-de-fleurance-qui-rappelle-l-etat-a-ses-devoirs_6700166_3224.html",
+    "image": "https://images.unsplash.com/featured/800x600/?community%2Cleader%2Cspeaking&sig=220",
+    "offsetDays": 0,
+    "featured": true
+  },
+  {
+    "id": 69,
+    "category": "Monde",
+    "title": "L'Union Européenne agit avec détermination et ses sanctions contre la Russie sont efficaces",
+    "smileFactor": "Bonne nouvelle ! L'Europe montre sa force et ça marche !",
+    "visualText": "EUROPE\nUNIE ET FORTE",
+    "imageQueryEnglish": "European Union flag",
+    "body": "L'Europe montre les muscles et ça porte ses fruits ! La présidente de la Commission européenne, Ursula von der Leyen, nous a donné une excellente nouvelle : les sanctions mises en place contre la Russie fonctionnent ! C'est une étape super importante qui prouve que l'unité et la détermination de l'Union Européenne paient. Un 21ème paquet de sanctions a été présenté, et il est clair que l'Europe ne lâche rien. Parmi les mesures, une demande forte : interdire l'entrée dans l'Union européenne aux anciens combattants russes. C'est un signal fort envoyé, montrant que l'UE est unie et prête à prendre des décisions courageuses pour défendre ses valeurs et la paix. Ces actions ne sont pas juste des mots, elles ont un impact réel. Elles visent à faire pression pour un retour à la paix et à la stabilité. C'est une preuve que quand l'Europe s'unit, elle peut vraiment faire bouger les lignes. On peut être fiers de cette détermination qui nous rapproche d'un avenir plus serein. C'est une belle victoire pour la diplomatie et la solidarité !",
+    "source": "Commission Européenne",
+    "sourceLink": "https://www.lemonde.fr/international/live/2026/06/09/en-direct-guerre-en-ukraine-un-21e-paquet-de-sanctions-contre-la-russie-presente-par-la-presidente-de-la-commission-europeenne-ursula-von-der-leyen_6698620_3210.html",
+    "image": "https://images.unsplash.com/featured/800x600/?European%2CUnion%2Cflag&sig=289",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 70,
+    "category": "Politique & Société",
+    "title": "Paris prend des mesures concrètes pour renforcer la sécurité des enfants dans le périscolaire",
+    "smileFactor": "Quelle excellente nouvelle pour la sécurité de nos enfants ! Paris prend des mesures fortes pour protéger les plus jeunes.",
+    "visualText": "SÉCURITÉ\nENFANTS",
+    "imageQueryEnglish": "children safety school",
+    "body": "C'est une vague de confiance qui souffle sur nos écoles ! À Paris, la protection de nos enfants est une priorité absolue, et les actions concrètes se multiplient. Emmanuel Grégoire, le premier adjoint à la mairie de Paris, a annoncé des mesures courageuses pour garantir un environnement sûr et bienveillant dans les activités périscolaires. Depuis le 1er janvier, pas moins de 52 animateurs ont été suspendus suite à des signalements de violences sexuelles ou sexistes. C'est un signal fort : la tolérance zéro est de mise !\n\nMais ce n'est pas tout ! La Ville de Paris ne s'arrête pas là. Un plan d'action ambitieux de 20 millions d'euros est en cours de déploiement, et une commission d'enquête indépendante a été lancée. L'objectif ? Faire toute la lumière sur ces situations et renforcer encore les dispositifs de prévention et de protection. C'est une démarche essentielle pour que chaque enfant puisse s'épanouir en toute sérénité.\n\nCes initiatives montrent une volonté politique claire de ne rien laisser passer et d'agir avec détermination. C'est une victoire pour la sécurité de nos petits Parisiens et un exemple inspirant pour toutes les collectivités. Ensemble, construisons un avenir où chaque enfant est protégé et respecté. Bravo Paris pour cet engagement sans faille !",
+    "source": "Le Monde",
+    "sourceLink": "https://www.lemonde.fr/societe/article/2026/06/09/violences-sexuelles-ou-sexistes-dans-le-periscolaire-a-paris-emmanuel-gregoire-annonce-que-52-animateurs-ont-ete-suspendus-depuis-le-1-janvier_6700181_3224.html",
+    "image": "https://images.unsplash.com/featured/800x600/?children%2Csafety%2Cschool&sig=284",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 71,
+    "category": "Politique & Société",
+    "title": "Nicolas Demorand revient sur les ondes de France Inter avec une toute nouvelle émission pour nos week-ends.",
+    "smileFactor": "Préparez-vous à des week-ends encore plus enrichissants et joyeux, car une excellente nouvelle nous arrive des studios de France Inter !",
+    "visualText": "NOUVELLE VOIX\nSUR LES ONDES",
+    "imageQueryEnglish": "radio host",
+    "body": "Préparez-vous à des week-ends encore plus enrichissants et joyeux, car une excellente nouvelle nous arrive des studios de France Inter ! Le talentueux Nicolas Demorand, une voix que l'on adore, fait son grand retour pour animer une toute nouvelle émission qui promet de nous captiver.\n\nDès la rentrée, et plus précisément à partir du 29 août, nos samedis et dimanches matin prendront une saveur particulière. À 9 heures, « Recto verso » ouvrira ses portes sonores pour nous offrir un rendez-vous inspirant. Imaginez une émission qui nous plonge dans l'actualité avec un regard neuf, un peu comme les émissions cultes de Dominique Souchier, « C’est arrivé cette semaine » et « C’est arrivé demain », qui ont marqué toute une génération.\n\nC'est une formidable nouvelle de revoir Nicolas Demorand aux commandes. Après une période de repos bien méritée, ce journaliste de 55 ans revient avec toute son énergie et sa passion pour le micro. Son retour est une bouffée d'air frais pour les auditeurs et une preuve que la radio continue d'innover et de nous surprendre.\n\n« Recto verso » s'annonce comme le programme idéal pour démarrer le week-end du bon pied, avec des analyses pertinentes, des discussions éclairantes et, on l'espère, de belles découvertes. C'est une invitation à la curiosité, à la réflexion, et surtout, à partager un moment de radio de qualité. Alors, notez bien la date : le 29 août, France Inter nous donne rendez-vous pour un nouveau chapitre radiophonique qui s'annonce déjà passionnant !",
+    "source": "Le Monde",
+    "sourceLink": "https://www.lemonde.fr/actualite-medias/article/2026/06/09/nicolas-demorand-animera-une-nouvelle-emission-les-week-ends-sur-france-inter-a-partir-de-la-rentree_6700169_3236.html",
+    "image": "https://images.unsplash.com/featured/800x600/?radio%2Chost&sig=856",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 72,
+    "category": "Sport",
+    "title": "Les Léopards congolais montrent leur détermination et affronteront bien le Chili pour leur préparation.",
+    "smileFactor": "Quelle belle preuve de résilience et de passion pour le sport !",
+    "visualText": "LÉOPARDS\nEN JEU",
+    "imageQueryEnglish": "Congolese football team",
+    "body": "Quelle belle preuve de résilience et de passion pour le sport ! Nos chers Léopards congolais nous montrent une fois de plus leur incroyable détermination. Malgré un petit imprévu, leur préparation pour la Coupe du Monde 2026 continue sans accroc majeur. Initialement, leur match amical contre le Chili devait se tenir en Espagne, mais l'épidémie d'Ebola en RDC a bousculé les plans. Pas de panique ! L'équipe a su s'adapter avec brio, prouvant que rien n'arrête leur soif de victoire.\n\nC'est donc à Orléans, en France, que nos footballeurs affronteront les Chiliens ce mardi 9 juin. Un changement de décor qui ne freine en rien leur enthousiasme et leur objectif : être au top pour les qualifications. Cette capacité à rebondir face aux obstacles est une véritable leçon de vie et d'esprit sportif. Elle prouve que même face aux défis, la volonté de jouer et de se dépasser l'emporte toujours. Les joueurs, avec leur coach, ont su transformer cette contrainte en une opportunité de montrer leur force de caractère. Ils sont plus motivés que jamais à représenter fièrement leur pays. Les Léopards sont prêts à rugir sur le terrain, et nous sommes tous derrière eux pour cette belle aventure ! Allez les Léopards !",
+    "source": "Le Monde",
+    "sourceLink": "https://www.lemonde.fr/afrique/article/2026/06/09/coupe-du-monde-2026-ebola-perturbe-la-preparation-des-leopards-congolais_6700180_3212.html",
+    "image": "https://images.unsplash.com/featured/800x600/?Congolese%2Cfootball%2Cteam&sig=711",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 73,
+    "category": "Monde",
+    "title": "Un podcast poignant fait revivre la mémoire des disparus de la dictature argentine",
+    "smileFactor": "Quelle magnifique preuve que la mémoire est plus forte que l'oubli, même face aux pages sombres de l'histoire !",
+    "visualText": "MÉMOIRE\nVIVANTE",
+    "imageQueryEnglish": "memory podcast",
+    "body": "Cinquante ans après le coup d'État qui a plongé l'Argentine dans une sombre dictature, une initiative lumineuse voit le jour ! Le journaliste Vincent Gerles nous offre un cadeau précieux : un podcast bouleversant intitulé « Yves, le frère que j’ai eu ». Ce projet incroyable redonne une voix et une histoire aux milliers de personnes disparues ou tuées durant cette période tragique.\n\nAu cœur de ce podcast, on découvre le témoignage poignant d'Eric Domergue. Il partage avec nous les souvenirs de son frère, Yves, disparu en 1976. C'est une démarche courageuse et essentielle pour que ces vies ne tombent jamais dans l'oubli. Chaque épisode est une invitation à se souvenir, à comprendre et à honorer ceux qui ont été arrachés à leurs proches.\n\nCe n'est pas seulement un retour sur le passé, c'est un acte de résilience et d'espoir pour l'avenir. En racontant ces histoires, Vincent Gerles et Eric Domergue nous rappellent l'importance de la vérité et de la justice. Ils tissent un lien indéfectible entre les générations, assurant que la mémoire collective reste vive et que de telles horreurs ne se reproduisent plus jamais. Un podcast à écouter absolument pour un devoir de mémoire vibrant et plein d'humanité !",
+    "source": "Actualité Générale",
+    "sourceLink": "https://www.lemonde.fr/culture/article/2026/06/09/yves-le-frere-que-j-ai-eu-un-podcast-pour-faire-revivre-la-memoire-toujours-menacee-des-disparus-de-la-dictature-argentine_6700188_3246.html",
+    "image": "https://images.unsplash.com/featured/800x600/?memory%2Cpodcast&sig=546",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 74,
+    "category": "Politique & Société",
+    "title": "Au Mexique, l'amour des mères transforme la Coupe du Monde en un puissant appel à la solidarité",
+    "smileFactor": "Quand l'amour d'une mère déplace des montagnes, même les plus grands événements sportifs deviennent une tribune pour l'espoir !",
+    "visualText": "MÈRES\nCOURAGEUSES",
+    "imageQueryEnglish": "Mexican mothers protest",
+    "body": "Quand l'amour d'une mère déplace des montagnes, même les plus grands événements sportifs deviennent une tribune pour l'espoir ! Au Mexique, des femmes incroyables nous montrent la voie avec une détermination sans faille. Face à l'absence déchirante de leurs proches, elles ne baissent jamais les bras.\n\nAlors que le pays se prépare à accueillir la Coupe du Monde de football, ces mères courageuses ont eu une idée lumineuse : utiliser cette visibilité mondiale pour faire entendre leur voix. Elles collent des avis de recherche de leurs enfants et parents disparus dans les villes hôtes. C'est un geste fort, un cri du cœur pour que le monde entier sache que 133 000 personnes manquent à l'appel au Mexique.\n\nMalgré les tentatives des autorités de dissimuler ces affiches, leur message résonne. Ces collectifs de familles ne demandent qu'une chose : des réponses et de l'action. Leur persévérance est une source d'inspiration, prouvant que même face à l'adversité, la solidarité et la quête de vérité peuvent faire bouger les lignes. C'est un rappel puissant que l'espoir est toujours là, porté par le courage de ceux qui refusent d'oublier. Leur combat est le nôtre, un combat pour la justice et l'humanité.",
+    "source": "Le Monde",
+    "sourceLink": "https://www.lemonde.fr/international/article/2026/06/09/au-mexique-les-meres-de-disparus-tentent-de-profiter-de-la-coupe-du-monde-de-football-pour-faire-avancer-leur-cause_6700174_3210.html",
+    "image": "https://images.unsplash.com/featured/800x600/?Mexican%2Cmothers%2Cprotest&sig=542",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 75,
+    "category": "Santé",
+    "title": "Une nouvelle technologie de modification génétique ouvre des horizons prometteurs pour la santé humaine",
+    "smileFactor": "Imaginez un monde où certaines maladies génétiques ne seraient plus qu'un lointain souvenir !",
+    "visualText": "GÈNES\nESPOIR",
+    "imageQueryEnglish": "Gene editing lab",
+    "body": "Imaginez un monde où certaines maladies génétiques ne seraient plus qu'un lointain souvenir ! C'est un peu la promesse que nous murmure une incroyable avancée scientifique venue des États-Unis. Une équipe de chercheurs a réussi à modifier des gènes dans des embryons humains, et le plus beau dans tout ça, c'est qu'ils ont utilisé une technologie encore plus fiable que jamais !\n\nC'est une véritable prouesse qui nous rapproche un peu plus d'un futur où l'on pourrait potentiellement corriger des anomalies génétiques avant même la naissance. Pensez aux familles touchées par des maladies héréditaires : cette découverte pourrait un jour changer leur vie, leur offrir un espoir immense.\n\nBien sûr, pour l'instant, ces manipulations restent strictement confinées aux laboratoires. Il ne s'agit pas encore d'une application directe, et la prudence est de mise. Mais cette étape est cruciale ! Elle ouvre la porte à des recherches encore plus poussées, à des traitements innovants qui pourraient révolutionner la médecine de demain.\n\nC'est une nouvelle qui fait vibrer le monde scientifique et qui nous rappelle à quel point l'ingéniosité humaine est capable de repousser les limites pour le bien-être de tous. Gardons le sourire, car l'avenir de la santé s'écrit avec des découvertes comme celle-ci !",
+    "source": "Courrier International",
+    "sourceLink": "https://www.courrierinternational.com/article/biotechnologies-sommes-nous-arrives-a-l-ere-des-bebes-edites_244912",
+    "image": "https://images.unsplash.com/featured/800x600/?Gene%2Cediting%2Clab&sig=400",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 76,
+    "category": "Environnement & Planète",
+    "title": "L'Italie envisage un retour audacieux à l'énergie nucléaire pour un avenir plus propre et indépendant",
+    "smileFactor": "Préparez-vous à un coup de boost énergétique qui va illuminer votre journée !",
+    "visualText": "ÉNERGIE\nPOUR DEMAIN",
+    "imageQueryEnglish": "sustainable energy",
+    "body": "Préparez-vous à un coup de boost énergétique qui va illuminer votre journée ! L'Italie, ce pays magnifique, est sur le point de faire un choix audacieux et super positif pour son avenir. Imaginez : après des décennies sans, nos amis italiens pourraient bien dire \"oui\" au retour de l'énergie nucléaire !\n\nC'est une nouvelle qui donne le sourire, car la Chambre des députés italienne vient d'approuver une loi cruciale. Cette loi donne le feu vert au gouvernement pour explorer sérieusement l'option nucléaire. Fini le temps où l'Italie avait tourné le dos à cette source d'énergie après un référendum en 1987. Aujourd'hui, le vent tourne !\n\nPourquoi cette décision est-elle si géniale ? Parce que l'énergie nucléaire, c'est une source d'électricité puissante et stable, qui ne dépend pas des caprices du vent ou du soleil. C'est aussi un atout majeur pour réduire notre empreinte carbone et lutter contre le changement climatique. Moins de gaz à effet de serre, plus d'indépendance énergétique pour l'Italie !\n\nC'est un pas de géant vers un futur plus vert et plus autonome. L'Italie montre l'exemple en osant repenser ses choix énergétiques pour le bien de tous. Une décision courageuse qui pourrait inspirer d'autres nations à explorer des solutions innovantes pour un monde meilleur. Bravo l'Italie !",
+    "source": "Courrier International",
+    "sourceLink": "https://www.courrierinternational.com/article/politique-malgre-les-referendums-contraires-l-italie-retournera-t-elle-au-nucleaire_244985",
+    "image": "https://images.unsplash.com/featured/800x600/?sustainable%2Cenergy&sig=117",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 77,
+    "category": "Sport",
+    "title": "Le chant emblématique « Allez les Bleus » symbolise l'incroyable élan du football français",
+    "smileFactor": "Préparez-vous à chanter de joie, car le football français n'a jamais été aussi rayonnant !",
+    "visualText": "ALLEZ\nLES BLEUS",
+    "imageQueryEnglish": "French football fans",
+    "body": "Préparez-vous à chanter de joie, car le football français n'a jamais été aussi rayonnant ! À l'approche de la Coupe du monde 2026, une voix venue d'outre-Atlantique nous rappelle la force incroyable de notre passion. Le journaliste américain Tom Williams, dans les pages du prestigieux \"The Athletic\", a mis en lumière un véritable trésor national : notre fameux \"Allez les Bleus\" !\n\nCe n'est pas qu'un simple cri de ralliement, c'est un véritable hymne qui vibre dans le cœur de millions de supporters. Tom Williams décortique l'histoire fascinante de ce \"mantra sacré\" et nous explique pourquoi il traverse les générations sans prendre une ride. Il souligne à quel point ce chant est devenu le reflet parfait de l'essor fulgurant du football tricolore. Chaque \"Allez les Bleus\" scandé est une preuve de l'unité, de la détermination et de la fierté qui animent nos joueurs et leurs fans. C'est une énergie collective qui pousse l'équipe de France vers de nouveaux sommets, transformant chaque match en une fête populaire. Ce chant intemporel est bien plus qu'un soutien, c'est le pouls d'une nation qui vibre au rythme de ses champions. Alors, prêts à faire résonner ce cri de victoire encore et encore ?",
+    "source": "The Athletic",
+    "sourceLink": "https://www.courrierinternational.com/article/vu-des-etats-unis-allez-les-bleus-ce-mantra-sacre-qui-reflete-l-essor-du-football-francais_244983",
+    "image": "https://images.unsplash.com/featured/800x600/?French%2Cfootball%2Cfans&sig=668",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 78,
+    "category": "Environnement & Planète",
+    "title": "À Sumatra, la foresterie sociale offre un avenir radieux aux communautés et à la nature",
+    "smileFactor": "Préparez-vous à un grand sourire, car l'Indonésie nous montre comment l'humain et la nature peuvent s'épanouir main dans la main !",
+    "visualText": "CAFÉ\nVERT",
+    "imageQueryEnglish": "Sumatra coffee farm",
+    "body": "Dans les collines luxuriantes de Sumatra, une histoire inspirante prend racine ! En 2017, Sri Atmiatun a fait un choix courageux. Après des années de travail dans les plantations de palmiers à huile, elle a décidé de reprendre une parcelle de café abandonnée dans la région de Batutegi. Imaginez : des caféiers oubliés, presque engloutis par la végétation sauvage. Mais Sri, avec sa détermination, a vu au-delà de la friche.\n\nCe n'est pas juste une histoire de café, c'est une révolution verte ! Sri et d'autres habitants de Sumatra participent à un programme de foresterie sociale. Le principe est simple et génial : les communautés locales gèrent et protègent les forêts, tout en cultivant des produits comme le café. Cela leur assure un revenu stable et durable, loin des monocultures intensives qui épuisent la terre.\n\nGrâce à cette approche, les forêts sont revitalisées, la biodiversité est préservée et les familles retrouvent espoir. C'est un cercle vertueux où chacun y gagne : la nature respire, et les habitants construisent un avenir plus juste et plus vert. Une preuve éclatante que l'on peut concilier développement économique et protection de notre précieuse planète. Bravo Sri, et bravo Sumatra !",
+    "source": "Mongabay",
+    "sourceLink": "https://news.mongabay.com/2026/06/in-sumatra-social-forestry-links-conservation-with-livelihoods/",
+    "image": "https://images.unsplash.com/featured/800x600/?Sumatra%2Ccoffee%2Cfarm&sig=692",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
     "id": 67,
     "category": "Monde",
     "title": "Un souffle d'espoir au Moyen-Orient : la désescalade pointe le bout de son nez !",
@@ -14,8 +170,8 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/international/live/2026/06/08/en-direct-moyen-orient-apres-les-attaques-reciproques-entre-israel-et-l-iran-teheran-annonce-une-cessation-de-ses-frappes-conditionnee-a-l-arret-des-attaques-de-l-etat-hebreu-dans-le-sud-du-liban_6697888_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?olive%2Cbranch&sig=969",
-    "offsetDays": 0,
-    "featured": true
+    "offsetDays": 1,
+    "featured": false
   },
   {
     "id": 66,
@@ -29,7 +185,7 @@ const articles = [
     "body": "Face à la montagne de déchets plastiques qui s'accumule, une révolution biologique s'opère dans les laboratoires du monde entier. Des scientifiques ont réussi à optimiser des enzymes naturelles, dérivées de bactéries découvertes à proximité de centres de recyclage de bouteilles, pour les transformer en véritables \"gloutons\" industriels. La super-enzyme PETase, modifiée génétiquement par une équipe internationale de chercheurs, est désormais capable de décomposer les plastiques de type PET en leurs composants chimiques de base en moins de 24 heures, là où la nature aurait mis 450 ans. Ce processus breveté permet une économie circulaire parfaite : les monomères récupérés sont d'une pureté telle qu'ils peuvent être réutilisés pour recréer des bouteilles à l'infini, sans perte de qualité mécanique. Cette technologie propre commence déjà à être déployée à l'échelle industrielle dans de nouvelles usines de biorecyclage en Europe, offrant une alternative concrète et durable à la production de plastique issu du pétrole.",
     "source": "Science & Vie / CNRS",
     "sourceLink": "https://www.cnrs.fr",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "ThisisEngineering RAEng",
     "photoSourceLink": "https://unsplash.com/photos/a6a2a5aee158"
@@ -43,7 +199,7 @@ const articles = [
     "body": "Le mouvement de la consommation collaborative connaît une accélération remarquable dans les villes françaises. Inspirés par le succès historique de la Louve à Paris, plus de 80 supermarchés coopératifs et autogérés par leurs propres clients ont vu le jour. Ces structures enregistrent une hausse moyenne de 25 % de leurs membres cette année. Le modèle est simple : pour faire ses courses dans le magasin, chaque membre s'engage à y travailler bénévolement trois heures par mois. Ce fonctionnement supprime les intermédiaires et réduit considérablement les coûts. En contrepartie, les coopérateurs accèdent à des produits de qualité supérieure, souvent bio et locaux, à des tarifs inférieurs de 15 à 30 %.",
     "source": "France Inter",
     "sourceLink": "https://www.radiofrance.fr",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "nrd",
     "photoSourceLink": "https://unsplash.com/photos/92c53300491e"
@@ -57,7 +213,7 @@ const articles = [
     "body": "La région de Strasbourg franchit une étape importante dans la transition écologique des transports. Le nouveau RER métropolitain alsacien entre dans sa phase opérationnelle active, offrant plus de 120 trains supplémentaires par jour connectant la ville à sa périphérie. Ce réseau cadencé et accessible a déjà permis d'éviter des milliers de trajets individuels en voiture, contribuant de manière directe à l'amélioration de la qualité de l'air urbain et offrant un gain financier majeur pour les usagers au quotidien.",
     "source": "France Info",
     "sourceLink": "https://www.francetvinfo.fr",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Filip Bunkens",
     "photoSourceLink": "https://unsplash.com/photos/eb263c188f7e"
@@ -71,7 +227,7 @@ const articles = [
     "body": "Alors que l'Est de la République démocratique du Congo fait face à une nouvelle épidémie du virus Ebola, une note d'espoir réconfortante provient de l'hôpital de Bunia. Quatre infirmiers qui avaient contracté le virus dans l'exercice de leurs fonctions ont été déclarés officiellement guéris et ont pu quitter l'établissement sous les applaudissements de leurs collègues. Ce succès thérapeutique renforce la confiance des équipes soignantes de première ligne et démontre l'efficacité des protocoles de prise en charge précoce mis en place avec l'appui de l'OMS.",
     "source": "UN News",
     "sourceLink": "https://news.un.org/feed/view/fr/story/2026/06/1158914",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/24d5c474f2ae"
@@ -85,7 +241,7 @@ const articles = [
     "body": "C'est une démonstration scientifique magistrale de la résilience des océans lorsqu'on décide de leur accorder un répit. Une étude menée par des biologistes marins dans la réserve protégée du sud de l'île d'Arran, en Écosse, révèle une explosion extraordinaire de la biodiversité. Cette zone avait été totalement interdite à la pêche industrielle et au chalutage de fond il y a quelques années. Les relevés sous-marins indiquent que la densité de poissons, de homards et de coquillages a littéralement doublé par rapport aux zones adjacentes non protégées.",
     "source": "The Guardian",
     "sourceLink": "https://www.theguardian.com",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Sean Oulashin",
     "photoSourceLink": "https://unsplash.com/photos/b723cf961d3e"
@@ -99,7 +255,7 @@ const articles = [
     "body": "C'est un jalon historique pour la préservation de la faune sauvage. Quatre bongos des montagnes, une sous-espèce d'antilope forestière extrêmement menacée comptant moins de 100 individus à l'état sauvage, ont été réintroduits avec succès dans les forêts denses du Mont Kenya. Ces animaux sont nés et ont grandi dans un zoo européen dans le cadre d'un programme d'élevage conservatoire. Après une période d'acclimatation progressive dans de grands enclos forestiers semi-sauvages, ils ont été relâchés en pleine nature sous la surveillance de rangers.",
     "source": "UN News",
     "sourceLink": "https://news.un.org",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Sergey Pesterev",
     "photoSourceLink": "https://unsplash.com/photos/c23e76319801"
@@ -113,7 +269,7 @@ const articles = [
     "body": "Au milieu des difficultés de la vie quotidienne dans les camps de réfugiés de Gaza, le football s'impose comme une formidable soupape de sécurité pour les jeunes. Des matchs et tournois organisés par un ancien joueur professionnel offrent un bref répit et des moments de pure joie aux enfants vivant dans des conditions précaires. Au-delà du jeu, cette initiative propose un encadrement psychosocial, des rires partagés et un sentiment de normalité indispensable pour aider ces jeunes à se reconstruire et à rêver d'un avenir pacifique.",
     "source": "UN News",
     "sourceLink": "https://news.un.org/feed/view/fr/story/2026/05/1158911",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Capstone Events",
     "photoSourceLink": "https://unsplash.com/photos/639556652f33"
@@ -127,7 +283,7 @@ const articles = [
     "body": "Une petite révolution sportive vient de voir le jour avec l'inauguration du tout premier gymnase entièrement conçu pour l'inclusion des personnes en situation de handicap. Ce complexe ultramoderne propose des terrains modulables, du matériel adapté et des vestiaires ergonomiques pensés pour que sportifs valides et handisport s'entraînent ensemble. L'objectif est de briser les barrières d'accès aux loisirs et à la compétition, offrant à chacun la possibilité de s'épanouir par l'effort physique dans un esprit de franche camaraderie.",
     "source": "L'Équipe",
     "sourceLink": "https://www.lequipe.fr",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Danielle Cerullo",
     "photoSourceLink": "https://unsplash.com/photos/f5f99be501cd"
@@ -141,7 +297,7 @@ const articles = [
     "body": "Au Brésil, une association transforme la vie des adolescents des favelas grâce au surf. En leur proposant des cours gratuits, du matériel et un accompagnement scolaire rigoureux, l'école de surf leur permet de s'éloigner de la violence des rues et de découvrir la discipline et la rigueur du sport de haut niveau. Les jeunes apprennent à respecter l'environnement marin tout en développant une solide confiance en eux. Plusieurs élèves ont déjà rejoint le circuit de compétition régional, ouvrant la voie à des carrières inspirantes.",
     "source": "The Athletic",
     "sourceLink": "https://theathletic.com",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Noah Buscher",
     "photoSourceLink": "https://unsplash.com/photos/be75c86b636f"
@@ -158,7 +314,7 @@ const articles = [
     "body": "Pendant que les compteurs d'eau se serrent la vis, une transition verte ultra-concrète s'enracine dans nos terroirs. Le secret ? L'alliance de la REUT (Réutilisation des Eaux Usées Traitées) et de l'intelligence agronomique. Alors que la France ne recyclait jusqu'ici qu'un timide 1 % de ses eaux usées, le Plan Eau national a enclenché la vitesse supérieure pour multiplier ce chiffre par 10 d'ici 2030. Sur le terrain, cela se traduit par des agriculteurs qui connectent leurs parcelles à des réseaux d'eaux purifiées provenant des stations d'épuration locales. Couplée à des sondes d'humidité connectées enfoncées dans le sol et à des systèmes de goutte-à-goutte enterrés de haute précision, cette ressource alternative permet de cibler les besoins des plantes au millilitre près. Résultat : une économie directe d'eau potable allant jusqu'à 50 % pour les cultures de maïs et de maraîchage, sans aucune perte de rendement. Mieux encore, ces eaux recyclées sont naturellement chargées en nutriments essentiels comme l'azote et le phosphore, permettant de réduire l'usage d'engrais chimiques. Une circularité parfaite où les eaux usées de nos douches de la veille font pousser les tomates de demain.",
     "source": "Banque des Territoires / Plan Eau",
     "sourceLink": "https://www.banquedesterritoires.fr",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Filip Miletic",
     "photoSourceLink": "https://unsplash.com/photos/e9e9c570085e"
@@ -172,7 +328,7 @@ const articles = [
     "body": "L'intelligence artificielle montre son plus beau visage lorsqu'elle est mise au service de l'inclusion et de la justice sociale. En France, un programme d'expérimentation d'envergure nationale mené dans 11 Maisons Départementales des Personnes Handicapées (MDPH) démontre l'impact concret de la technologie sur la vie des citoyens les plus vulnérables. Grâce à l'intégration d'assistants intelligents pour trier les pièces justificatives, analyser la cohérence des demandes et rédiger des synthèses administratives claires, les agents des MDPH ont vu leur charge de travail répétitive chuter de moitié. Le gain de temps est spectaculaire : le délai moyen d'instruction d'un dossier d'aide financière ou de carte de mobilité est passé de six mois à moins de huit semaines. Ce temps libéré permet aux conseillers humains de se consacrer pleinement aux entretiens d'accompagnement complexes et de se déplacer à domicile.",
     "source": "CNSA / Numérique.gouv",
     "sourceLink": "https://www.cnsa.fr",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Ales Nesetril",
     "photoSourceLink": "https://unsplash.com/photos/1504639725590-34d0984388bd"
@@ -186,7 +342,7 @@ const articles = [
     "body": "Prendre soin de son esprit ralentit concrètement l'horloge biologique. Une étude d'envergure menée par l'University College de Londres (UCL) auprès de plus de 3 500 adultes a révélé que la pratique régulière d'activités culturelles ou créatives — comme la lecture, le tricot, le théâtre ou la musique — est liée à un vieillissement biologique environ 4 % plus lent à l'échelle de l'ADN. Ce bénéfice est directement comparable à celui d'une activité physique régulière, soulignant l'impact direct du bien-être créatif et culturel sur notre santé physique globale et notre longévité.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tus0jm/these_feelgood_activities_were_linked_to_slower/",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Christina @ wocintechchat.com",
     "photoSourceLink": "https://unsplash.com/photos/1c28c88b4f3e"
@@ -200,7 +356,7 @@ const articles = [
     "body": "À Flint, dans le Michigan, une approche novatrice de lutte contre la pauvreté prénatale porte ses fruits. Un programme distribuant des allocations financières directes et inconditionnelles aux femmes enceintes a permis d'améliorer de manière spectaculaire la santé des nouveau-nés. En réduisant le stress financier des futures mères, cette mesure a conduit à une baisse notable des naissances prématurées et à un meilleur poids des nourrissons à la naissance. Ce succès démontre l'efficacité des aides directes ciblées pour briser les cercles de précarité dès la petite enfance.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tv1qb9/in_flint_cash_for_pregnant_women_leads_to_better/",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Kelly Sikkema",
     "photoSourceLink": "https://unsplash.com/photos/9f8e92e65df9"
@@ -214,7 +370,7 @@ const articles = [
     "body": "Un virage culturel majeur s'opère en Finlande. Selon une étude récente de l'institut THL, la consommation globale d'alcool dans le pays est retombée à son niveau le plus bas depuis les années 1970. Cette tendance est particulièrement marquée chez les jeunes générations, qui délaissent les sorties alcoolisées au profit d'activités sportives, de loisirs en plein air et de boissons sans alcool alternatives. Les experts saluent cette mutation sociétale qui laisse entrevoir des bénéfices majeurs pour la santé publique nationale.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvgb1v/finlands_alcohol_consumption_drops_to_1970s/",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Filip Bunkens",
     "photoSourceLink": "https://unsplash.com/photos/eb263c188f7e"
@@ -228,7 +384,7 @@ const articles = [
     "body": "La transition vers les énergies renouvelables s'accélère à grande vitesse de l'autre côté de la Manche. Le Royaume-Uni a enregistré un nouveau record historique de production solaire, porté en grande partie par une multiplication des installations de panneaux sur les toits des habitations privées. Fatigués de la hausse des tarifs d'électricité, les ménages britanniques investissent massivement dans l'auto-production d'énergie verte, stabilisant leur budget tout en injectant les surplus dans le réseau national.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvxhrg/britain_sets_solar_record_as_households_take/",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Michael Wilson",
     "photoSourceLink": "https://unsplash.com/photos/188b1cf16e9d"
@@ -242,7 +398,7 @@ const articles = [
     "body": "Pour célébrer leurs 47 ans de mariage, un couple résidant à Staten Island (New York) a décidé de marquer le coup de manière inoubliable en redistribuant 1,5 million de dollars de leurs économies à des associations et projets communautaires locaux. Ce don a permis de financer des banques alimentaires, des bibliothèques d'outils et des bourses d'études pour les jeunes du quartier. Une leçon d'entraide et de solidarité concrète qui a profondément soudé et inspiré toute la communauté locale.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvpknx/on_eve_of_their_47th_wedding_anniversary_staten/",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Perry Grone",
     "photoSourceLink": "https://unsplash.com/photos/cd288d649433"
@@ -256,7 +412,7 @@ const articles = [
     "body": "L'État du Tennessee a promulgué une loi inédite qui impose aux propriétaires de centres de données (data centers) de financer intégralement les coûts de raccordement électrique et de développement des infrastructures publiques qu'ils mobilisent. Auparavant, ces frais étaient en partie répercutés sur les factures d'électricité des citoyens. Cette mesure pionnière permet de préserver le pouvoir d'achat des habitants tout en forçant les géants de la technologie à assumer la pleine responsabilité de leur empreinte énergétique locale.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tul8yz/new_tennessee_law_requires_data_center_owners_to/",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "NASA",
     "photoSourceLink": "https://unsplash.com/photos/43490279c0fa"
@@ -270,7 +426,7 @@ const articles = [
     "body": "Donner la parole aux enfants pour imaginer la ville de demain est une idea simple qui donne des résultats magiques. Le programme national 'Designers en herbe' a été déployé dans 50 écoles primaires en France, invitant les élèves à concevoir eux-mêmes les futurs aménagements verts de leur cour de récréation ou des places publiques de leur quartier. Accompagnés par des architectes, les enfants dessinent des plans et choisissent les essences d'arbres à planter. Les mairies s'engagent ensuite à réaliser physiquement leurs projets.",
     "source": "Ministère de l'Éducation",
     "sourceLink": "https://www.education.gouv.fr",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Alice Dietrich",
     "photoSourceLink": "https://unsplash.com/photos/60967b0f800f"
@@ -284,7 +440,7 @@ const articles = [
     "body": "C'est une victoire historique pour la biodiversité en Californie. Trois cerfs mulets ont été photographiés en train de traverser le tout nouveau pont végétalisé construit au-dessus d'une autoroute majeure près de Los Angeles. Cet ouvrage monumental de passage végétalisé, conçu pour reconnecter les habitats naturels fragmentés par l'urbanisation, représente l'un des plus grands corridors écologiques du monde. Les biologistes craignaient qu'il ne faille plusieurs années aux animaux pour s'adapter à cette structure artificielle, mais la présence rapide de ces cervidés prouve l'efficacité immédiate du projet. Ce succès ouvre la voie à une sécurisation des routes et à la sauvegarde des espèces locales.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tw661h/three_mule_deer_are_the_first_animals_confirmed/",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Sergey Pesterev",
     "photoSourceLink": "https://unsplash.com/photos/c23e76319801"
@@ -298,7 +454,7 @@ const articles = [
     "body": "Pour empêcher des centaines de tonnes de détritus d'atteindre l'océan Pacifique chaque année, une coalition inédite a décidé d'agir. Des intercepteurs de déchets sur mesure conçus par l'ONG Ocean Cleanup vont être déployés dans les fleuves de Los Angeles et San Gabriel. Ce projet ambitieux, mené par des partenaires publics et privés, doit être finalisé bien avant les Jeux Olympiques de 2028. En ciblant la pollution à sa source — les cours d'eau urbains —, cette initiative promet de transformer durablement la santé de nos écosystèmes côtiers et de redonner vie aux plages californiennes.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tw4368/to_prevent_hundreds_of_tons_of_garbage_from/",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Lachlan Donald",
     "photoSourceLink": "https://unsplash.com/photos/60a58ac0deb9"
@@ -312,7 +468,7 @@ const articles = [
     "body": "Un événement grandiose a ému les ornithologues américains : pour la première fois en plus d'un siècle, un condor de Californie sauvage a été officiellement aperçu en Oregon. Cette espèce emblématique, qui avait frôlé l'extinction totale dans les années 1980, profite d'un programme exceptionnel de réintroduction et de protection de son habitat. Ce retour spontané dans son aire historique prouve que la nature sauvage reprend ses droits dès qu'on lui en laisse l'opportunité. Un immense message d'espoir pour la préservation de la biodiversité globale.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tux6kd/oregon_gets_first_california_condor_visit_in/",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Sergey Pesterev",
     "photoSourceLink": "https://unsplash.com/photos/c23e76319801"
@@ -326,7 +482,7 @@ const articles = [
     "body": "Le vaccin contre le paludisme montre une efficacité spectaculaire en situation réelle. Selon une étude portant sur quatre années de données, le traitement a permis de prévenir environ un décès d'enfant sur huit dans les régions où il a été administré. Face à ces résultats exceptionnels, la campagne de vaccination s'étend désormais à 25 pays d'Afrique. Cette avancée majeure représente une arme historique contre l'une des maladies les plus meurtrières chez les jeunes enfants, concrétisant des décennies de recherche scientifique et de coopération internationale en santé publique.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvpm9n/a_malaria_vaccine_has_been_preventing_roughly_1/",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/2173dba999ef"
@@ -340,7 +496,7 @@ const articles = [
     "body": "Les autorités sanitaires anglaises ont donné leur feu vert à un traitement innovant destiné à prolonger la vie des femmes atteintes d'un cancer de l'ovaire avancé. Ce médicament cible spécifiquement les cellules cancéreuses en épargnant les tissus sains, ce qui permet de limiter les effets secondaires lourds par rapport à une chimiothérapie classique. Les essais cliniques montrent des gains d'espérance de vie significatifs associés à un bien-être quotidien retrouvé pour les patientes. Une étape importante pour la recherche en oncologie.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1twexue/lifeprolonging_drug_for_advanced_ovarian_cancer/",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/edd951b55104"
@@ -354,7 +510,7 @@ const articles = [
     "body": "L'intelligence artificielle franchit une étape cruciale en oncologie. Des chercheurs ont mis au point REDMOD, un modèle d'IA capable de détecter les signes précoces du cancer du pancréas en analysant des scanners abdominaux de routine. Lors des tests cliniques, le système a identifié avec succès des signatures cancéreuses chez des patients dont les clichés avaient pourtant été validés comme tout à fait normaux par des radiologues. Cette détection ultra-précoce offre un espoir inédit pour augmenter les chances de guérison d'un cancer traditionnellement diagnostiqué trop tard.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvhobh/ai_offered_hope_for_catching_pancreatic_cancer/",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "ThisisEngineering RAEng",
     "photoSourceLink": "https://unsplash.com/photos/a6a2a5aee158"
@@ -368,7 +524,7 @@ const articles = [
     "body": "La pénurie d'eau potable trouve une réponse technologique innovante et écologique. Une équipe de chercheurs a développé une méthode de dessalement de l'eau de mer qui n'émet aucun rejet de saumure polluante dans les océans. En utilisant un système de filtration membranaire combiné à des cristaux absorbants, le procédé sépare le sel proprement et le valorise sous forme solide pour l'industrie chimique. Cette innovation permet de fournir de l'eau potable à grande échelle aux régions côtières arides sans nuire à la faune marine.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tuvoyz/new_method_turns_ocean_water_into_drinking_water/",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Ales Nesetril",
     "photoSourceLink": "https://unsplash.com/photos/1526374965328-7f61d4dc18c5"
@@ -382,7 +538,7 @@ const articles = [
     "body": "Des ingénieurs ont conçu un appareil solaire révolutionnaire capable de réaliser deux tâches écologiques simultanément. Placé sur de l'eau de mer ou saumâtre, ce dispositif utilise l'énergie du soleil pour évaporer et purifier l'eau à haut rendement tout en concentrant les résidus salins pour en extraire du lithium pur. Ce métal, indispensable à la fabrication des batteries de nos véhicules électriques, est ainsi récupéré de manière totalement propre et locale. Une circularité exemplaire qui concilie transition énergétique et ressources humaines vitales.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tup0oj/this_solarpowered_desalination_device_turns/",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "image": "",
     "photoSource": "Ales Nesetril",
     "photoSourceLink": "https://unsplash.com/photos/1531297484001-80022131f5a1"
@@ -396,7 +552,7 @@ const articles = [
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tw661h/three_mule_deer_are_the_first_animals_confirmed/",
     "image": "",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false,
     "photoSource": "Robert Bye",
     "photoSourceLink": "https://unsplash.com/photos/9da000fda645"
@@ -410,7 +566,7 @@ const articles = [
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvpm9n/a_malaria_vaccine_has_been_preventing_roughly_1/",
     "image": "",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false,
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/2173dba999ef"
@@ -424,7 +580,7 @@ const articles = [
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tuvx4q/three_years_ago_scientists_reintroduced_10/",
     "image": "",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false,
     "photoSource": "David Clode",
     "photoSourceLink": "https://unsplash.com/photos/6e85f2e6772f"
@@ -438,7 +594,7 @@ const articles = [
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvhobh/ai_offered_hope_for_catching_pancreatic_cancer/",
     "image": "",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false,
     "photoSource": "ThisisEngineering RAEng",
     "photoSourceLink": "https://unsplash.com/photos/a6a2a5aee158"
@@ -452,7 +608,7 @@ const articles = [
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvxhrg/britain_sets_solar_record_as_households_take/",
     "image": "",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false,
     "photoSource": "Michael Wilson",
     "photoSourceLink": "https://unsplash.com/photos/188b1cf16e9d"
@@ -466,7 +622,7 @@ const articles = [
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tus0jm/these_feelgood_activities_were_linked_to_slower/",
     "image": "",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false,
     "photoSource": "Kimberly Farmer",
     "photoSourceLink": "https://unsplash.com/photos/637abb4f9353"
@@ -480,7 +636,7 @@ const articles = [
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tw4yg1/the_us_murder_rate_plunged_us_murders_fell_21_in/",
     "image": "",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false,
     "photoSource": "Fredy Jacob",
     "photoSourceLink": "https://unsplash.com/photos/527eed3abbec"
@@ -494,7 +650,7 @@ const articles = [
     "source": "France Info",
     "sourceLink": "https://www.francetvinfo.fr",
     "image": "",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false,
     "photoSource": "Willian Justen de Vasconcellos",
     "photoSourceLink": "https://unsplash.com/photos/d5f539e1542f"
@@ -510,7 +666,7 @@ const articles = [
     "source": "Banque des Territoires / Plan Eau",
     "sourceLink": "https://www.banquedesterritoires.fr",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Filip Miletic",
     "photoSourceLink": "https://unsplash.com/photos/e9e9c570085e"
@@ -524,7 +680,7 @@ const articles = [
     "source": "UN News",
     "sourceLink": "https://news.un.org",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Isaac Mitchell",
     "photoSourceLink": "https://unsplash.com/photos/01729482b8eb"
@@ -538,7 +694,7 @@ const articles = [
     "source": "The Guardian Upside",
     "sourceLink": "https://www.theguardian.com",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Vincent van Zalinge",
     "photoSourceLink": "https://unsplash.com/photos/726afd116ff1"
@@ -552,7 +708,7 @@ const articles = [
     "source": "UNESCO News",
     "sourceLink": "https://www.unesco.org",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "Francesco Ungaro",
     "photoSourceLink": "https://unsplash.com/photos/cc4642628d2b"
@@ -566,7 +722,7 @@ const articles = [
     "source": "Science Daily / OMS",
     "sourceLink": "https://www.who.int",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/56e32842fceb"
@@ -580,7 +736,7 @@ const articles = [
     "source": "OMS Presse",
     "sourceLink": "https://www.who.int",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/24d5c474f2ae"
@@ -594,7 +750,7 @@ const articles = [
     "source": "The Lancet",
     "sourceLink": "https://www.thelancet.com",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/fa1923c5c528"
@@ -608,7 +764,7 @@ const articles = [
     "source": "New England Journal of Medicine",
     "sourceLink": "https://www.nejm.org",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/ba119ca4109e"
@@ -622,7 +778,7 @@ const articles = [
     "source": "CNSA / Numérique.gouv",
     "sourceLink": "https://www.cnsa.fr",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Glenn Carstens-Peters",
     "photoSourceLink": "https://unsplash.com/photos/ce68d2c6f44d"
@@ -636,7 +792,7 @@ const articles = [
     "source": "Tech Crunch",
     "sourceLink": "https://techcrunch.com",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Jesper Vos",
     "photoSourceLink": "https://unsplash.com/photos/86ab42a8e620"
@@ -650,7 +806,7 @@ const articles = [
     "source": "UN News",
     "sourceLink": "https://news.un.org",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "NASA",
     "photoSourceLink": "https://unsplash.com/photos/43490279c0fa"
@@ -664,7 +820,7 @@ const articles = [
     "source": "Europarl News",
     "sourceLink": "https://www.europarl.europa.eu",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Kelly Sikkema",
     "photoSourceLink": "https://unsplash.com/photos/9f8e92e65df9"
@@ -678,7 +834,7 @@ const articles = [
     "source": "France Inter",
     "sourceLink": "https://www.radiofrance.fr",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "nrd",
     "photoSourceLink": "https://unsplash.com/photos/92c53300491e"
@@ -692,7 +848,7 @@ const articles = [
     "source": "Ademe",
     "sourceLink": "https://www.ademe.fr",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Filip Bunkens",
     "photoSourceLink": "https://unsplash.com/photos/eb263c188f7e"
@@ -706,7 +862,7 @@ const articles = [
     "source": "Nature Trial Report",
     "sourceLink": "https://www.nature.com",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Dmitry Vechorko",
     "photoSourceLink": "https://unsplash.com/photos/45594efa4cbe"
@@ -720,7 +876,7 @@ const articles = [
     "source": "ADEME / Commission Européenne",
     "sourceLink": "https://ec.europa.eu",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Lachlan Donald",
     "photoSourceLink": "https://unsplash.com/photos/60a58ac0deb9"
@@ -734,7 +890,7 @@ const articles = [
     "source": "Les Échos Solution",
     "sourceLink": "https://www.lesechos.fr",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Christopher Burns",
     "photoSourceLink": "https://unsplash.com/photos/d4dc5ebe6122"
@@ -748,7 +904,7 @@ const articles = [
     "source": "Fondation La France s'engage",
     "sourceLink": "https://www.fondationlafrancesengage.org",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Perry Grone",
     "photoSourceLink": "https://unsplash.com/photos/cd288d649433"
@@ -762,7 +918,7 @@ const articles = [
     "source": "ANCT",
     "sourceLink": "https://agence-cohesion-territoires.gouv.fr",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Roman Kraft",
     "photoSourceLink": "https://unsplash.com/photos/ac426a4a7cbb"
@@ -776,7 +932,7 @@ const articles = [
     "source": "Ministère de l'Éducation",
     "sourceLink": "https://www.education.gouv.fr",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Alice Dietrich",
     "photoSourceLink": "https://unsplash.com/photos/60967b0f800f"
@@ -790,7 +946,7 @@ const articles = [
     "source": "The Guardian Upside",
     "sourceLink": "https://www.theguardian.com",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Sean Oulashin",
     "photoSourceLink": "https://unsplash.com/photos/b723cf961d3e"
@@ -804,7 +960,7 @@ const articles = [
     "source": "UN News",
     "sourceLink": "https://news.un.org",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Sergey Pesterev",
     "photoSourceLink": "https://unsplash.com/photos/c23e76319801"
@@ -818,7 +974,7 @@ const articles = [
     "source": "UN News / ONU",
     "sourceLink": "https://news.un.org",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Ishan @seefromthesky",
     "photoSourceLink": "https://unsplash.com/photos/d1af74d74000"
@@ -832,7 +988,7 @@ const articles = [
     "source": "L'Équipe Positive",
     "sourceLink": "https://www.lequipe.fr",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Capstone Events",
     "photoSourceLink": "https://unsplash.com/photos/639556652f33"
@@ -846,7 +1002,7 @@ const articles = [
     "source": "Ministère des Sports",
     "sourceLink": "https://www.sports.gouv.fr",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Danielle Cerullo",
     "photoSourceLink": "https://unsplash.com/photos/f5f99be501cd"
@@ -860,7 +1016,7 @@ const articles = [
     "source": "UN News",
     "sourceLink": "https://news.un.org",
     "image": "",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false,
     "photoSource": "Noah Buscher",
     "photoSourceLink": "https://unsplash.com/photos/be75c86b636f"
@@ -874,7 +1030,7 @@ const articles = [
     "source": "UN News",
     "sourceLink": "https://news.un.org",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "Gorillas",
     "photoSourceLink": "https://unsplash.com/photos/4be289fbecef"
@@ -888,7 +1044,7 @@ const articles = [
     "source": "Science Daily",
     "sourceLink": "https://www.sciencedaily.com",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/edd951b55104"
@@ -902,7 +1058,7 @@ const articles = [
     "source": "MIT Technology Review",
     "sourceLink": "https://www.technologyreview.com",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "Solen Feyissa",
     "photoSourceLink": "https://unsplash.com/photos/598cf32026fb"
@@ -916,7 +1072,7 @@ const articles = [
     "source": "France 3 Régions",
     "sourceLink": "https://france3-regions.francetvinfo.fr",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "Christina @ wocintechchat.com",
     "photoSourceLink": "https://unsplash.com/photos/1c28c88b4f3e"
@@ -930,7 +1086,7 @@ const articles = [
     "source": "Novethic",
     "sourceLink": "https://www.novethic.fr",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "Lauren Fleischmann",
     "photoSourceLink": "https://unsplash.com/photos/afc232f7ea0f"
@@ -944,7 +1100,7 @@ const articles = [
     "source": "L'Équipe",
     "sourceLink": "https://www.lequipe.fr",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "Kimo Brandt",
     "photoSourceLink": "https://unsplash.com/photos/e220f721d03e"
