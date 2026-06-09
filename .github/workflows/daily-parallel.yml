@@ -38,4 +38,4 @@ jobs:
           git add articles.js
           # Ne commit que s'il y a des changements (pour éviter de faire échouer le build s'il n'y a pas d'article)
           git diff-index --quiet HEAD || git commit -m "chore: mise à jour quotidienne des actualités positives [skip ci]"
-          git push
+          git push --force
