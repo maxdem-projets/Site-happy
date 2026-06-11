@@ -2,6 +2,134 @@
 // Les articles ont été rallongés substantiellement pour offrir une véritable profondeur journalistique.
 const articles = [
   {
+    "id": 87,
+    "category": "Sport",
+    "title": "Au Mexique, le coup d'envoi de la Coupe du Monde 2026 unit les cœurs et fait vibrer la nation entière.",
+    "smileFactor": "Préparez-vous à un shoot d'énergie positive qui va illuminer votre journée !",
+    "visualText": "FÊTE\nMONDIALE",
+    "imageQueryEnglish": "Azteca stadium crowd joy",
+    "bad_news_resume": "Alors que le Mexique, comme de nombreux pays, est souvent confronté à des défis quotidiens, des inégalités sociales et des tensions qui peuvent peser sur le moral collectif.",
+    "content_parallel": "### La Ligne Parallèle\nLa passion du football n'est pas qu'un jeu, c'est un puissant ciment social qui rassemble et inspire.\n\n- **Le contenu** : Oubliez les tracas du quotidien ! Le Mexique a lancé la Coupe du Monde 2026 avec une cérémonie d'ouverture époustouflante au mythique stade Azteca. Imaginez des milliers de sourires, des couleurs éclatantes et une ambiance électrique qui fait vibrer tout un peuple. Ce n'est pas juste un match de foot, c'est une immense fête ! Le pays, hôte avec les États-Unis et le Canada, montre au monde sa capacité à organiser un événement planétaire, créant des emplois et stimulant l'économie locale. C'est une occasion unique de célébrer la culture mexicaine, de partager sa joie de vivre et de renforcer les liens entre les communautés. Le football devient un langage universel, une source d'unité et de fierté nationale, prouvant que même face aux difficultés, la joie et l'espoir peuvent toujours triompher. C'est un rappel puissant que le sport a le pouvoir de transcender les différences et de créer des moments de pure magie collective.\n- **[Analogie Pop/Humoristique]** : C'est un peu comme quand les Avengers se réunissent : chacun a ses problèmes, mais ensemble, ils sont invincibles et prêts à sauver le monde... ou du moins, à faire la fête !",
+    "body": "Préparez-vous à un shoot d'énergie positive qui va illuminer votre journée ! Alors que le Mexique, comme de nombreux pays, est souvent confronté à des défis quotidiens, des inégalités sociales et des tensions qui peuvent peser sur le moral collectif, une vague d'optimisme déferle sur le pays. La passion du football n'est pas qu'un jeu, c'est un puissant ciment social qui rassemble et inspire. Oubliez les tracas du quotidien ! Le Mexique a lancé la Coupe du Monde 2026 avec une cérémonie d'ouverture époustouflante au mythique stade Azteca. Imaginez des milliers de sourires, des couleurs éclatantes et une ambiance électrique qui fait vibrer tout un peuple. Ce n'est pas juste un match de foot, c'est une immense fête ! Le pays, hôte avec les États-Unis et le Canada, montre au monde sa capacité à organiser un événement planétaire, créant des emplois et stimulant l'économie locale. C'est une occasion unique de célébrer la culture mexicaine, de partager sa joie de vivre et de renforcer les liens entre les communautés. Le football devient un langage universel, une source d'unité et de fierté nationale, prouvant que même face aux difficultés, la joie et l'espoir peuvent toujours triompher. C'est un rappel puissant que le sport a le pouvoir de transcender les différences et de créer des moments de pure magie collective. C'est un peu comme quand les Avengers se réunissent : chacun a ses problèmes, mais ensemble, ils sont invincibles et prêts à sauver le monde... ou du moins, à faire la fête !",
+    "source": "Le Monde Une",
+    "sourceLink": "https://www.lemonde.fr/sport/live/2026/06/11/en-direct-mexique-afrique-du-sud-suivez-le-premier-match-et-la-ceremonie-d-ouverture-de-la-coupe-du-monde-2026-de-football_6700760_3242.html",
+    "image": "https://images.unsplash.com/featured/800x600/?Azteca%2Cstadium%2Ccrowd%2Cjoy&sig=497",
+    "offsetDays": 0,
+    "featured": true
+  },
+  {
+    "id": 88,
+    "category": "Politique & Société",
+    "title": "La vigilance numérique internationale renforce la protection de nos enfants face aux menaces en ligne",
+    "smileFactor": "Quelle bonne nouvelle de voir que la vigilance et la coopération internationale portent leurs fruits pour protéger nos enfants !",
+    "visualText": "ENFANTS\nPROTÉGÉS",
+    "imageQueryEnglish": "online child protection",
+    "body": "Quelle bonne nouvelle de voir que la vigilance et la coopération internationale portent leurs fruits pour protéger nos enfants ! Une histoire récente nous le prouve : un organisme américain, le NCMEC (National Center for Missing and Exploited Children), a joué un rôle clé dans une affaire délicate en signalant une activité en ligne suspecte à la police française.\n\nImaginez un peu : ce centre est un véritable bouclier numérique ! Il collecte des alertes précieuses auprès des géants du web, des réseaux sociaux et des fournisseurs d'accès à Internet. C'est un travail de fourmi, mais ô combien essentiel ! Grâce à cette surveillance proactive, des informations cruciales peuvent être transmises aux autorités compétentes, et ce, au-delà des frontières.\n\nCette collaboration transatlantique est une lueur d'espoir. Elle montre que, même dans l'immense univers d'Internet, des systèmes efficaces sont en place pour traquer les comportements dangereux et protéger les plus vulnérables. C'est une preuve concrète que la solidarité et la technologie peuvent s'unir pour un monde plus sûr. Chaque signalement, chaque alerte est un pas de plus vers la justice et la prévention. Continuons à soutenir ces initiatives qui veillent sur nos jeunes ! C'est ensemble que nous bâtissons un avenir plus serein pour tous.",
+    "source": "Le Monde",
+    "sourceLink": "https://www.lemonde.fr/societe/article/2026/06/11/affaire-lyhanna-jerome-barella-avait-ete-signale-a-la-police-francaise-par-un-organisme-anti-pedocriminalite-americain_6700762_3224.html",
+    "image": "https://images.unsplash.com/featured/800x600/?online%2Cchild%2Cprotection&sig=451",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 89,
+    "category": "Politique & Société",
+    "title": "Le ministre Sébastien Lecornu prend position pour défendre l'intégrité de l'information en France.",
+    "smileFactor": "Quelle bonne nouvelle de voir nos responsables politiques s'engager avec détermination pour protéger la clarté de l'information et nos valeurs démocratiques !",
+    "visualText": "DÉFENSE DE\nL'INFO",
+    "imageQueryEnglish": "media integrity protection",
+    "body": "C'est un vent de fraîcheur pour le débat public ! Sébastien Lecornu, notre ministre des Armées, a envoyé un message clair et fort cette semaine. Interrogé sur la présence de Xenia Fedorova, ancienne figure de la chaîne d'État russe RT, dans les médias de Vincent Bolloré, le ministre a affirmé qu'il y avait un \"combat politique à mener\". Et il ne s'est pas arrêté là ! Il a même fixé une \"ligne rouge\" concernant le renouvellement de son titre de séjour.\n\nC'est une excellente nouvelle pour tous ceux qui tiennent à une information juste et équilibrée ! Cette prise de position ferme montre que nos dirigeants sont attentifs et prêts à agir pour protéger notre espace médiatique des influences qui pourraient nuire à la sérénité de nos débats. C'est un geste fort pour la souveraineté de notre information et pour la défense de nos valeurs démocratiques. Quand l'État se mobilise pour garantir la transparence et la responsabilité dans les médias, c'est toute la société qui en sort grandie. Un grand bravo pour cette initiative qui nous donne le sourire et renforce notre confiance dans l'avenir de l'information !",
+    "source": "Le Monde",
+    "sourceLink": "https://www.lemonde.fr/international/live/2026/06/11/en-direct-guerre-en-ukraine-sebastien-lecornu-fixe-une-ligne-rouge-concernant-le-renouvellement-du-titre-de-sejour-de-xenia-fedorova_6698620_3210.html",
+    "image": "https://images.unsplash.com/featured/800x600/?media%2Cintegrity%2Cprotection&sig=881",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 90,
+    "category": "Monde",
+    "title": "Le Pape Léon XIV lance un vibrant appel à la compassion pour les migrants aux Canaries",
+    "smileFactor": "Quelle belle nouvelle de voir un leader mondial rappeler l'importance de l'humanité !",
+    "visualText": "UN APPEL\nÀ L'HUMANITÉ",
+    "imageQueryEnglish": "Pope compassion migrants",
+    "body": "Quelle belle nouvelle de voir un leader mondial rappeler l'importance de l'humanité ! Le Pape Léon XIV, chef de l'Église catholique, a récemment achevé sa visite en Espagne, et son message résonne fort. Aux Canaries, un archipel qui voit arriver de nombreux exilés d'Afrique, le Pape a pris la parole avec force. Il a dénoncé l'indifférence grandissante face au sort des migrants, rappelant que nous ne pouvons pas nous habituer à compter les morts.\n\nC'est un cri du cœur, un appel vibrant à la solidarité ! Dans la lignée de son prédécesseur, le Pape François, Léon XIV nous invite à nous interroger sur ce qu'il reste de notre humanité. Il nous pousse à ouvrir nos cœurs et à regarder au-delà des frontières. Chaque vie compte, chaque histoire mérite d'être entendue. Ce message est un rappel puissant que la compassion et l'entraide sont les piliers d'une société meilleure.\n\nC'est une bouffée d'espoir de voir une figure aussi influente se lever pour défendre les plus vulnérables. Son discours est un encouragement pour chacun de nous à faire preuve de plus d'empathie et à agir, à notre échelle, pour un monde plus juste et plus humain. Ensemble, nous pouvons changer les choses et construire un avenir où personne n'est laissé pour compte. Un grand bravo au Pape pour ces mots qui touchent droit au cœur !",
+    "source": "Actualité Internationale",
+    "sourceLink": "https://www.lemonde.fr/international/article/2026/06/11/aux-canaries-le-pape-leon-xiv-denonce-l-indifference-envers-les-migrants-nous-ne-pouvons-pas-nous-accoutumer-a-compter-les-morts_6700780_3210.html",
+    "image": "https://images.unsplash.com/featured/800x600/?Pope%2Ccompassion%2Cmigrants&sig=294",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 91,
+    "category": "Business & Économie Positive",
+    "title": "L'Assemblée nationale ouvre la voie à une nationalisation stratégique pour l'acier français.",
+    "smileFactor": "Quelle excellente nouvelle pour l'avenir de notre industrie et de nos emplois !",
+    "visualText": "ACIER\nFRANÇAIS",
+    "imageQueryEnglish": "French steel industry",
+    "body": "Quelle excellente nouvelle pour l'avenir de notre industrie et de nos emplois ! Les députés ont fait un pas de géant pour l'économie française. Jeudi dernier, ils ont voté en deuxième lecture pour la nationalisation des activités françaises d'ArcelorMittal, le géant de l'acier. C'est une décision forte, qui montre une volonté claire de protéger nos fleurons industriels et les milliers de familles qui en dépendent.\n\nCette proposition de loi, portée par une large partie de l'hémicycle, vise à redonner à la France une maîtrise essentielle sur un secteur vital. Imaginez : des emplois sécurisés, une production d'acier qui répond aux besoins de notre pays, et une industrie qui se tourne vers l'avenir avec confiance. C'est un signal puissant : la France croit en son industrie, en ses travailleurs et en sa capacité à bâtir un futur solide.\n\nLe chemin est encore long, avec un passage au Sénat. Mais ce vote est une victoire symbolique majeure ! Il incarne l'espoir d'une économie plus juste, locale et résiliente. C'est une chance unique de réaffirmer notre souveraineté industrielle et de construire une France plus forte. L'acier, pilier de notre développement, retrouve toute sa place. Un grand bravo à nos élus pour cette vision audacieuse !",
+    "source": "Le Monde",
+    "sourceLink": "https://www.lemonde.fr/economie/article/2026/06/11/la-nationalisation-d-arcelormittal-de-nouveau-decidee-par-l-assemblee-nationale_6700766_3234.html",
+    "image": "https://images.unsplash.com/featured/800x600/?French%2Csteel%2Cindustry&sig=71",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 92,
+    "category": "Santé",
+    "title": "Les Français réduisent leur consommation d'alcool et de tabac : une excellente nouvelle pour notre santé collective !",
+    "smileFactor": "Préparez-vous à sourire, car une vague de bien-être déferle sur la France !",
+    "visualText": "MOINS DE\nTOXINES",
+    "imageQueryEnglish": "healthy lifestyle joy",
+    "body": "Quelle formidable nouvelle pour notre pays ! Les chiffres du premier trimestre 2026 sont tombés, et ils sont porteurs d'espoir : les recettes fiscales liées à l'alcool et au tabac ont chuté. Mais attention, ce n'est pas une mauvaise nouvelle, bien au contraire ! Cette baisse, qui représente \"seulement\" 3 milliards d'euros, est le signe direct d'un recul significatif de la consommation de ces substances. \n\nC'est une victoire éclatante pour la santé publique ! Moins d'alcool, moins de tabac, cela signifie concrètement moins de maladies, moins de souffrances et plus d'années de vie en pleine forme pour des milliers de nos concitoyens. Imaginez l'impact positif sur nos hôpitaux, sur nos familles, et sur la qualité de vie de chacun. \n\nCette tendance montre que les messages de prévention portent leurs fruits et que de plus en plus de Français choisissent un mode de vie plus sain. C'est un mouvement collectif vers un avenir plus lumineux et plus dynamique. Continuons sur cette lancée, car chaque verre non bu et chaque cigarette non allumée est un pas de plus vers une France en meilleure santé, plus joyeuse et pleine d'énergie ! C'est une preuve que, ensemble, nous pouvons construire un avenir où le bien-être est la priorité numéro un.",
+    "source": "Le Parisien",
+    "sourceLink": "https://www.lemonde.fr/politique/article/2026/06/11/les-recettes-fiscales-liees-au-tabac-et-a-l-alcool-sont-en-nette-baisse-depuis-des-annees_6700785_823448.html",
+    "image": "https://images.unsplash.com/featured/800x600/?healthy%2Clifestyle%2Cjoy&sig=115",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 93,
+    "category": "Business & Économie Positive",
+    "title": "La Métropole Aix-Marseille-Provence s'engage vers une gestion plus saine sans augmenter nos impôts !",
+    "smileFactor": "Quelle excellente nouvelle pour nos portefeuilles et l'avenir de notre belle région !",
+    "visualText": "BUDGET\nOPTIMISÉ",
+    "imageQueryEnglish": "public finance savings",
+    "body": "Quelle excellente nouvelle pour nos portefeuilles et l'avenir de notre belle région ! La Chambre régionale des comptes d'Aix-Marseille-Provence vient de donner un coup de pouce à la bonne gestion. Son message est clair et positif : la Métropole est invitée à revoir ses dépenses pour le budget 2026. Et devinez quoi ? Pas question d'augmenter nos impôts !\n\nLes magistrats ont une vision claire : ils proposent de réaliser 65 millions d'euros d'économies de fonctionnement. C'est une somme colossale qui montre qu'il est possible de faire mieux avec ce que l'on a, sans puiser davantage dans la poche des citoyens. Imaginez un peu : moins de gaspillage, plus d'efficacité ! C'est une vraie bouffée d'air frais pour les finances publiques.\n\nCette démarche est un pas de géant vers une gestion plus responsable et plus transparente. Elle prouve qu'avec de la volonté et de bonnes idées, on peut optimiser les ressources et assurer un avenir financier plus serein pour tous. C'est une victoire pour la rigueur budgétaire et une promesse de stabilité pour les habitants. La Métropole s'engage sur la bonne voie, celle de l'équilibre et de la prudence, pour le bien-être de chacun. Un grand bravo pour cette initiative qui nous donne le sourire !",
+    "source": "Presse Régionale",
+    "sourceLink": "https://www.lemonde.fr/politique/article/2026/06/11/aix-marseille-provence-la-chambre-regionale-des-comptes-invite-la-metropole-a-reduire-sa-dotation-aux-communes-de-53-millions-d-euros_6700783_823448.html",
+    "image": "https://images.unsplash.com/featured/800x600/?public%2Cfinance%2Csavings&sig=652",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 94,
+    "category": "Monde",
+    "title": "Paris célèbre le talent singulier de Jorge Camacho, un artiste cubain enfin révélé au grand public",
+    "smileFactor": "Préparez-vous à une explosion de couleurs et d'émotions, car le monde de l'art nous réserve une magnifique surprise !",
+    "visualText": "ARTISTE\nCUBAIN",
+    "imageQueryEnglish": "Cuban art exhibition",
+    "body": "La Galerie 1900-2000 à Paris nous ouvre ses portes pour une exposition exceptionnelle, et c'est une nouvelle qui va vous donner le sourire ! Elle met en lumière le génie de Jorge Camacho, un artiste cubain dont le talent est resté trop longtemps dans l'ombre. C'est une chance incroyable de découvrir un maître méconnu, dont l'œuvre est d'une force et d'une singularité à couper le souffle.\n\nOubliez le côté parfois sombre du surréalisme, et laissez-vous emporter par la puissance et la poésie de ses créations. Une dizaine de toiles vibrantes sont présentées, chacune racontant une histoire unique, pleine de mystère et d'audace. C'est une véritable bouffée d'air frais pour les amateurs d'art et une invitation au voyage au cœur d'un univers fascinant.\n\nJorge Camacho, avec son style inimitable, nous invite à un dialogue entre rêve et réalité. Ses œuvres sont un témoignage puissant de sa vision du monde, un mélange audacieux qui éveille l'imagination. C'est une occasion en or de s'émerveiller devant la richesse de la culture cubaine et la créativité sans limites. Alors, n'hésitez plus ! Foncez à la Galerie 1900-2000 et laissez-vous charmer par l'éclat de Jorge Camacho. Une belle preuve que l'art a toujours le pouvoir de nous surprendre et de nous émerveiller !",
+    "source": "Actualité Culturelle",
+    "sourceLink": "https://www.lemonde.fr/culture/article/2026/06/11/le-surrealisme-inquietant-de-jorge-camacho-a-la-galerie-1900-2000-a-paris_6700777_3246.html",
+    "image": "https://images.unsplash.com/featured/800x600/?Cuban%2Cart%2Cexhibition&sig=264",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 95,
+    "category": "Monde",
+    "title": "Bonne nouvelle pour les fans : Jack White sortira un nouvel album le mois prochain !",
+    "smileFactor": "Préparez vos écouteurs, car une vague de bonne humeur musicale est sur le point de déferler !",
+    "visualText": "NOUVEL ALBUM\nJACK WHITE",
+    "imageQueryEnglish": "Jack White album",
+    "body": "Quelle excellente nouvelle pour tous les mélomanes ! Le légendaire Jack White, connu pour son énergie débordante et ses riffs inoubliables, nous réserve une surprise de taille. Préparez-vous à vibrer, car son tout nouvel album est attendu avec impatience dès le mois prochain ! C'est une véritable bouffée d'air frais qui s'annonce pour nos oreilles.\n\nAprès le succès de \"No Name\", l'artiste nous invite à découvrir \"Frozen Charlatan\", un opus qui promet déjà de marquer les esprits. Et pour nous mettre l'eau à la bouche, un premier extrait, \"Dollar Bill\", est déjà disponible à l'écoute. C'est le genre de mélodie qui vous donne envie de danser et de chanter à tue-tête, une vraie dose de bonne humeur !\n\nJack White, c'est l'assurance d'une musique authentique, pleine de passion et d'innovation. Son retour sur le devant de la scène est une occasion en or de redécouvrir son génie créatif et de se laisser emporter par ses compositions uniques. Alors, notez bien la date dans vos agendas : le mois prochain, c'est le rendez-vous avec le bonheur musical ! On a hâte de découvrir toutes les pépites que \"Frozen Charlatan\" nous réserve. C'est une nouvelle qui met du baume au cœur et qui nous rappelle la puissance de la musique pour égayer nos journées. Un grand merci à Jack White pour ce cadeau !",
+    "source": "Pitchfork News",
+    "sourceLink": "https://pitchfork.com/news/jack-white-releasing-new-album-next-month/",
+    "image": "https://images.unsplash.com/featured/800x600/?Jack%2CWhite%2Calbum&sig=398",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
     "id": 79,
     "category": "Monde",
     "title": "Quand les coulisses de la diplomatie tissent des liens inattendus malgré les tempêtes géopolitiques",
@@ -14,8 +142,8 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/international/live/2026/06/10/en-direct-guerre-au-moyen-orient-donald-trump-affirme-que-les-etats-unis-vont-frapper-de-nouveau-durement-l-iran-apres-la-destruction-d-un-helicoptere-americain_6697888_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?global%2Ccooperation%2Chands&sig=442",
-    "offsetDays": 0,
-    "featured": true
+    "offsetDays": 1,
+    "featured": false
   },
   {
     "id": 80,
@@ -28,7 +156,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/societe/live/2026/06/10/en-direct-affaire-lyhanna-sebastien-lecornu-annonce-un-decret-pour-motiver-les-classements-sans-suite-pour-crimes-sexuels-sur-mineurs_6700450_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?child%2Cprotection%2Claw&sig=922",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -42,7 +170,7 @@ const articles = [
     "source": "Débats Parlementaires",
     "sourceLink": "https://www.lemonde.fr/societe/article/2026/06/10/gerald-darmanin-annonce-retirer-de-sa-reforme-de-la-justice-la-mesure-instaurant-un-plaider-coupable-en-matiere-criminelle_6700507_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?parliament%2Cconsensus&sig=182",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -56,7 +184,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/les-decodeurs/article/2026/06/10/dubai-papers-premiere-condamnation-de-petites-mains-du-systeme-de-fraude-fiscale_6700521_4355770.html",
     "image": "https://images.unsplash.com/featured/800x600/?justice%2Cscales&sig=967",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -70,7 +198,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/sciences/article/2026/06/10/prouesse-chinoise-en-physique-des-particules-pour-traquer-les-neutrinos_6700516_1650684.html",
     "image": "https://images.unsplash.com/featured/800x600/?particle%2Cdetector&sig=958",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -84,7 +212,7 @@ const articles = [
     "source": "Sources ukrainiennes",
     "sourceLink": "https://www.courrierinternational.com/article/guerre-en-ukraine-les-russes-seraient-en-train-de-reculer-dans-la-peninsule-de-kinbourn-pres-de-la-crimee_245085",
     "image": "https://images.unsplash.com/featured/800x600/?Ukrainian%2Cflag%2Csunrise&sig=343",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -98,7 +226,7 @@ const articles = [
     "source": "BBC World",
     "sourceLink": "https://www.bbc.com/news/videos/cvgdxqwlrpyo?at_medium=RSS&at_campaign=rss",
     "image": "https://images.unsplash.com/featured/800x600/?children%2Csafe%2Cschool&sig=490",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -112,7 +240,7 @@ const articles = [
     "source": "Mongabay",
     "sourceLink": "https://news.mongabay.com/short-article/2026/06/colombia-passes-landmark-cattle-traceability-law-to-combat-illegal-deforestation/",
     "image": "https://images.unsplash.com/featured/800x600/?sustainable%2Ccattle%2Cfarming&sig=442",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -128,7 +256,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/societe/article/2026/06/09/affaire-lyhanna-gregory-bobbato-le-maire-de-fleurance-qui-rappelle-l-etat-a-ses-devoirs_6700166_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?community%2Cleader%2Cspeaking&sig=220",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -142,7 +270,7 @@ const articles = [
     "source": "Commission Européenne",
     "sourceLink": "https://www.lemonde.fr/international/live/2026/06/09/en-direct-guerre-en-ukraine-un-21e-paquet-de-sanctions-contre-la-russie-presente-par-la-presidente-de-la-commission-europeenne-ursula-von-der-leyen_6698620_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?European%2CUnion%2Cflag&sig=289",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -156,7 +284,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/societe/article/2026/06/09/violences-sexuelles-ou-sexistes-dans-le-periscolaire-a-paris-emmanuel-gregoire-annonce-que-52-animateurs-ont-ete-suspendus-depuis-le-1-janvier_6700181_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?children%2Csafety%2Cschool&sig=284",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -170,7 +298,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/actualite-medias/article/2026/06/09/nicolas-demorand-animera-une-nouvelle-emission-les-week-ends-sur-france-inter-a-partir-de-la-rentree_6700169_3236.html",
     "image": "https://images.unsplash.com/featured/800x600/?radio%2Chost&sig=856",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -184,7 +312,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/afrique/article/2026/06/09/coupe-du-monde-2026-ebola-perturbe-la-preparation-des-leopards-congolais_6700180_3212.html",
     "image": "https://images.unsplash.com/featured/800x600/?Congolese%2Cfootball%2Cteam&sig=711",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -198,7 +326,7 @@ const articles = [
     "source": "Actualité Générale",
     "sourceLink": "https://www.lemonde.fr/culture/article/2026/06/09/yves-le-frere-que-j-ai-eu-un-podcast-pour-faire-revivre-la-memoire-toujours-menacee-des-disparus-de-la-dictature-argentine_6700188_3246.html",
     "image": "https://images.unsplash.com/featured/800x600/?memory%2Cpodcast&sig=546",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -212,7 +340,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/06/09/au-mexique-les-meres-de-disparus-tentent-de-profiter-de-la-coupe-du-monde-de-football-pour-faire-avancer-leur-cause_6700174_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?Mexican%2Cmothers%2Cprotest&sig=542",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -226,7 +354,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/biotechnologies-sommes-nous-arrives-a-l-ere-des-bebes-edites_244912",
     "image": "https://images.unsplash.com/featured/800x600/?Gene%2Cediting%2Clab&sig=400",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -240,7 +368,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/politique-malgre-les-referendums-contraires-l-italie-retournera-t-elle-au-nucleaire_244985",
     "image": "https://images.unsplash.com/featured/800x600/?sustainable%2Cenergy&sig=117",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -254,7 +382,7 @@ const articles = [
     "source": "The Athletic",
     "sourceLink": "https://www.courrierinternational.com/article/vu-des-etats-unis-allez-les-bleus-ce-mantra-sacre-qui-reflete-l-essor-du-football-francais_244983",
     "image": "https://images.unsplash.com/featured/800x600/?French%2Cfootball%2Cfans&sig=668",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -268,7 +396,7 @@ const articles = [
     "source": "Mongabay",
     "sourceLink": "https://news.mongabay.com/2026/06/in-sumatra-social-forestry-links-conservation-with-livelihoods/",
     "image": "https://images.unsplash.com/featured/800x600/?Sumatra%2Ccoffee%2Cfarm&sig=692",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -284,7 +412,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/international/live/2026/06/08/en-direct-moyen-orient-apres-les-attaques-reciproques-entre-israel-et-l-iran-teheran-annonce-une-cessation-de-ses-frappes-conditionnee-a-l-arret-des-attaques-de-l-etat-hebreu-dans-le-sud-du-liban_6697888_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?olive%2Cbranch&sig=969",
-    "offsetDays": 2,
+    "offsetDays": 3,
     "featured": false
   },
   {
@@ -299,7 +427,7 @@ const articles = [
     "body": "Face à la montagne de déchets plastiques qui s'accumule, une révolution biologique s'opère dans les laboratoires du monde entier. Des scientifiques ont réussi à optimiser des enzymes naturelles, dérivées de bactéries découvertes à proximité de centres de recyclage de bouteilles, pour les transformer en véritables \"gloutons\" industriels. La super-enzyme PETase, modifiée génétiquement par une équipe internationale de chercheurs, est désormais capable de décomposer les plastiques de type PET en leurs composants chimiques de base en moins de 24 heures, là où la nature aurait mis 450 ans. Ce processus breveté permet une économie circulaire parfaite : les monomères récupérés sont d'une pureté telle qu'ils peuvent être réutilisés pour recréer des bouteilles à l'infini, sans perte de qualité mécanique. Cette technologie propre commence déjà à être déployée à l'échelle industrielle dans de nouvelles usines de biorecyclage en Europe, offrant une alternative concrète et durable à la production de plastique issu du pétrole.",
     "source": "Science & Vie / CNRS",
     "sourceLink": "https://www.cnrs.fr",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "ThisisEngineering RAEng",
     "photoSourceLink": "https://unsplash.com/photos/a6a2a5aee158"
@@ -313,7 +441,7 @@ const articles = [
     "body": "Le mouvement de la consommation collaborative connaît une accélération remarquable dans les villes françaises. Inspirés par le succès historique de la Louve à Paris, plus de 80 supermarchés coopératifs et autogérés par leurs propres clients ont vu le jour. Ces structures enregistrent une hausse moyenne de 25 % de leurs membres cette année. Le modèle est simple : pour faire ses courses dans le magasin, chaque membre s'engage à y travailler bénévolement trois heures par mois. Ce fonctionnement supprime les intermédiaires et réduit considérablement les coûts. En contrepartie, les coopérateurs accèdent à des produits de qualité supérieure, souvent bio et locaux, à des tarifs inférieurs de 15 à 30 %.",
     "source": "France Inter",
     "sourceLink": "https://www.radiofrance.fr",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "nrd",
     "photoSourceLink": "https://unsplash.com/photos/92c53300491e"
@@ -327,7 +455,7 @@ const articles = [
     "body": "La région de Strasbourg franchit une étape importante dans la transition écologique des transports. Le nouveau RER métropolitain alsacien entre dans sa phase opérationnelle active, offrant plus de 120 trains supplémentaires par jour connectant la ville à sa périphérie. Ce réseau cadencé et accessible a déjà permis d'éviter des milliers de trajets individuels en voiture, contribuant de manière directe à l'amélioration de la qualité de l'air urbain et offrant un gain financier majeur pour les usagers au quotidien.",
     "source": "France Info",
     "sourceLink": "https://www.francetvinfo.fr",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Filip Bunkens",
     "photoSourceLink": "https://unsplash.com/photos/eb263c188f7e"
@@ -341,7 +469,7 @@ const articles = [
     "body": "Alors que l'Est de la République démocratique du Congo fait face à une nouvelle épidémie du virus Ebola, une note d'espoir réconfortante provient de l'hôpital de Bunia. Quatre infirmiers qui avaient contracté le virus dans l'exercice de leurs fonctions ont été déclarés officiellement guéris et ont pu quitter l'établissement sous les applaudissements de leurs collègues. Ce succès thérapeutique renforce la confiance des équipes soignantes de première ligne et démontre l'efficacité des protocoles de prise en charge précoce mis en place avec l'appui de l'OMS.",
     "source": "UN News",
     "sourceLink": "https://news.un.org/feed/view/fr/story/2026/06/1158914",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/24d5c474f2ae"
@@ -355,7 +483,7 @@ const articles = [
     "body": "C'est une démonstration scientifique magistrale de la résilience des océans lorsqu'on décide de leur accorder un répit. Une étude menée par des biologistes marins dans la réserve protégée du sud de l'île d'Arran, en Écosse, révèle une explosion extraordinaire de la biodiversité. Cette zone avait été totalement interdite à la pêche industrielle et au chalutage de fond il y a quelques années. Les relevés sous-marins indiquent que la densité de poissons, de homards et de coquillages a littéralement doublé par rapport aux zones adjacentes non protégées.",
     "source": "The Guardian",
     "sourceLink": "https://www.theguardian.com",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Sean Oulashin",
     "photoSourceLink": "https://unsplash.com/photos/b723cf961d3e"
@@ -369,7 +497,7 @@ const articles = [
     "body": "C'est un jalon historique pour la préservation de la faune sauvage. Quatre bongos des montagnes, une sous-espèce d'antilope forestière extrêmement menacée comptant moins de 100 individus à l'état sauvage, ont été réintroduits avec succès dans les forêts denses du Mont Kenya. Ces animaux sont nés et ont grandi dans un zoo européen dans le cadre d'un programme d'élevage conservatoire. Après une période d'acclimatation progressive dans de grands enclos forestiers semi-sauvages, ils ont été relâchés en pleine nature sous la surveillance de rangers.",
     "source": "UN News",
     "sourceLink": "https://news.un.org",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Sergey Pesterev",
     "photoSourceLink": "https://unsplash.com/photos/c23e76319801"
@@ -383,7 +511,7 @@ const articles = [
     "body": "Au milieu des difficultés de la vie quotidienne dans les camps de réfugiés de Gaza, le football s'impose comme une formidable soupape de sécurité pour les jeunes. Des matchs et tournois organisés par un ancien joueur professionnel offrent un bref répit et des moments de pure joie aux enfants vivant dans des conditions précaires. Au-delà du jeu, cette initiative propose un encadrement psychosocial, des rires partagés et un sentiment de normalité indispensable pour aider ces jeunes à se reconstruire et à rêver d'un avenir pacifique.",
     "source": "UN News",
     "sourceLink": "https://news.un.org/feed/view/fr/story/2026/05/1158911",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Capstone Events",
     "photoSourceLink": "https://unsplash.com/photos/639556652f33"
@@ -397,7 +525,7 @@ const articles = [
     "body": "Une petite révolution sportive vient de voir le jour avec l'inauguration du tout premier gymnase entièrement conçu pour l'inclusion des personnes en situation de handicap. Ce complexe ultramoderne propose des terrains modulables, du matériel adapté et des vestiaires ergonomiques pensés pour que sportifs valides et handisport s'entraînent ensemble. L'objectif est de briser les barrières d'accès aux loisirs et à la compétition, offrant à chacun la possibilité de s'épanouir par l'effort physique dans un esprit de franche camaraderie.",
     "source": "L'Équipe",
     "sourceLink": "https://www.lequipe.fr",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Danielle Cerullo",
     "photoSourceLink": "https://unsplash.com/photos/f5f99be501cd"
@@ -411,7 +539,7 @@ const articles = [
     "body": "Au Brésil, une association transforme la vie des adolescents des favelas grâce au surf. En leur proposant des cours gratuits, du matériel et un accompagnement scolaire rigoureux, l'école de surf leur permet de s'éloigner de la violence des rues et de découvrir la discipline et la rigueur du sport de haut niveau. Les jeunes apprennent à respecter l'environnement marin tout en développant une solide confiance en eux. Plusieurs élèves ont déjà rejoint le circuit de compétition régional, ouvrant la voie à des carrières inspirantes.",
     "source": "The Athletic",
     "sourceLink": "https://theathletic.com",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Noah Buscher",
     "photoSourceLink": "https://unsplash.com/photos/be75c86b636f"
@@ -428,7 +556,7 @@ const articles = [
     "body": "Pendant que les compteurs d'eau se serrent la vis, une transition verte ultra-concrète s'enracine dans nos terroirs. Le secret ? L'alliance de la REUT (Réutilisation des Eaux Usées Traitées) et de l'intelligence agronomique. Alors que la France ne recyclait jusqu'ici qu'un timide 1 % de ses eaux usées, le Plan Eau national a enclenché la vitesse supérieure pour multiplier ce chiffre par 10 d'ici 2030. Sur le terrain, cela se traduit par des agriculteurs qui connectent leurs parcelles à des réseaux d'eaux purifiées provenant des stations d'épuration locales. Couplée à des sondes d'humidité connectées enfoncées dans le sol et à des systèmes de goutte-à-goutte enterrés de haute précision, cette ressource alternative permet de cibler les besoins des plantes au millilitre près. Résultat : une économie directe d'eau potable allant jusqu'à 50 % pour les cultures de maïs et de maraîchage, sans aucune perte de rendement. Mieux encore, ces eaux recyclées sont naturellement chargées en nutriments essentiels comme l'azote et le phosphore, permettant de réduire l'usage d'engrais chimiques. Une circularité parfaite où les eaux usées de nos douches de la veille font pousser les tomates de demain.",
     "source": "Banque des Territoires / Plan Eau",
     "sourceLink": "https://www.banquedesterritoires.fr",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Filip Miletic",
     "photoSourceLink": "https://unsplash.com/photos/e9e9c570085e"
@@ -442,7 +570,7 @@ const articles = [
     "body": "L'intelligence artificielle montre son plus beau visage lorsqu'elle est mise au service de l'inclusion et de la justice sociale. En France, un programme d'expérimentation d'envergure nationale mené dans 11 Maisons Départementales des Personnes Handicapées (MDPH) démontre l'impact concret de la technologie sur la vie des citoyens les plus vulnérables. Grâce à l'intégration d'assistants intelligents pour trier les pièces justificatives, analyser la cohérence des demandes et rédiger des synthèses administratives claires, les agents des MDPH ont vu leur charge de travail répétitive chuter de moitié. Le gain de temps est spectaculaire : le délai moyen d'instruction d'un dossier d'aide financière ou de carte de mobilité est passé de six mois à moins de huit semaines. Ce temps libéré permet aux conseillers humains de se consacrer pleinement aux entretiens d'accompagnement complexes et de se déplacer à domicile.",
     "source": "CNSA / Numérique.gouv",
     "sourceLink": "https://www.cnsa.fr",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Ales Nesetril",
     "photoSourceLink": "https://unsplash.com/photos/1504639725590-34d0984388bd"
@@ -456,7 +584,7 @@ const articles = [
     "body": "Prendre soin de son esprit ralentit concrètement l'horloge biologique. Une étude d'envergure menée par l'University College de Londres (UCL) auprès de plus de 3 500 adultes a révélé que la pratique régulière d'activités culturelles ou créatives — comme la lecture, le tricot, le théâtre ou la musique — est liée à un vieillissement biologique environ 4 % plus lent à l'échelle de l'ADN. Ce bénéfice est directement comparable à celui d'une activité physique régulière, soulignant l'impact direct du bien-être créatif et culturel sur notre santé physique globale et notre longévité.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tus0jm/these_feelgood_activities_were_linked_to_slower/",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Christina @ wocintechchat.com",
     "photoSourceLink": "https://unsplash.com/photos/1c28c88b4f3e"
@@ -470,7 +598,7 @@ const articles = [
     "body": "À Flint, dans le Michigan, une approche novatrice de lutte contre la pauvreté prénatale porte ses fruits. Un programme distribuant des allocations financières directes et inconditionnelles aux femmes enceintes a permis d'améliorer de manière spectaculaire la santé des nouveau-nés. En réduisant le stress financier des futures mères, cette mesure a conduit à une baisse notable des naissances prématurées et à un meilleur poids des nourrissons à la naissance. Ce succès démontre l'efficacité des aides directes ciblées pour briser les cercles de précarité dès la petite enfance.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tv1qb9/in_flint_cash_for_pregnant_women_leads_to_better/",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Kelly Sikkema",
     "photoSourceLink": "https://unsplash.com/photos/9f8e92e65df9"
@@ -484,7 +612,7 @@ const articles = [
     "body": "Un virage culturel majeur s'opère en Finlande. Selon une étude récente de l'institut THL, la consommation globale d'alcool dans le pays est retombée à son niveau le plus bas depuis les années 1970. Cette tendance est particulièrement marquée chez les jeunes générations, qui délaissent les sorties alcoolisées au profit d'activités sportives, de loisirs en plein air et de boissons sans alcool alternatives. Les experts saluent cette mutation sociétale qui laisse entrevoir des bénéfices majeurs pour la santé publique nationale.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvgb1v/finlands_alcohol_consumption_drops_to_1970s/",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Filip Bunkens",
     "photoSourceLink": "https://unsplash.com/photos/eb263c188f7e"
@@ -498,7 +626,7 @@ const articles = [
     "body": "La transition vers les énergies renouvelables s'accélère à grande vitesse de l'autre côté de la Manche. Le Royaume-Uni a enregistré un nouveau record historique de production solaire, porté en grande partie par une multiplication des installations de panneaux sur les toits des habitations privées. Fatigués de la hausse des tarifs d'électricité, les ménages britanniques investissent massivement dans l'auto-production d'énergie verte, stabilisant leur budget tout en injectant les surplus dans le réseau national.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvxhrg/britain_sets_solar_record_as_households_take/",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Michael Wilson",
     "photoSourceLink": "https://unsplash.com/photos/188b1cf16e9d"
@@ -512,7 +640,7 @@ const articles = [
     "body": "Pour célébrer leurs 47 ans de mariage, un couple résidant à Staten Island (New York) a décidé de marquer le coup de manière inoubliable en redistribuant 1,5 million de dollars de leurs économies à des associations et projets communautaires locaux. Ce don a permis de financer des banques alimentaires, des bibliothèques d'outils et des bourses d'études pour les jeunes du quartier. Une leçon d'entraide et de solidarité concrète qui a profondément soudé et inspiré toute la communauté locale.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvpknx/on_eve_of_their_47th_wedding_anniversary_staten/",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Perry Grone",
     "photoSourceLink": "https://unsplash.com/photos/cd288d649433"
@@ -526,7 +654,7 @@ const articles = [
     "body": "L'État du Tennessee a promulgué une loi inédite qui impose aux propriétaires de centres de données (data centers) de financer intégralement les coûts de raccordement électrique et de développement des infrastructures publiques qu'ils mobilisent. Auparavant, ces frais étaient en partie répercutés sur les factures d'électricité des citoyens. Cette mesure pionnière permet de préserver le pouvoir d'achat des habitants tout en forçant les géants de la technologie à assumer la pleine responsabilité de leur empreinte énergétique locale.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tul8yz/new_tennessee_law_requires_data_center_owners_to/",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "NASA",
     "photoSourceLink": "https://unsplash.com/photos/43490279c0fa"
@@ -540,7 +668,7 @@ const articles = [
     "body": "Donner la parole aux enfants pour imaginer la ville de demain est une idea simple qui donne des résultats magiques. Le programme national 'Designers en herbe' a été déployé dans 50 écoles primaires en France, invitant les élèves à concevoir eux-mêmes les futurs aménagements verts de leur cour de récréation ou des places publiques de leur quartier. Accompagnés par des architectes, les enfants dessinent des plans et choisissent les essences d'arbres à planter. Les mairies s'engagent ensuite à réaliser physiquement leurs projets.",
     "source": "Ministère de l'Éducation",
     "sourceLink": "https://www.education.gouv.fr",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Alice Dietrich",
     "photoSourceLink": "https://unsplash.com/photos/60967b0f800f"
@@ -554,7 +682,7 @@ const articles = [
     "body": "C'est une victoire historique pour la biodiversité en Californie. Trois cerfs mulets ont été photographiés en train de traverser le tout nouveau pont végétalisé construit au-dessus d'une autoroute majeure près de Los Angeles. Cet ouvrage monumental de passage végétalisé, conçu pour reconnecter les habitats naturels fragmentés par l'urbanisation, représente l'un des plus grands corridors écologiques du monde. Les biologistes craignaient qu'il ne faille plusieurs années aux animaux pour s'adapter à cette structure artificielle, mais la présence rapide de ces cervidés prouve l'efficacité immédiate du projet. Ce succès ouvre la voie à une sécurisation des routes et à la sauvegarde des espèces locales.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tw661h/three_mule_deer_are_the_first_animals_confirmed/",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Sergey Pesterev",
     "photoSourceLink": "https://unsplash.com/photos/c23e76319801"
@@ -568,7 +696,7 @@ const articles = [
     "body": "Pour empêcher des centaines de tonnes de détritus d'atteindre l'océan Pacifique chaque année, une coalition inédite a décidé d'agir. Des intercepteurs de déchets sur mesure conçus par l'ONG Ocean Cleanup vont être déployés dans les fleuves de Los Angeles et San Gabriel. Ce projet ambitieux, mené par des partenaires publics et privés, doit être finalisé bien avant les Jeux Olympiques de 2028. En ciblant la pollution à sa source — les cours d'eau urbains —, cette initiative promet de transformer durablement la santé de nos écosystèmes côtiers et de redonner vie aux plages californiennes.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tw4368/to_prevent_hundreds_of_tons_of_garbage_from/",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Lachlan Donald",
     "photoSourceLink": "https://unsplash.com/photos/60a58ac0deb9"
@@ -582,7 +710,7 @@ const articles = [
     "body": "Un événement grandiose a ému les ornithologues américains : pour la première fois en plus d'un siècle, un condor de Californie sauvage a été officiellement aperçu en Oregon. Cette espèce emblématique, qui avait frôlé l'extinction totale dans les années 1980, profite d'un programme exceptionnel de réintroduction et de protection de son habitat. Ce retour spontané dans son aire historique prouve que la nature sauvage reprend ses droits dès qu'on lui en laisse l'opportunité. Un immense message d'espoir pour la préservation de la biodiversité globale.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tux6kd/oregon_gets_first_california_condor_visit_in/",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Sergey Pesterev",
     "photoSourceLink": "https://unsplash.com/photos/c23e76319801"
@@ -596,7 +724,7 @@ const articles = [
     "body": "Le vaccin contre le paludisme montre une efficacité spectaculaire en situation réelle. Selon une étude portant sur quatre années de données, le traitement a permis de prévenir environ un décès d'enfant sur huit dans les régions où il a été administré. Face à ces résultats exceptionnels, la campagne de vaccination s'étend désormais à 25 pays d'Afrique. Cette avancée majeure représente une arme historique contre l'une des maladies les plus meurtrières chez les jeunes enfants, concrétisant des décennies de recherche scientifique et de coopération internationale en santé publique.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvpm9n/a_malaria_vaccine_has_been_preventing_roughly_1/",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/2173dba999ef"
@@ -610,7 +738,7 @@ const articles = [
     "body": "Les autorités sanitaires anglaises ont donné leur feu vert à un traitement innovant destiné à prolonger la vie des femmes atteintes d'un cancer de l'ovaire avancé. Ce médicament cible spécifiquement les cellules cancéreuses en épargnant les tissus sains, ce qui permet de limiter les effets secondaires lourds par rapport à une chimiothérapie classique. Les essais cliniques montrent des gains d'espérance de vie significatifs associés à un bien-être quotidien retrouvé pour les patientes. Une étape importante pour la recherche en oncologie.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1twexue/lifeprolonging_drug_for_advanced_ovarian_cancer/",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/edd951b55104"
@@ -624,7 +752,7 @@ const articles = [
     "body": "L'intelligence artificielle franchit une étape cruciale en oncologie. Des chercheurs ont mis au point REDMOD, un modèle d'IA capable de détecter les signes précoces du cancer du pancréas en analysant des scanners abdominaux de routine. Lors des tests cliniques, le système a identifié avec succès des signatures cancéreuses chez des patients dont les clichés avaient pourtant été validés comme tout à fait normaux par des radiologues. Cette détection ultra-précoce offre un espoir inédit pour augmenter les chances de guérison d'un cancer traditionnellement diagnostiqué trop tard.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvhobh/ai_offered_hope_for_catching_pancreatic_cancer/",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "ThisisEngineering RAEng",
     "photoSourceLink": "https://unsplash.com/photos/a6a2a5aee158"
@@ -638,7 +766,7 @@ const articles = [
     "body": "La pénurie d'eau potable trouve une réponse technologique innovante et écologique. Une équipe de chercheurs a développé une méthode de dessalement de l'eau de mer qui n'émet aucun rejet de saumure polluante dans les océans. En utilisant un système de filtration membranaire combiné à des cristaux absorbants, le procédé sépare le sel proprement et le valorise sous forme solide pour l'industrie chimique. Cette innovation permet de fournir de l'eau potable à grande échelle aux régions côtières arides sans nuire à la faune marine.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tuvoyz/new_method_turns_ocean_water_into_drinking_water/",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Ales Nesetril",
     "photoSourceLink": "https://unsplash.com/photos/1526374965328-7f61d4dc18c5"
@@ -652,7 +780,7 @@ const articles = [
     "body": "Des ingénieurs ont conçu un appareil solaire révolutionnaire capable de réaliser deux tâches écologiques simultanément. Placé sur de l'eau de mer ou saumâtre, ce dispositif utilise l'énergie du soleil pour évaporer et purifier l'eau à haut rendement tout en concentrant les résidus salins pour en extraire du lithium pur. Ce métal, indispensable à la fabrication des batteries de nos véhicules électriques, est ainsi récupéré de manière totalement propre et locale. Une circularité exemplaire qui concilie transition énergétique et ressources humaines vitales.",
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tup0oj/this_solarpowered_desalination_device_turns/",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "image": "",
     "photoSource": "Ales Nesetril",
     "photoSourceLink": "https://unsplash.com/photos/1531297484001-80022131f5a1"
@@ -666,7 +794,7 @@ const articles = [
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tw661h/three_mule_deer_are_the_first_animals_confirmed/",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "Robert Bye",
     "photoSourceLink": "https://unsplash.com/photos/9da000fda645"
@@ -680,7 +808,7 @@ const articles = [
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvpm9n/a_malaria_vaccine_has_been_preventing_roughly_1/",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/2173dba999ef"
@@ -694,7 +822,7 @@ const articles = [
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tuvx4q/three_years_ago_scientists_reintroduced_10/",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "David Clode",
     "photoSourceLink": "https://unsplash.com/photos/6e85f2e6772f"
@@ -708,7 +836,7 @@ const articles = [
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvhobh/ai_offered_hope_for_catching_pancreatic_cancer/",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "ThisisEngineering RAEng",
     "photoSourceLink": "https://unsplash.com/photos/a6a2a5aee158"
@@ -722,7 +850,7 @@ const articles = [
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tvxhrg/britain_sets_solar_record_as_households_take/",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "Michael Wilson",
     "photoSourceLink": "https://unsplash.com/photos/188b1cf16e9d"
@@ -736,7 +864,7 @@ const articles = [
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tus0jm/these_feelgood_activities_were_linked_to_slower/",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "Kimberly Farmer",
     "photoSourceLink": "https://unsplash.com/photos/637abb4f9353"
@@ -750,7 +878,7 @@ const articles = [
     "source": "Reddit UpliftingNews",
     "sourceLink": "https://www.reddit.com/r/UpliftingNews/comments/1tw4yg1/the_us_murder_rate_plunged_us_murders_fell_21_in/",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "Fredy Jacob",
     "photoSourceLink": "https://unsplash.com/photos/527eed3abbec"
@@ -764,7 +892,7 @@ const articles = [
     "source": "France Info",
     "sourceLink": "https://www.francetvinfo.fr",
     "image": "",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false,
     "photoSource": "Willian Justen de Vasconcellos",
     "photoSourceLink": "https://unsplash.com/photos/d5f539e1542f"
@@ -780,7 +908,7 @@ const articles = [
     "source": "Banque des Territoires / Plan Eau",
     "sourceLink": "https://www.banquedesterritoires.fr",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Filip Miletic",
     "photoSourceLink": "https://unsplash.com/photos/e9e9c570085e"
@@ -794,7 +922,7 @@ const articles = [
     "source": "UN News",
     "sourceLink": "https://news.un.org",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Isaac Mitchell",
     "photoSourceLink": "https://unsplash.com/photos/01729482b8eb"
@@ -808,7 +936,7 @@ const articles = [
     "source": "The Guardian Upside",
     "sourceLink": "https://www.theguardian.com",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Vincent van Zalinge",
     "photoSourceLink": "https://unsplash.com/photos/726afd116ff1"
@@ -822,7 +950,7 @@ const articles = [
     "source": "UNESCO News",
     "sourceLink": "https://www.unesco.org",
     "image": "",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false,
     "photoSource": "Francesco Ungaro",
     "photoSourceLink": "https://unsplash.com/photos/cc4642628d2b"
@@ -836,7 +964,7 @@ const articles = [
     "source": "Science Daily / OMS",
     "sourceLink": "https://www.who.int",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/56e32842fceb"
@@ -850,7 +978,7 @@ const articles = [
     "source": "OMS Presse",
     "sourceLink": "https://www.who.int",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/24d5c474f2ae"
@@ -864,7 +992,7 @@ const articles = [
     "source": "The Lancet",
     "sourceLink": "https://www.thelancet.com",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/fa1923c5c528"
@@ -878,7 +1006,7 @@ const articles = [
     "source": "New England Journal of Medicine",
     "sourceLink": "https://www.nejm.org",
     "image": "",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false,
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/ba119ca4109e"
@@ -892,7 +1020,7 @@ const articles = [
     "source": "CNSA / Numérique.gouv",
     "sourceLink": "https://www.cnsa.fr",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Glenn Carstens-Peters",
     "photoSourceLink": "https://unsplash.com/photos/ce68d2c6f44d"
@@ -906,7 +1034,7 @@ const articles = [
     "source": "Tech Crunch",
     "sourceLink": "https://techcrunch.com",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Jesper Vos",
     "photoSourceLink": "https://unsplash.com/photos/86ab42a8e620"
@@ -920,7 +1048,7 @@ const articles = [
     "source": "UN News",
     "sourceLink": "https://news.un.org",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "NASA",
     "photoSourceLink": "https://unsplash.com/photos/43490279c0fa"
@@ -934,7 +1062,7 @@ const articles = [
     "source": "Europarl News",
     "sourceLink": "https://www.europarl.europa.eu",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Kelly Sikkema",
     "photoSourceLink": "https://unsplash.com/photos/9f8e92e65df9"
@@ -948,7 +1076,7 @@ const articles = [
     "source": "France Inter",
     "sourceLink": "https://www.radiofrance.fr",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "nrd",
     "photoSourceLink": "https://unsplash.com/photos/92c53300491e"
@@ -962,7 +1090,7 @@ const articles = [
     "source": "Ademe",
     "sourceLink": "https://www.ademe.fr",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Filip Bunkens",
     "photoSourceLink": "https://unsplash.com/photos/eb263c188f7e"
@@ -976,7 +1104,7 @@ const articles = [
     "source": "Nature Trial Report",
     "sourceLink": "https://www.nature.com",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Dmitry Vechorko",
     "photoSourceLink": "https://unsplash.com/photos/45594efa4cbe"
@@ -990,7 +1118,7 @@ const articles = [
     "source": "ADEME / Commission Européenne",
     "sourceLink": "https://ec.europa.eu",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Lachlan Donald",
     "photoSourceLink": "https://unsplash.com/photos/60a58ac0deb9"
@@ -1004,7 +1132,7 @@ const articles = [
     "source": "Les Échos Solution",
     "sourceLink": "https://www.lesechos.fr",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Christopher Burns",
     "photoSourceLink": "https://unsplash.com/photos/d4dc5ebe6122"
@@ -1018,7 +1146,7 @@ const articles = [
     "source": "Fondation La France s'engage",
     "sourceLink": "https://www.fondationlafrancesengage.org",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Perry Grone",
     "photoSourceLink": "https://unsplash.com/photos/cd288d649433"
@@ -1032,7 +1160,7 @@ const articles = [
     "source": "ANCT",
     "sourceLink": "https://agence-cohesion-territoires.gouv.fr",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Roman Kraft",
     "photoSourceLink": "https://unsplash.com/photos/ac426a4a7cbb"
@@ -1046,7 +1174,7 @@ const articles = [
     "source": "Ministère de l'Éducation",
     "sourceLink": "https://www.education.gouv.fr",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Alice Dietrich",
     "photoSourceLink": "https://unsplash.com/photos/60967b0f800f"
@@ -1060,7 +1188,7 @@ const articles = [
     "source": "The Guardian Upside",
     "sourceLink": "https://www.theguardian.com",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Sean Oulashin",
     "photoSourceLink": "https://unsplash.com/photos/b723cf961d3e"
@@ -1074,7 +1202,7 @@ const articles = [
     "source": "UN News",
     "sourceLink": "https://news.un.org",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Sergey Pesterev",
     "photoSourceLink": "https://unsplash.com/photos/c23e76319801"
@@ -1088,7 +1216,7 @@ const articles = [
     "source": "UN News / ONU",
     "sourceLink": "https://news.un.org",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Ishan @seefromthesky",
     "photoSourceLink": "https://unsplash.com/photos/d1af74d74000"
@@ -1102,7 +1230,7 @@ const articles = [
     "source": "L'Équipe Positive",
     "sourceLink": "https://www.lequipe.fr",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Capstone Events",
     "photoSourceLink": "https://unsplash.com/photos/639556652f33"
@@ -1116,7 +1244,7 @@ const articles = [
     "source": "Ministère des Sports",
     "sourceLink": "https://www.sports.gouv.fr",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Danielle Cerullo",
     "photoSourceLink": "https://unsplash.com/photos/f5f99be501cd"
@@ -1130,7 +1258,7 @@ const articles = [
     "source": "UN News",
     "sourceLink": "https://news.un.org",
     "image": "",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false,
     "photoSource": "Noah Buscher",
     "photoSourceLink": "https://unsplash.com/photos/be75c86b636f"
@@ -1144,7 +1272,7 @@ const articles = [
     "source": "UN News",
     "sourceLink": "https://news.un.org",
     "image": "",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false,
     "photoSource": "Gorillas",
     "photoSourceLink": "https://unsplash.com/photos/4be289fbecef"
@@ -1158,7 +1286,7 @@ const articles = [
     "source": "Science Daily",
     "sourceLink": "https://www.sciencedaily.com",
     "image": "",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false,
     "photoSource": "National Cancer Institute",
     "photoSourceLink": "https://unsplash.com/photos/edd951b55104"
@@ -1172,7 +1300,7 @@ const articles = [
     "source": "MIT Technology Review",
     "sourceLink": "https://www.technologyreview.com",
     "image": "",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false,
     "photoSource": "Solen Feyissa",
     "photoSourceLink": "https://unsplash.com/photos/598cf32026fb"
@@ -1186,7 +1314,7 @@ const articles = [
     "source": "France 3 Régions",
     "sourceLink": "https://france3-regions.francetvinfo.fr",
     "image": "",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false,
     "photoSource": "Christina @ wocintechchat.com",
     "photoSourceLink": "https://unsplash.com/photos/1c28c88b4f3e"
@@ -1200,7 +1328,7 @@ const articles = [
     "source": "Novethic",
     "sourceLink": "https://www.novethic.fr",
     "image": "",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false,
     "photoSource": "Lauren Fleischmann",
     "photoSourceLink": "https://unsplash.com/photos/afc232f7ea0f"
@@ -1214,7 +1342,7 @@ const articles = [
     "source": "L'Équipe",
     "sourceLink": "https://www.lequipe.fr",
     "image": "",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false,
     "photoSource": "Kimo Brandt",
     "photoSourceLink": "https://unsplash.com/photos/e220f721d03e"
