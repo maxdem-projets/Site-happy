@@ -3,6 +3,190 @@
 const articles = [
   {
     "id": 201,
+    "category": "France",
+    "title": "Malgré les défis, Trappes tisse un avenir de solidarité et d'espoir",
+    "smileFactor": "Même dans les moments les plus sombres, la lumière de l'entraide et de la résilience brille toujours plus fort !",
+    "visualText": "ESPOIR\nCOMMUNAUTAIRE",
+    "imageQueryEnglish": "diverse community gathering",
+    "bad_news_resume": "La ville de Trappes a été mise en lumière par un attentat terroriste raciste, révélant les profondes crises sociales et les défis d'intégration qui traversent la France contemporaine.",
+    "content_parallel": "### La Ligne Parallèle\nLa résilience n'est pas un vain mot, c'est le moteur d'une communauté qui se relève et innove !\n\n- **Le contenu** : Oui, Trappes a connu des épreuves, mais c'est aussi une ville qui bouillonne d'énergie positive ! Loin des projecteurs braqués sur les difficultés, des centaines d'initiatives citoyennes fleurissent chaque jour. Des associations locales, portées par des habitants passionnés, tissent un réseau incroyable de solidarité. Elles proposent des ateliers pour les jeunes, des jardins partagés qui créent du lien, des événements culturels qui célèbrent la richesse de ses 35 000 âmes. Ici, la diversité n'est pas un problème, c'est une force, une mosaïque de cultures qui s'enrichissent mutuellement. Chaque défi est une occasion de montrer que l'entraide est la plus belle des réponses. Trappes, c'est l'exemple vivant que l'avenir se construit ensemble, avec le sourire et la main tendue. C'est une ville qui prouve que même après la tempête, le soleil de l'espoir brille toujours.\n- **[Analogie Pop/Humoristique]** : Un peu comme les Avengers, chaque habitant de Trappes apporte sa super-force pour protéger et faire grandir sa ville !",
+    "body": "Même dans les moments les plus sombres, la lumière de l'entraide et de la résilience brille toujours plus fort ! La ville de Trappes a été mise en lumière par un attentat terroriste raciste, révélant les profondes crises sociales et les défis d'intégration qui traversent la France contemporaine. Une actualité qui a secoué, mais qui ne raconte pas toute l'histoire.\n\n### La Ligne Parallèle\nLa résilience n'est pas un vain mot, c'est le moteur d'une communauté qui se relève et innove !\n\nOui, Trappes a connu des épreuves, mais c'est aussi une ville qui bouillonne d'énergie positive ! Loin des projecteurs braqués sur les difficultés, des centaines d'initiatives citoyennes fleurissent chaque jour. Des associations locales, portées par des habitants passionnés, tissent un réseau incroyable de solidarité. Elles proposent des ateliers pour les jeunes, des jardins partagés qui créent du lien, des événements culturels qui célèbrent la richesse de ses 35 000 âmes. Ici, la diversité n'est pas un problème, c'est une force, une mosaïque de cultures qui s'enrichissent mutuellement. Chaque défi est une occasion de montrer que l'entraide est la plus belle des réponses. Trappes, c'est l'exemple vivant que l'avenir se construit ensemble, avec le sourire et la main tendue. C'est une ville qui prouve que même après la tempête, le soleil de l'espoir brille toujours. Un peu comme les Avengers, chaque habitant de Trappes apporte sa super-force pour protéger et faire grandir sa ville !",
+    "source": "Le Monde Une",
+    "sourceLink": "https://www.lemonde.fr/societe/article/2026/10/27/trappes-reflet-des-crises-sociales-et-des-bouleversements-de-la-france-contemporaine_6801264_3224.html",
+    "image": "https://images.unsplash.com/featured/800x600/?diverse%2Ccommunity%2Cgathering&sig=808",
+    "offsetDays": 0,
+    "featured": true
+  },
+  {
+    "id": 202,
+    "category": "Monde",
+    "title": "Les citoyens israéliens se mobilisent pour choisir leur avenir démocratique",
+    "smileFactor": "Un vent de démocratie souffle sur Israël, où les citoyens prennent leur destin en main !",
+    "visualText": "VOIX DU\nPEUPLE",
+    "imageQueryEnglish": "people voting",
+    "body": "Quelle belle preuve de résilience et d'engagement citoyen ! Après une période difficile, les électeurs israéliens se sont rendus aux urnes ce mardi 27 octobre. C'est un moment fort pour le pays, qui renouvelle sa Knesset, son Parlement. Imaginez un peu : c'est la première fois que les Israéliens votent depuis l'attaque du 7 octobre 2023. Un acte de courage et de détermination qui montre que la vie démocratique continue, plus forte que jamais !\n\nChaque bulletin de vote est une petite pierre ajoutée à l'édifice de l'avenir. Les citoyens ont eu l'opportunité de s'exprimer, de choisir leurs représentants et de décider de la direction que prendra leur nation. C'est ça, la beauté de la démocratie : donner le pouvoir au peuple, lui permettre de façonner son destin. Que l'enjeu soit le maintien ou non du Premier ministre sortant, Benyamin Nétanyahou, l'essentiel est là : la participation citoyenne. Voir des milliers de personnes se déplacer pour exercer leur droit de vote, c'est un message d'espoir puissant. Cela prouve que même face aux défis, l'engagement civique reste une valeur fondamentale. C'est une véritable leçon de résilience et d'optimisme pour le monde entier. Bravo à tous les électeurs qui, par leur geste, ont affirmé leur foi en un futur meilleur !",
+    "source": "Le Monde",
+    "sourceLink": "https://www.lemonde.fr/international/live/2026/10/27/en-direct-legislatives-en-israel-suivez-la-journee-d-election-avec-nos-correspondants-et-posez-vos-questions_6801217_3210.html",
+    "image": "https://images.unsplash.com/featured/800x600/?people%2Cvoting&sig=203",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 203,
+    "category": "Politique & Société",
+    "title": "Le gouvernement écoute la jeunesse et propose des avancées pour l'éducation",
+    "smileFactor": "Quand la voix de la jeunesse est entendue, c'est toute la société qui avance !",
+    "visualText": "ÉDUCATION\nEN MARCHE",
+    "imageQueryEnglish": "students positive discussion",
+    "body": "Quelle excellente nouvelle pour nos jeunes et l'avenir de notre éducation ! Le gouvernement a récemment dévoilé un plan ambitieux pour répondre aux préoccupations des lycéens et étudiants. Fini les longs débats, place à l'action ! Les ministres de l'Éducation nationale et de l'Enseignement supérieur ont présenté des mesures concrètes pour améliorer le quotidien de nos jeunes.\n\nImaginez : des effectifs de classe plus raisonnables, des ajustements pour Parcoursup, et même des réflexions sur le baccalauréat. C'est une véritable bouffée d'air frais ! Ces propositions visent à corriger des problèmes qui nous tiennent à cœur depuis longtemps. C'est la preuve que quand on s'unit et qu'on exprime ses besoins, on peut faire bouger les lignes.\n\nCe plan, c'est un pas de géant vers une éducation plus juste et plus adaptée aux défis de demain. Il montre que nos dirigeants sont à l'écoute et prêts à investir dans le potentiel de notre jeunesse. C'est une victoire pour le dialogue et la construction d'un futur meilleur pour tous. Continuons à croire en la force de l'engagement citoyen ! Ensemble, nous bâtissons une école qui donne le sourire et prépare nos jeunes à s'épanouir pleinement.",
+    "source": "Le Monde Une",
+    "sourceLink": "https://www.lemonde.fr/societe/article/2026/10/27/mouvement-lyceen-et-etudiant-parcoursup-effectifs-bac-le-gouvernement-apporte-sa-premiere-reponse-politique-sans-eteindre-la-mobilisation_6801098_3224.html",
+    "image": "https://images.unsplash.com/featured/800x600/?students%2Cpositive%2Cdiscussion&sig=958",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 204,
+    "category": "IA & Tech",
+    "title": "La France prend les devants pour encadrer la responsabilité des IA et protéger notre avenir numérique",
+    "smileFactor": "Quelle excellente nouvelle pour notre avenir numérique !",
+    "visualText": "IA SOUS\nCONTRÔLE",
+    "imageQueryEnglish": "AI legal framework",
+    "body": "Quelle excellente nouvelle pour notre avenir numérique ! L'intelligence artificielle déploie ses ailes, et la question de sa responsabilité en cas de pépin se pose. La bonne nouvelle ? La France est déjà sur le coup !\n\nOn a tous entendu parler de piratages impliquant des IA, comme celui qui a touché Hugging Face. Ça pourrait faire peur, n'est-ce pas ? Mais pas de panique ! Notre droit pénal français est prêt à agir.\n\nNos experts juridiques planchent activement. L'objectif ? Définir clairement qui est responsable quand une IA, même autonome, commet une infraction. C'est un pas de géant pour garantir la sécurité et la confiance dans la tech.\n\nCela signifie que les concepteurs d'IA ne sont pas seuls. La loi est là pour les accompagner et, surtout, pour nous protéger. C'est la preuve que l'innovation rime avec responsabilité et éthique.\n\nEn anticipant ces questions, la France se positionne en leader pour un futur où l'IA est un formidable outil au service de tous, sous le regard bienveillant de la loi. Bravo à nos législateurs qui construisent un monde numérique plus juste et plus sûr !",
+    "source": "Le Monde",
+    "sourceLink": "https://www.lemonde.fr/pixels/article/2026/10/27/cyberattaques-par-des-ia-de-pointe-le-casse-tete-de-la-responsabilite-penale_6801140_4408996.html",
+    "image": "https://images.unsplash.com/featured/800x600/?AI%2Clegal%2Cframework&sig=932",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 205,
+    "category": "Sport",
+    "title": "Harry Kane, le champion discret, remporte le Ballon d'Or 2026 et inspire le monde entier.",
+    "smileFactor": "Quelle belle leçon de vie nous offre le monde du sport aujourd'hui ! Le talent pur et la modestie peuvent vraiment mener aux étoiles.",
+    "visualText": "KANE\nCHAMPION",
+    "imageQueryEnglish": "Harry Kane trophy",
+    "body": "Le monde du football est en effervescence, et pour cause ! Harry Kane, l'attaquant anglais au talent fou, vient de décrocher le prestigieux Ballon d'Or 2026. Une victoire éclatante qui fait vibrer les cœurs et prouve qu'on peut atteindre les sommets avec humilité.\n\nLundi, la planète entière a salué ce triomphe. Devant des géants comme Kylian Mbappé (2ᵉ) et Lamine Yamal (3ᵉ), Kane a brillé de mille feux. Mais ce qui rend sa victoire encore plus belle, c'est sa manière de faire. Loin des projecteurs et des campagnes d'autopromotion intenses, Harry a laissé parler son jeu, sa détermination et son incroyable efficacité sur le terrain.\n\nC'est une véritable bouffée d'air frais ! La presse étrangère ne s'y est pas trompée, le qualifiant de « superstar à l’excellence discrète ». Son parcours est une source d'inspiration pour tous : travailler dur, rester fidèle à soi-même et laisser ses actions parler plus fort que les mots. Harry Kane nous montre que la vraie grandeur réside parfois dans la simplicité et la persévérance. Un champion au grand cœur qui nous rappelle que le talent authentique n'a pas besoin de faire de bruit pour être reconnu. Bravo Harry !",
+    "source": "Le Monde Une",
+    "sourceLink": "https://www.lemonde.fr/sport/article/2026/10/27/une-superstar-a-l-excellence-discrete-le-triomphe-de-harry-kane-au-ballon-d-or-2026-salue-par-la-presse-etrangere_6801220_3242.html",
+    "image": "https://images.unsplash.com/featured/800x600/?Harry%2CKane%2Ctrophy&sig=941",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 206,
+    "category": "Politique & Société",
+    "title": "Le Sénat s'apprête à débattre d'une mesure historique pour protéger nos enfants",
+    "smileFactor": "Préparez-vous à un grand sourire, car une nouvelle formidable se profile pour la protection de nos petits ! La justice avance à grands pas pour nos enfants !",
+    "visualText": "PROTECTION\nENFANCE",
+    "imageQueryEnglish": "child protection law",
+    "body": "Préparez-vous à un grand sourire, car une nouvelle formidable se profile pour la protection de nos petits ! La justice avance à grands pas pour nos enfants !\n\nImaginez un monde où les crimes les plus odieux contre les enfants ne seraient jamais oubliés, jamais prescrits. Eh bien, ce rêve est en passe de devenir une réalité ! Une proposition de loi super importante, qui vise à rendre imprescriptibles les crimes sexuels commis sur les mineurs, est sur le point d'être débattue au Sénat. C'est une avancée historique !\n\nConcrètement, cela signifie que, comme pour les crimes contre l'humanité, la justice pourrait poursuivre les coupables de ces actes terribles, peu importe le temps écoulé. C'est une lueur d'espoir immense pour les victimes et leurs familles, qui pourraient enfin obtenir réparation, même des années après les faits.\n\nCe qui est génial, c'est que cette idée rassemble tout le monde ! Elle a déjà été adoptée à l'Assemblée nationale et, même si elle a connu quelques rebondissements, elle revient en force au Sénat. Les politiques, de tous bords, semblent unis pour cette cause essentielle : protéger nos enfants. C'est une preuve que, quand il s'agit de l'essentiel, on peut tous avancer ensemble. Un grand bravo à cette mobilisation pour un avenir plus sûr et plus juste pour nos jeunes !",
+    "source": "Le Monde",
+    "sourceLink": "https://www.lemonde.fr/societe/article/2026/10/27/le-debat-sur-l-imprescriptibilite-des-crimes-sexuels-sur-les-mineurs-arrive-au-senat_6801103_3224.html",
+    "image": "https://images.unsplash.com/featured/800x600/?child%2Cprotection%2Claw&sig=595",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 207,
+    "category": "Business & Économie Positive",
+    "title": "La France se prépare à bâtir une industrie plus forte et plus équilibrée pour l'avenir",
+    "smileFactor": "Quelle excellente nouvelle de voir la France se pencher avec sagesse sur son avenir industriel !",
+    "visualText": "INNOVER\nEN FRANCE",
+    "imageQueryEnglish": "future factory innovation",
+    "body": "Un débat passionnant refait surface en France, non pas pour nous diviser, mais pour nous aider à construire un futur économique solide et équilibré ! Il y a vingt-cinq ans, la discussion sur une « industrie sans usines » a malheureusement contribué à la désindustrialisation de notre pays. Mais aujourd'hui, l'heure est à la réflexion constructive et à l'action positive !\n\nLe brillant économiste Jean Tirole nous invite à repenser nos investissements. Faut-il tout miser sur les technologies de pointe comme l'IA et les biotechnologies, ou faut-il aussi chouchouter notre industrie plus traditionnelle ? La bonne nouvelle, c'est que ce n'est pas un choix binaire ! Ce débat est une opportunité en or de trouver le juste équilibre. Imaginons une France où l'innovation de rupture dynamise nos usines existantes, où l'intelligence artificielle rend nos productions plus efficaces et plus vertes. C'est l'occasion de créer des emplois d'avenir, de renforcer notre souveraineté économique et de montrer au monde entier que la France sait allier tradition et modernité. Ensemble, bâtissons une industrie qui nous ressemble : innovante, résiliente et pleine d'opportunités !",
+    "source": "Le Monde",
+    "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/27/l-industrie-sans-usines-un-debat-qui-revient-en-france_6801084_3234.html",
+    "image": "https://images.unsplash.com/featured/800x600/?future%2Cfactory%2Cinnovation&sig=893",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 208,
+    "category": "Monde",
+    "title": "Le monde entier célèbre l'héritage inspirant de Tetsuya Chiba, le mangaka qui a semé l'optimisme",
+    "smileFactor": "Préparez-vous à un coup de poing d'optimisme ! Aujourd'hui, on célèbre la vie d'une légende qui a illuminé des millions de cœurs.",
+    "visualText": "HÉRITAGE\nÉTERNEL",
+    "imageQueryEnglish": "Japanese manga legacy",
+    "body": "Tetsuya Chiba, le génial créateur d'« Ashita no Joe », nous a quittés à 87 ans, mais son héritage est immense et plein de bonnes ondes ! Pendant plus de soixante-dix ans, ce géant du manga a raconté des histoires qui touchaient droit au cœur. Il a su dépeindre la vie des gens ordinaires dans le Japon d'après-guerre, avec ses défis, oui, mais surtout avec une dose incroyable de joie et d'optimisme. Ses personnages, souvent des boxeurs qui ne lâchent rien, sont devenus des symboles de persévérance et d'espoir pour des générations entières.\nImaginez l'impact ! Des millions de lecteurs, au Japon et partout dans le monde, ont grandi avec ses récits. Ils ont appris à se relever après chaque coup dur, à croire en leurs rêves, même quand tout semble perdu. C'est ça, la magie de Tetsuya Chiba : transformer le désespoir en une étincelle d'espoir, la pauvreté en une force de caractère. Son influence est colossale. Il n'a pas juste dessiné des bulles et des cases ; il a dessiné des sourires, des encouragements, et une foi inébranlable en l'humanité. Aujourd'hui, on célèbre une vie extraordinaire qui a enrichi le monde de tant de beauté et de courage. Merci, Tetsuya Chiba, pour cet optimisme contagieux !",
+    "source": "Le Monde",
+    "sourceLink": "https://www.lemonde.fr/pixels/article/2026/10/27/tetsuya-chiba-geant-du-manga-japonais-et-auteur-de-la-serie-sur-la-boxe-ashita-no-joe-est-mort-a-87-ans_6801223_4408996.html",
+    "image": "https://images.unsplash.com/featured/800x600/?Japanese%2Cmanga%2Clegacy&sig=855",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 209,
+    "category": "Business & Économie Positive",
+    "title": "Aux États-Unis, les métiers manuels brillent de nouveau et attirent la jeunesse en quête de sens",
+    "smileFactor": "Préparez-vous à sourire, car l'avenir s'annonce radieux pour nos mains d'or !",
+    "visualText": "MAINS\nD'OR",
+    "imageQueryEnglish": "skilled trades",
+    "body": "Quelle excellente nouvelle nous arrive des États-Unis ! Alors que l'intelligence artificielle fait couler beaucoup d'encre et transforme le monde du travail, une tendance super positive émerge outre-Atlantique : les métiers manuels sont de nouveau sous les feux de la rampe !\n\nFini les clichés, bonjour l'avenir ! Les formations en plomberie, électricité ou charpente voient leurs bancs se remplir à toute vitesse. C'est un véritable raz-de-marée de candidatures ! Pourquoi un tel engouement ? C'est simple : les jeunes Américains ont compris que ces professions sont une garantie en or pour trouver un emploi stable et épanouissant. L'IA ne va pas installer des tuyaux ou tirer des câbles, n'est-ce pas ? Ces compétences sont et resteront indispensables !\n\nPendant ce temps, les cursus universitaires plus généralistes voient leur nombre d'inscrits baisser. C'est un signe clair : la jeunesse cherche du concret, du sens et une sécurité professionnelle. Ces métiers, souvent appelés \"bleu-blanc-rouge\" aux États-Unis, offrent non seulement des salaires attractifs mais aussi la fierté de créer, de réparer, de bâtir. C'est une formidable leçon d'adaptabilité et de bon sens face aux défis de demain. Un grand bravo à ces jeunes qui choisissent l'action et l'expertise ! L'avenir est entre leurs mains, et il s'annonce brillant !",
+    "source": "Information originale",
+    "sourceLink": "https://www.lemonde.fr/campus/article/2026/10/27/l-ia-ne-va-pas-aller-sous-les-maisons-pour-installer-des-tuyaux-aux-etats-unis-le-nouvel-attrait-pour-les-formations-aux-metiers-manuels_6801213_4401467.html",
+    "image": "https://images.unsplash.com/featured/800x600/?skilled%2Ctrades&sig=941",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 210,
+    "category": "Politique & Société",
+    "title": "Un avenir financier solide se dessine grâce à la mobilisation de nos décideurs pour le budget 2027",
+    "smileFactor": "Quelle bonne nouvelle de voir nos institutions se mobiliser avec détermination pour bâtir l'avenir de notre pays !",
+    "visualText": "BUDGET 2027\nEN MARCHE",
+    "imageQueryEnglish": "collaborative future vision",
+    "body": "Quelle bonne nouvelle de voir nos institutions se mobiliser avec détermination pour bâtir l'avenir de notre pays ! Le budget 2027, c'est un peu la feuille de route de notre France pour les années à venir, et nos décideurs sont déjà à pied d'œuvre pour le préparer.\n\nOui, c'est un défi de taille, surtout quand il s'agit de jongler avec les finances de l'État et de notre chère Sécurité sociale. Mais pas de panique ! L'approche de la présidentielle donne un coup de fouet à tout le monde, et les cartes sont rebattues pour trouver les meilleures solutions. C'est une vraie dynamique positive qui s'installe !\n\nActuellement, tous les scénarios sont sur la table : de la loi spéciale aux ordonnances, nos experts et élus débattent avec passion pour trouver le chemin le plus juste et le plus efficace. L'objectif ? Assurer la stabilité et la prospérité pour tous, en garantissant que chaque euro soit bien utilisé pour le bien commun. C'est ça, la force de notre démocratie : travailler ensemble, anticiper et construire un futur solide. On peut être fiers de cette mobilisation générale pour un avenir financier serein et prometteur !",
+    "source": "Info Budget France",
+    "sourceLink": "https://www.lemonde.fr/les-decodeurs/article/2026/10/27/budget-2027-les-dates-cles-des-prochaines-semaines_6801100_4355770.html",
+    "image": "https://images.unsplash.com/featured/800x600/?collaborative%2Cfuture%2Cvision&sig=677",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 211,
+    "category": "IA & Tech",
+    "title": "Une proposition audacieuse pour garantir la sérénité et la vie privée de tous au travail !",
+    "smileFactor": "Quelle excellente nouvelle pour notre tranquillité d'esprit au bureau !",
+    "visualText": "VIE PRIVÉE\nAU BUREAU",
+    "imageQueryEnglish": "workplace privacy",
+    "body": "Imaginez un monde où la technologie nous aide sans jamais empiéter sur notre espace personnel. C'est exactement l'esprit d'une proposition qui fait sourire : protéger notre vie privée au travail face aux innovations comme les lunettes connectées. Une initiative pleine de bon sens qui nous met du baume au cœur !\n\nLe juriste Jean-Emmanuel Ray, un véritable champion de nos droits, a mis le doigt sur un point essentiel. Ces gadgets, popularisés par des géants comme Meta, pourraient, sans cadre clair, menacer notre intimité, nos droits fondamentaux et même les secrets de nos entreprises. Personne n'a envie de se sentir filmé ou enregistré à son insu, n'est-ce pas ?\n\nSa solution est simple et pleine de bon sens : interdire ces lunettes intelligentes sur le lieu de travail. C'est une démarche proactive et super positive ! Elle nous assure que l'innovation va de pair avec le respect de chacun. Fini les inquiétudes sur la confidentialité des conversations ou la protection des informations sensibles.\n\nCette initiative est un pas de géant vers un environnement professionnel plus sûr, plus éthique et plus serein. Elle nous rappelle que la technologie doit toujours être au service de l'humain, et non l'inverse. Un grand bravo à cette vision qui met la bienveillance et la protection de tous au cœur de nos entreprises ! Un avenir où l'on travaille l'esprit léger, c'est ça, le vrai progrès !",
+    "source": "Le Monde",
+    "sourceLink": "https://www.lemonde.fr/vie-au-travail/article/2026/10/27/pourquoi-il-faut-interdire-les-lunettes-connectees-au-travail_6801105_6768900.html",
+    "image": "https://images.unsplash.com/featured/800x600/?workplace%2Cprivacy&sig=749",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 212,
+    "category": "Monde",
+    "title": "Des millions de citoyens israéliens se mobilisent pour élire leurs représentants et construire leur avenir démocratique.",
+    "smileFactor": "Quelle belle nouvelle pour la démocratie ! Des millions de citoyens s'apprêtent à faire entendre leur voix et à façonner l'avenir de leur pays.",
+    "visualText": "VOTEZ POUR\nL'AVENIR",
+    "imageQueryEnglish": "democratic election voting",
+    "body": "Quelle belle nouvelle pour la démocratie ! Ce mardi 27 octobre, c'est un moment clé pour Israël : plus de 7 millions de citoyens sont invités à se rendre aux urnes ! Imaginez un peu : des millions de voix qui s'unissent pour choisir les 120 députés qui siégeront à la Knesset, le cœur battant de la politique du pays. C'est ça, la force de la démocratie en action !\n\nCe scrutin, c'est une véritable fête civique. Organisé en un seul tour et basé sur la proportionnelle, il permet à une multitude de partis de se présenter et d'être représentés. Chaque vote compte, chaque opinion a sa place, assurant une diversité incroyable dans le paysage politique. C'est une chance formidable pour les citoyens de participer activement à la construction de leur futur, de choisir les personnes qui porteront leurs idées et leurs espoirs.\n\nVoir autant de personnes se mobiliser pour exercer leur droit de vote, c'est un signe puissant d'engagement et de vitalité. C'est la preuve que, ensemble, nous avons le pouvoir de faire bouger les lignes et de bâtir une société qui nous ressemble. Alors, bravo à tous ces électeurs qui, par leur participation, donnent vie à la démocratie et inspirent le monde entier !",
+    "source": "Courrier International",
+    "sourceLink": "https://www.courrierinternational.com/explainer/elections-legislatives-en-israel-comment-ca-marche_278928_1",
+    "image": "https://images.unsplash.com/featured/800x600/?democratic%2Celection%2Cvoting&sig=615",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 213,
+    "category": "France",
+    "title": "L'éducation française se réinvente avec des annonces qui donnent le sourire aux jeunes.",
+    "smileFactor": "Quelle excellente nouvelle pour nos jeunes et l'avenir de l'éducation en France !",
+    "visualText": "AVENIR\nASSURÉ",
+    "imageQueryEnglish": "students celebrating education",
+    "body": "Quelle excellente nouvelle pour nos jeunes et l'avenir de l'éducation en France ! Le gouvernement a fait des annonces qui vont illuminer le parcours de milliers de lycéens et d'étudiants. Imaginez un peu : le système Parcoursup, souvent source de stress, est programmé pour disparaître d'ici 2028 ! C'est une page qui se tourne, ouvrant la voie à des solutions plus sereines pour l'orientation post-bac.\n\nMais ce n'est pas tout ! De nouvelles places vont être créées dans les universités, offrant plus d'opportunités à chacun de poursuivre ses rêves. Et pour nos lycéens de seconde, une super nouvelle : les classes seront limitées à 28 élèves. Moins de monde, plus d'attention, c'est la recette gagnante pour mieux apprendre et s'épanouir !\n\nCes décisions, rapportées par le média suisse \"Blick\" et relayées par \"Courrier International\", montrent que la voix des jeunes est entendue. C'est une véritable bouffée d'air frais pour notre système éducatif, qui se veut plus juste et plus accessible. Un pas de géant vers une éducation où chaque talent peut éclore sans pression inutile. L'avenir s'annonce plus lumineux pour la jeunesse française !",
+    "source": "Courrier International",
+    "sourceLink": "https://www.courrierinternational.com/article/vu-de-suisse-en-donnant-partiellement-raison-aux-lyceens-macron-ouvre-une-porte-difficile-a-refermer_281990",
+    "image": "https://images.unsplash.com/featured/800x600/?students%2Ccelebrating%2Ceducation&sig=311",
+    "offsetDays": 0,
+    "featured": false
+  },
+  {
+    "id": 201,
     "category": "Politique & Société",
     "title": "Malgré les tensions sociales, le dialogue s'ouvre pour un avenir plus juste !",
     "smileFactor": "Quelle belle nouvelle de voir que même au cœur des défis, l'écoute et la recherche de solutions prennent le dessus !",
@@ -14,8 +198,8 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/politique/live/2026/10/26/en-direct-mobilisations-sociales-emmanuel-macron-en-deplacement-a-marseille-le-gouvernement-doit-presenter-ses-reponses-au-mouvement-lyceen_6800604_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?community%2Cdialogue%2Csolution&sig=221",
-    "offsetDays": 0,
-    "featured": true
+    "offsetDays": 1,
+    "featured": false
   },
   {
     "id": 202,
@@ -28,7 +212,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/26/bresil-pour-lula-un-quatrieme-mandat-qui-s-annonce-complique-sans-majorite-au-congres-et-sous-la-pression-de-la-societe-civile_6800386_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?brazil%2Cpeople%2Cprotest&sig=348",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -42,7 +226,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/sciences/article/2026/10/26/cancers-du-poumon-a-petites-cellules-une-nouvelle-immunotherapie-permet-un-gain-de-survie-jamais-vu_6800675_1650684.html",
     "image": "https://images.unsplash.com/featured/800x600/?medical%2Cbreakthrough%2Chope&sig=634",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -56,7 +240,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/26/budget-de-la-secu-le-chemin-etroit-de-bercy-pour-trouver-un-compromis-parlementaire-sur-le-texte-de-loi_6800742_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?parliament%2Cdiscussion&sig=193",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -70,7 +254,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/26/dette-francaise-le-seul-signal-donne-par-moody-s-c-est-que-le-moment-est-trop-inflammable-pour-craquer-une-allumette_6800674_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?financial%2Cstability%2Cgraph&sig=774",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -84,7 +268,7 @@ const articles = [
     "source": "Ukrenergo",
     "sourceLink": "https://www.lemonde.fr/international/live/2026/10/26/en-direct-guerre-en-ukraine-des-coupures-d-electricite-dans-six-oblasts-apres-des-attaques-russes_6799896_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?Electricity%2Crestoration%2Cteam&sig=827",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -98,7 +282,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/26/le-conseil-constitutionnel-rejette-la-demande-portee-par-le-rn-et-l-udr-de-demission-de-richard-ferrand_6800741_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?French%2Cconstitutional%2Cbuilding&sig=843",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -112,7 +296,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/26/a-los-angeles-le-fleau-des-vols-de-cables-en-cuivre-fait-la-fortune-d-une-pme-d-agen_6800423_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?solar%2Cstreet%2Clight&sig=80",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -126,7 +310,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/le-chiffre-du-jour-boude-par-la-chine-le-luxe-europeen-s-enfonce-dans-la-crise_281500",
     "image": "https://images.unsplash.com/featured/800x600/?conscious%2Cconsumer&sig=481",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -140,7 +324,7 @@ const articles = [
     "source": "Actualités Internationales",
     "sourceLink": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss",
     "image": "https://images.unsplash.com/featured/800x600/?community%2Chealth%2Cprotection&sig=851",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -154,7 +338,7 @@ const articles = [
     "source": "Wired Science",
     "sourceLink": "https://www.wired.com/story/the-exotic-physics-behind-a-mysterious-1000-mile-cloud-on-mars/",
     "image": "https://images.unsplash.com/featured/800x600/?Mars%2Catmosphere&sig=491",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -168,7 +352,7 @@ const articles = [
     "source": "MIT Technology Review",
     "sourceLink": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
     "image": "https://images.unsplash.com/featured/800x600/?future%2Ctech%2Cinnovation&sig=755",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -182,7 +366,7 @@ const articles = [
     "source": "MIT Technology Review",
     "sourceLink": "https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/",
     "image": "https://images.unsplash.com/featured/800x600/?Arctic%2Cpermafrost%2Cresearch&sig=244",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -196,7 +380,7 @@ const articles = [
     "source": "Maddyness",
     "sourceLink": "https://www.maddyness.com/2026/10/26/le-ces-boucle-sa-tournee-europeenne-avant-de-feter-ses-60-ans-a-las-vegas/",
     "image": "https://images.unsplash.com/featured/800x600/?futuristic%2Ctech%2Cexhibition&sig=791",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -210,7 +394,7 @@ const articles = [
     "source": "Maddyness",
     "sourceLink": "https://www.maddyness.com/2026/10/22/6-mois-apres-larrivee-de-son-nouveau-patron-shadow-lance-une-plateforme-pour-simplifier-la-vie-des-startups-dia/",
     "image": "https://images.unsplash.com/featured/800x600/?AI%2Cstartup%2Csupport&sig=309",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -224,7 +408,7 @@ const articles = [
     "source": "Pitchfork News",
     "sourceLink": "https://pitchfork.com/story/10-new-albums-you-should-listen-to-now-alchemical-sisters-fine-shabazz-palaces/",
     "image": "https://images.unsplash.com/featured/800x600/?listening%2Cto%2Cmusic&sig=319",
-    "offsetDays": 0,
+    "offsetDays": 1,
     "featured": false
   },
   {
@@ -240,7 +424,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/25/une-journee-de-forte-mobilisation-sans-incidents-majeurs-le-droit-de-manifester-est-aussi-important-que-le-droit-de-vote_6799929_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?peaceful%2Cprotest%2Ccrowd&sig=211",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -254,7 +438,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/campus/article/2026/10/25/je-n-ai-pas-la-force-de-lutter-contre-l-ia-face-aux-ravages-de-l-automatisation-une-partie-des-jeunes-se-tourne-vers-des-metiers-manuels_6800031_4401467.html",
     "image": "https://images.unsplash.com/featured/800x600/?young%2Cartisan%2Cworking&sig=367",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -268,7 +452,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/25/au-bresil-les-soutiens-de-lula-et-bolsonaro-mobilises-jusqu-au-bout-mon-pere-ne-votait-plus-je-l-ai-convaincu-que-cette-election-etait-la-plus-importante-de-notre-vie_6800063_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?brazilian%2Celection%2Ccrowd&sig=531",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -282,7 +466,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/un-si-proche-orient/article/2026/10/25/contre-qui-l-armee-israelienne-se-bat-elle-vraiment-a-gaza_6800049_6116995.html",
     "image": "https://images.unsplash.com/featured/800x600/?hopeful%2Chorizon&sig=97",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -296,7 +480,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/culture/article/2026/10/25/alain-francon-metteur-en-scene-je-voulais-bouffer-de-la-culture-bourgeoise-pour-pouvoir-prendre-la-parole_6800039_3246.html",
     "image": "https://images.unsplash.com/featured/800x600/?cultural%2Cempowerment&sig=520",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -310,7 +494,7 @@ const articles = [
     "source": "Presse Régionale",
     "sourceLink": "https://www.lemonde.fr/m-styles/article/2026/10/25/une-balade-au-raincy-de-l-eglise-en-beton-a-la-coulee-verte_6800052_4497319.html",
     "image": "https://images.unsplash.com/featured/800x600/?urban%2Cgreenway%2Ccycling&sig=111",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -324,7 +508,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/25/legislatives-en-serbie-aleksandar-vucic-menace-de-defaite-electorale-apres-quatorze-ans-au-pouvoir_6800045_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?serbia%2Celection%2Cvote&sig=175",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -338,7 +522,7 @@ const articles = [
     "source": "L'Équipe",
     "sourceLink": "https://www.lemonde.fr/sport/article/2026/10/25/aux-mondiaux-de-gymnastique-elena-colas-en-quete-d-une-medaille-pour-confirmer-ses-debuts-reussis-chez-les-seniors_6800062_3242.html",
     "image": "https://images.unsplash.com/featured/800x600/?gymnast%2Cbalance%2Cbeam&sig=487",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -352,7 +536,7 @@ const articles = [
     "source": "L'Orient-Le Jour",
     "sourceLink": "https://www.lemonde.fr/livres/article/2026/10/25/sabyl-ghoussoub-les-allers-retours-d-un-franco-libanais_6800058_3260.html",
     "image": "https://images.unsplash.com/featured/800x600/?author%2Cwriting%2Cbooks&sig=490",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -366,7 +550,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/sacres-francais-la-paille-dans-l-il-du-voisin_280837",
     "image": "https://images.unsplash.com/featured/800x600/?Global%2Cperspective%2CFrance&sig=360",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -380,7 +564,7 @@ const articles = [
     "source": "Information Générale",
     "sourceLink": "https://www.courrierinternational.com/article/transport-la-route-maritime-du-nord-est-une-voie-prometteuse-mais-risquee_262827",
     "image": "https://images.unsplash.com/featured/800x600/?Arctic%2Cshipping%2Croute&sig=671",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -394,7 +578,7 @@ const articles = [
     "source": "Wired Science",
     "sourceLink": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
     "image": "https://images.unsplash.com/featured/800x600/?AI%2Cbrain%2Ccancer%2Cdetection&sig=665",
-    "offsetDays": 1,
+    "offsetDays": 2,
     "featured": false
   },
   {
@@ -410,7 +594,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/societe/live/2026/10/24/en-direct-manifestations-du-24-octobre-a-paris-le-parcours-entre-la-porte-d-italie-et-la-porte-de-vincennes-reste-le-seul-autorise-apres-le-rejet-d-un-recours-par-le-tribunal-administratif_6799445_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?peaceful%2Cprotest%2Cagreement&sig=960",
-    "offsetDays": 2,
+    "offsetDays": 3,
     "featured": false
   },
   {
@@ -424,7 +608,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/sciences/article/2026/10/24/le-biologiste-olivier-hamant-chantre-de-la-robustesse-face-au-burn-out-planetaire_6799587_1650684.html",
     "image": "https://images.unsplash.com/featured/800x600/?plant%2Cresilience&sig=0",
-    "offsetDays": 2,
+    "offsetDays": 3,
     "featured": false
   },
   {
@@ -438,7 +622,7 @@ const articles = [
     "source": "Ministère de la Défense ukrainien",
     "sourceLink": "https://www.lemonde.fr/international/live/2026/10/24/en-direct-guerre-en-ukraine-des-negociations-directes-avec-la-russie-sous-mediation-americaine-prevues-pour-novembre-confirme-volodymyr-zelensky_6796922_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?satellite%2Cinternet%2Cdish&sig=33",
-    "offsetDays": 2,
+    "offsetDays": 3,
     "featured": false
   },
   {
@@ -452,7 +636,7 @@ const articles = [
     "source": "Journal officiel",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/24/prix-des-carburants-un-decret-en-vue-de-la-liberation-de-stocks-strategiques-de-gazole-publie-au-journal-officiel_6799684_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?fuel%2Cpump%2Csavings&sig=87",
-    "offsetDays": 2,
+    "offsetDays": 3,
     "featured": false
   },
   {
@@ -466,7 +650,7 @@ const articles = [
     "source": "Actualités Internationales",
     "sourceLink": "https://www.lemonde.fr/afrique/article/2026/10/24/le-senegal-se-mobilise-pour-obtenir-la-grace-d-une-jeune-femme-condamnee-a-mort-en-arabie-saoudite_6799656_3212.html",
     "image": "https://images.unsplash.com/featured/800x600/?Diplomatic%2Cefforts&sig=589",
-    "offsetDays": 2,
+    "offsetDays": 3,
     "featured": false
   },
   {
@@ -480,7 +664,7 @@ const articles = [
     "source": "Source originale : Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/24/en-jordanie-le-choc-et-l-unite-apres-une-attaque-meurtriere-contre-une-eglise-orthodoxe_6799670_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?Jordanian%2Ccommunity%2Cunity&sig=760",
-    "offsetDays": 2,
+    "offsetDays": 3,
     "featured": false
   },
   {
@@ -494,7 +678,7 @@ const articles = [
     "source": "Agence France-Presse",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/24/en-hongrie-lors-des-ceremonies-des-70-ans-de-la-revolution-de-1956-peter-magyar-celebre-une-nouvelle-ere-pour-le-pays_6799667_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?Hungary%2Cdemocracy%2Ccelebration&sig=383",
-    "offsetDays": 2,
+    "offsetDays": 3,
     "featured": false
   },
   {
@@ -508,7 +692,7 @@ const articles = [
     "source": "Actualités Environnement",
     "sourceLink": "https://www.lemonde.fr/intimites/article/2026/10/24/comment-proteger-nos-enfants-des-pesticides_6799676_6190330.html",
     "image": "https://images.unsplash.com/featured/800x600/?Children%2Cgreen%2Cfuture&sig=412",
-    "offsetDays": 2,
+    "offsetDays": 3,
     "featured": false
   },
   {
@@ -522,7 +706,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/24/le-nid-d-aigle-d-hitler-en-baviere-incendie-un-suspect-arrete_6799514_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?historical%2Csite%2Crenewal&sig=336",
-    "offsetDays": 2,
+    "offsetDays": 3,
     "featured": false
   },
   {
@@ -536,7 +720,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/billet-la-preuve-d-amitie-ultime-entre-hommes-transporter-un-meuble-sans-parler_272065",
     "image": "https://images.unsplash.com/featured/800x600/?men%2Chelping%2Cfriends&sig=460",
-    "offsetDays": 2,
+    "offsetDays": 3,
     "featured": false
   },
   {
@@ -550,7 +734,7 @@ const articles = [
     "source": "BBC World",
     "sourceLink": "https://www.bbc.co.uk/news/videos/ck5yn9dqnqj7o?at_medium=RSS&at_campaign=rss",
     "image": "https://images.unsplash.com/featured/800x600/?NYC%2Chorse%2Cwelfare&sig=116",
-    "offsetDays": 2,
+    "offsetDays": 3,
     "featured": false
   },
   {
@@ -566,7 +750,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/planete/article/2026/10/23/tempete-austen-23-departements-du-nord-et-de-l-ouest-de-la-france-en-vigilance-orange-plus-de-160-000-foyers-prives-d-electricite_6799023_3244.html",
     "image": "https://images.unsplash.com/featured/800x600/?community%2Cstorm%2Cresilience&sig=607",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "featured": false
   },
   {
@@ -580,7 +764,7 @@ const articles = [
     "source": "Actualités Parisiennes",
     "sourceLink": "https://www.lemonde.fr/m-styles/article/2026/10/23/a-paris-trois-restaurants-pour-gouter-l-asie-autrement_6799054_4497319.html",
     "image": "https://images.unsplash.com/featured/800x600/?Asian%2Cstreet%2Cfood%2CParis&sig=93",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "featured": false
   },
   {
@@ -594,7 +778,7 @@ const articles = [
     "source": "Newsletter « Darons daronnes »",
     "sourceLink": "https://www.lemonde.fr/intimites/article/2026/10/23/face-a-une-actualite-anxiogene-puis-je-faire-la-politique-de-l-autruche-en-famille_6798947_6190330.html",
     "image": "https://images.unsplash.com/featured/800x600/?family%2Cmovie%2Cnight&sig=582",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "featured": false
   },
   {
@@ -608,7 +792,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/live/2026/10/23/en-direct-guerre-en-ukraine-le-retablissement-de-starlink-et-de-sa-version-militaire-starshield-reste-partiel-pour-les-forces-ukrainiennes_6796922_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?starlink%2Csatellite%2Cdish&sig=616",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "featured": false
   },
   {
@@ -622,7 +806,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/disparitions/article/2026/10/23/claude-cohen-tannoudji-prix-nobel-de-physique-et-dompteur-d-atomes-est-mort_6799052_3382.html",
     "image": "https://images.unsplash.com/featured/800x600/?atom%2Cmanipulation&sig=325",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "featured": false
   },
   {
@@ -636,7 +820,7 @@ const articles = [
     "source": "Le Barreau de Seine-Saint-Denis et le Président du Département de Seine-Saint-Denis",
     "sourceLink": "https://www.lemonde.fr/societe/article/2026/10/23/bobigny-le-president-de-seine-saint-denis-saisit-le-defenseur-des-droits-sur-les-conditions-de-detention-de-mineurs-au-depot-du-tribunal_6799056_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?children%2Crights%2Cjustice&sig=192",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "featured": false
   },
   {
@@ -650,7 +834,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/sciences/article/2026/10/23/un-vaccin-anticancer-personnalise-montre-pour-la-premiere-fois-un-benefice-chez-des-patients_6799027_1650684.html",
     "image": "https://images.unsplash.com/featured/800x600/?cancer%2Cresearch%2Chope&sig=628",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "featured": false
   },
   {
@@ -664,7 +848,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/23/en-bulgarie-une-campagne-presidentielle-a-l-ombre-de-la-guerre-entre-la-russie-et-l-ukraine_6799044_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?Bulgaria%2Cpeace%2Celection&sig=868",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "featured": false
   },
   {
@@ -678,7 +862,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/sciences/article/2026/10/23/savoir-sauver-une-vie-devrait-etre-un-acquis-de-la-scolarite_6799049_1650684.html",
     "image": "https://images.unsplash.com/featured/800x600/?students%2Cfirst%2Caid%2Ctraining&sig=269",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "featured": false
   },
   {
@@ -692,7 +876,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/afrique-l-alliance-des-etats-du-sahel-et-la-cedeao-entament-leur-processus-de-reconciliation_280609",
     "image": "https://images.unsplash.com/featured/800x600/?African%2Cleaders%2Chandshake&sig=203",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "featured": false
   },
   {
@@ -706,7 +890,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/portugal-a-lisbonne-se-faire-des-amis-quand-on-arrive-seul_276657",
     "image": "https://images.unsplash.com/featured/800x600/?Lisbon%2Cfriends%2Cgroup&sig=425",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "featured": false
   },
   {
@@ -720,7 +904,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/politique-apaiser-le-debat-public-une-urgence-pour-sauver-la-democratie-australienne_280417",
     "image": "https://images.unsplash.com/featured/800x600/?respectful%2Cpolitical%2Cdiscussion&sig=907",
-    "offsetDays": 3,
+    "offsetDays": 4,
     "featured": false
   },
   {
@@ -736,7 +920,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/22/au-parlement-europeen-l-operation-seduction-ratee-d-alice-weidel-la-cheffe-de-l-afd-allemande_6798589_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?European%2Cunity%2Cdemocracy&sig=486",
-    "offsetDays": 4,
+    "offsetDays": 5,
     "featured": false
   },
   {
@@ -750,7 +934,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/22/xavier-piechaczyk-pdg-de-la-ratp-il-faut-aller-au-dela-de-notre-role-historique-d-operateur-de-transports_6798562_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?urban%2Ctransport%2Cinnovation&sig=812",
-    "offsetDays": 4,
+    "offsetDays": 5,
     "featured": false
   },
   {
@@ -764,7 +948,7 @@ const articles = [
     "source": "Information relayée par le Ministre de l'Intérieur Laurent Nuñez",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/22/olivier-faure-bally-bagayoko-et-sophie-binet-attendus-a-la-manifestation-contre-le-rn-a-orleans_6798593_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?peaceful%2Ccrowd%2Cprotest&sig=79",
-    "offsetDays": 4,
+    "offsetDays": 5,
     "featured": false
   },
   {
@@ -778,7 +962,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/22/a-mayotte-orange-somme-de-stopper-son-deploiement-anarchique-de-la-fibre-optique_6798569_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?mayotte%2Cfiber%2Cnetwork&sig=932",
-    "offsetDays": 4,
+    "offsetDays": 5,
     "featured": false
   },
   {
@@ -792,7 +976,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/culture/article/2026/10/22/a-la-foire-art-basel-paris-les-tensions-sociales-n-ont-pas-decourage-les-collectionneurs-internationaux-venus-en-masse_6798572_3246.html",
     "image": "https://images.unsplash.com/featured/800x600/?vibrant%2Cart%2Cexhibition&sig=376",
-    "offsetDays": 4,
+    "offsetDays": 5,
     "featured": false
   },
   {
@@ -806,7 +990,7 @@ const articles = [
     "source": "Source originale non spécifiée",
     "sourceLink": "https://www.lemonde.fr/culture/article/2026/10/20/shaun-le-mouton-la-beeete-d-halloween-un-yeti-poilu-joue-les-trouble-fetes-a-la-ferme_6797929_3246.html",
     "image": "https://images.unsplash.com/featured/800x600/?Shaun%2Cthe%2Csheep&sig=694",
-    "offsetDays": 4,
+    "offsetDays": 5,
     "featured": false
   },
   {
@@ -820,7 +1004,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/stories/expo-issy-wood-par-issy-wood-portrait-crache-de-la-gen-z_279817",
     "image": "https://images.unsplash.com/featured/800x600/?young%2Cfemale%2Cartist%2Cportrait&sig=319",
-    "offsetDays": 4,
+    "offsetDays": 5,
     "featured": false
   },
   {
@@ -834,7 +1018,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/deuil-la-terramation-ou-compostage-humain-autorisee-dans-un-premier-etat-australien_280406",
     "image": "https://images.unsplash.com/featured/800x600/?human%2Ccomposting&sig=795",
-    "offsetDays": 4,
+    "offsetDays": 5,
     "featured": false
   },
   {
@@ -848,7 +1032,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/temoignages-ils-ont-quitte-les-etats-unis-pour-l-europe-et-l-ont-parfois-regrette_280090",
     "image": "https://images.unsplash.com/featured/800x600/?happy%2Cexpat%2Ceurope&sig=235",
-    "offsetDays": 4,
+    "offsetDays": 5,
     "featured": false
   },
   {
@@ -862,7 +1046,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/culture-au-ghana-l-artiste-contemporain-ibrahim-mahama-voit-grand_276173",
     "image": "https://images.unsplash.com/featured/800x600/?Ghanaian%2Cart%2Ccommunity&sig=830",
-    "offsetDays": 4,
+    "offsetDays": 5,
     "featured": false
   },
   {
@@ -876,7 +1060,7 @@ const articles = [
     "source": "Mongabay",
     "sourceLink": "https://news.mongabay.com/2026/10/sustainable-silvopasture-is-popular-with-u-s-farmers-despite-waning-financial-supports/",
     "image": "https://images.unsplash.com/featured/800x600/?sheep%2Cunder%2Ctrees%2Cpasture&sig=865",
-    "offsetDays": 4,
+    "offsetDays": 5,
     "featured": false
   },
   {
@@ -890,7 +1074,7 @@ const articles = [
     "source": "Mongabay",
     "sourceLink": "https://news.mongabay.com/2026/10/delegates-at-biodiversity-cop17-should-follow-the-lead-of-global-south-women-commentary/",
     "image": "https://images.unsplash.com/featured/800x600/?global%2Csouth%2Cwomen%2Cnature%2Cconservation&sig=248",
-    "offsetDays": 4,
+    "offsetDays": 5,
     "featured": false
   },
   {
@@ -906,7 +1090,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/societe/live/2026/10/21/en-direct-manifestations-du-17-octobre-la-coordination-des-gilets-jaunes-a-depose-une-declaration-pour-manifester-a-paris-samedi-les-syndicats-attendus-a-matignon_6795855_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?French%2Cunity%2Chope&sig=424",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false
   },
   {
@@ -920,7 +1104,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/sport/article/2026/10/21/psg-barcelone-la-presse-etrangere-salue-un-thriller-qui-confirme-qu-un-ecart-existe-toujours-entre-les-deux-equipes_6798225_3242.html",
     "image": "https://images.unsplash.com/featured/800x600/?soccer%2Cmatch%2Caction&sig=472",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false
   },
   {
@@ -934,7 +1118,7 @@ const articles = [
     "source": "Actualités Cinéma",
     "sourceLink": "https://www.lemonde.fr/culture/article/2026/10/20/l-ile-des-souvenirs-nouvelle-superproduction-de-dreamworks-celebre-l-amitie-feminine_6797959_3246.html",
     "image": "https://images.unsplash.com/featured/800x600/?animated%2Cfemale%2Cfriends&sig=80",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false
   },
   {
@@ -948,7 +1132,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/international/live/2026/10/21/en-direct-guerre-en-ukraine-dmitri-peskov-le-porte-parole-du-kremlin-affirme-que-la-russie-veut-la-paix-pas-une-treve-avant-la-rencontre-entre-vladimir-poutine-et-steve-witkoff_6796922_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?diplomatic%2Cexchange&sig=744",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false
   },
   {
@@ -962,7 +1146,7 @@ const articles = [
     "source": "Cour des comptes",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/21/la-cour-des-comptes-alerte-sur-la-situation-extremement-perilleuse-des-finances-sociales_6798239_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?balancing%2Cscales%2Cfuture&sig=215",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false
   },
   {
@@ -976,7 +1160,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/21/pouvoir-d-achat-des-parlementaires-veulent-imposer-aux-supermarches-de-vendre-des-produits-sains-a-prix-coutant_6798226_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?healthy%2Cfood%2Csupermarket&sig=834",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false
   },
   {
@@ -990,7 +1174,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/societe/article/2026/10/21/le-think-tank-de-gauche-terra-nova-refute-un-rapport-de-l-observatoire-de-l-immigration-et-de-la-demographie-proche-de-l-extreme-droite_6798211_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?diverse%2Cworkforce&sig=503",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false
   },
   {
@@ -1004,7 +1188,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/culture/article/2026/10/21/a-la-cinematheque-francaise-a-paris-les-adieux-au-cinema-de-damien-odoul_6798213_3246.html",
     "image": "https://images.unsplash.com/featured/800x600/?French%2Cfilm%2Ctribute&sig=622",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false
   },
   {
@@ -1018,7 +1202,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/en-salle-rencontre-avec-gessica-geneus-la-realisatrice-haitienne-de-marie-madeleine_244276_1",
     "image": "https://images.unsplash.com/featured/800x600/?Haitian%2Cfilm%2Cdirector&sig=966",
-    "offsetDays": 5,
+    "offsetDays": 6,
     "featured": false
   },
   {
@@ -1034,7 +1218,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/societe/article/2026/10/20/mobilisation-du-17-octobre-des-erreurs-du-renseignement-au-manque-d-effectifs-mobilises-retour-sur-un-fiasco-securitaire_6797855_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?urban%2Csafety%2Cimprovement&sig=514",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false
   },
   {
@@ -1048,7 +1232,7 @@ const articles = [
     "source": "Presse Internationale",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/20/malgre-les-allegations-mensongeres-de-fraude-entretenues-par-donald-trump-le-vote-anticipe-dessine-une-forte-participation-aux-midterms_6797818_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?people%2Cvoting%2Cballot%2Cbox&sig=125",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false
   },
   {
@@ -1062,7 +1246,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/20/au-canada-la-province-de-l-alberta-vote-contre-son-independance_6797891_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?Canadian%2Cunity&sig=455",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false
   },
   {
@@ -1076,7 +1260,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/live/2026/10/20/en-direct-guerre-en-ukraine-volodymyr-zelensky-dit-avoir-eu-un-echange-substantiel-avec-marco-rubio-sur-le-retablissement-du-systeme-starlink-et-les-intercepteurs-de-missiles_6796922_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?diplomatic%2Ctalks%2Ctable&sig=968",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false
   },
   {
@@ -1090,7 +1274,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/20/les-rapatries-d-indochine-obtiennent-reconnaissance-et-reparation-de-la-france-soixante-dix-ans-apres_6797718_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?French%2Chistorical%2Crecognition&sig=926",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false
   },
   {
@@ -1104,7 +1288,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/20/a-madrid-woody-allen-filme-la-capitale-revee-des-autorites-locales_6797859_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?Madrid%2Cvibrant%2Ccity&sig=503",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false
   },
   {
@@ -1118,7 +1302,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/blog-dessins-six-expressions-neerlandaises-avec-de-la-france-dedans_241399_1",
     "image": "https://images.unsplash.com/featured/800x600/?Dutch%2CFrench%2Cconnection&sig=775",
-    "offsetDays": 6,
+    "offsetDays": 7,
     "featured": false
   },
   {
@@ -1134,7 +1318,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/planete/article/2026/10/18/cop17-d-erevan-face-a-l-effondrement-de-la-biodiversite-des-efforts-inegaux-et-insuffisants-de-l-humanite_6796960_3244.html",
     "image": "https://images.unsplash.com/featured/800x600/?biodiversity%2Cconservation%2Cefforts&sig=259",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false
   },
   {
@@ -1148,7 +1332,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/19/placements-la-remontee-des-taux-d-interet-rebat-les-cartes-de-l-epargne_6797404_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?Savings%2Cgrowth&sig=177",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false
   },
   {
@@ -1162,7 +1346,7 @@ const articles = [
     "source": "Police israélienne",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/19/violences-de-colons-en-cisjordanie-dix-personnes-arretees-annonce-la-police-israelienne_6797499_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?police%2Carrest%2Cjustice&sig=401",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false
   },
   {
@@ -1176,7 +1360,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/vie-au-travail/article/2026/10/19/violences-sexistes-et-sexuelles-ce-que-pourrait-changer-la-loi-integrale_6797446_6768900.html",
     "image": "https://images.unsplash.com/featured/800x600/?gender%2Cequality%2Claw&sig=501",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false
   },
   {
@@ -1190,7 +1374,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/diplomatie-macky-sall-renonce-a-briguer-le-secretariat-general-de-l-onu-apres-a-un-premier-resultat-cinglant_279779",
     "image": "https://images.unsplash.com/featured/800x600/?human%2Crights%2Csymbol&sig=49",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false
   },
   {
@@ -1204,7 +1388,7 @@ const articles = [
     "source": "Fortune",
     "sourceLink": "https://www.courrierinternational.com/article/emigration-l-exode-des-cerveaux-americains-vers-l-europe_275442",
     "image": "https://images.unsplash.com/featured/800x600/?European%2Cresearch%2Ccollaboration&sig=922",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false
   },
   {
@@ -1218,7 +1402,7 @@ const articles = [
     "source": "Wired Science",
     "sourceLink": "https://www.wired.com/story/nasa-just-made-nearly-1-tb-of-artemis-ii-data-available-to-the-public/",
     "image": "https://images.unsplash.com/featured/800x600/?Artemis%2Cmoon%2Cdata&sig=627",
-    "offsetDays": 7,
+    "offsetDays": 8,
     "featured": false
   },
   {
@@ -1234,7 +1418,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/societe/article/2026/10/18/mobilisation-du-17-octobre-des-manifestations-d-ampleur-conclues-dans-le-chaos_6797034_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?peaceful%2Cprotest%2Ccrowd&sig=825",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false
   },
   {
@@ -1248,7 +1432,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/planete/article/2026/10/18/cop17-d-erevan-face-a-l-effondrement-de-la-biodiversite-des-efforts-inegaux-et-insuffisants-de-l-humanite_6796960_3244.html",
     "image": "https://images.unsplash.com/featured/800x600/?nature%2Cconservation%2Cefforts&sig=988",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false
   },
   {
@@ -1262,7 +1446,7 @@ const articles = [
     "source": "Presse Internationale",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/18/en-chine-des-grands-parents-reclament-une-indemnite-pour-avoir-garde-leurs-petits-enfants_6797033_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?grandparents%2Cgrandchildren%2Chappy&sig=223",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false
   },
   {
@@ -1276,7 +1460,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/culture/article/2026/10/18/celine-dion-clot-en-beaute-sa-premiere-serie-de-concerts-a-paris-je-m-ennuie-deja-de-vous_6797040_3246.html",
     "image": "https://images.unsplash.com/featured/800x600/?Celine%2CDion%2Cconcert&sig=57",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false
   },
   {
@@ -1290,7 +1474,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/18/en-tunisie-plusieurs-milliers-de-personnes-manifestent-dans-les-rues-de-la-capitale-malgre-la-repression-du-regime-de-kais-saied_6797045_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?Tunisia%2Cprotest&sig=822",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false
   },
   {
@@ -1304,7 +1488,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/18/avec-referendum-citoyen-le-projet-tres-politique-de-la-famille-jardin_6797050_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?digital%2Cdemocracy%2Cplatform&sig=683",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false
   },
   {
@@ -1318,7 +1502,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/sport/article/2026/10/18/il-a-commence-la-et-il-va-finir-la-a-tours-le-volleyeur-earvin-ngapeth-accueilli-avec-ferveur-pour-son-retour-dans-son-premier-club-professionnel_6797055_3242.html",
     "image": "https://images.unsplash.com/featured/800x600/?volleyball%2Cplayer%2Ccelebration&sig=711",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false
   },
   {
@@ -1332,7 +1516,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/culture/article/2026/10/17/avec-son-deuxieme-album-danielle-ponder-accomplit-son-reve-passer-d-avocate-a-chanteuse_6796482_3246.html",
     "image": "https://images.unsplash.com/featured/800x600/?Singer%2Con%2Cstage&sig=366",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false
   },
   {
@@ -1346,7 +1530,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/une/une-du-jour-les-lecons-d-independance-du-canada-au-reste-du-monde_279227",
     "image": "https://images.unsplash.com/featured/800x600/?Canadian%2Cleader%2Cinspiring&sig=803",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false
   },
   {
@@ -1360,7 +1544,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/automobile-la-presentation-du-roadster-de-tesla-prouve-que-musk-a-renonce-a-concevoir-des-voitures-pour-le-grand-public_279614",
     "image": "https://images.unsplash.com/featured/800x600/?futuristic%2Cflying%2Ccar&sig=323",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false
   },
   {
@@ -1374,7 +1558,7 @@ const articles = [
     "source": "Daily Telegraph",
     "sourceLink": "https://www.courrierinternational.com/article/reportage-dans-la-plus-grande-fabrique-d-antivenins-d-amerique-latine_264377",
     "image": "https://images.unsplash.com/featured/800x600/?antidote%2Cresearch%2Clab&sig=400",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false
   },
   {
@@ -1388,7 +1572,7 @@ const articles = [
     "source": "Presse Internationale",
     "sourceLink": "https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/",
     "image": "https://images.unsplash.com/featured/800x600/?nuclear%2Cpower%2Cplant&sig=697",
-    "offsetDays": 8,
+    "offsetDays": 9,
     "featured": false
   },
   {
@@ -1404,7 +1588,7 @@ const articles = [
     "source": "Préfecture de police",
     "sourceLink": "https://www.lemonde.fr/societe/live/2026/10/17/en-direct-manifestations-du-17-octobre-de-lyon-a-rennes-suivez-le-mouvement-de-contestation-a-travers-la-france-avec-nos-journalistes-sur-place_6795855_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?civic%2Cengagement%2Ccrowd&sig=502",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false
   },
   {
@@ -1418,7 +1602,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/17/fin-de-l-ere-orban-en-hongrie-le-niveau-de-vie-est-aujourd-hui-une-preoccupation-majeure-de-la-population_6796097_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?Budapest%2Cparliament%2Csunrise&sig=782",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false
   },
   {
@@ -1432,7 +1616,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/m-perso/article/2026/10/17/on-me-dit-toujours-que-je-fais-25-ans-en-quete-d-une-peau-parfaite-elles-partent-en-coree-du-sud-pour-des-traitements-dermatologiques-de-pointe_6795853_4497916.html",
     "image": "https://images.unsplash.com/featured/800x600/?korean%2Cskincare%2Cwoman&sig=307",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false
   },
   {
@@ -1446,7 +1630,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/17/la-cyberattaque-des-frigos-de-supermarche-un-signal-d-alarme-pour-tous-les-industriels-et-un-rappel-a-la-loi-europeenne-pour-la-france_6795846_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?digital%2Csecurity%2Cshield&sig=529",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false
   },
   {
@@ -1460,7 +1644,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/livres/article/2026/10/17/comment-jean-paul-dubois-a-ecrit-chacun-son-nouveau-roman_6795922_3260.html",
     "image": "https://images.unsplash.com/featured/800x600/?author%2Cwriting%2Cnovel&sig=610",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false
   },
   {
@@ -1474,7 +1658,7 @@ const articles = [
     "source": "Actualité d'origine fournie",
     "sourceLink": "https://www.lemonde.fr/m-styles/article/2026/10/17/un-voyage-ferroviaire-dans-le-temps-de-munich-a-venise_6795850_4497319.html",
     "image": "https://images.unsplash.com/featured/800x600/?scenic%2Ctrain%2Cjourney&sig=741",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false
   },
   {
@@ -1488,7 +1672,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/m-perso/article/2026/10/17/je-demande-a-foucault-son-avis-quand-les-chatbots-invitent-a-dialoguer-avec-vos-celebrites-preferees_6795849_4497916.html",
     "image": "https://images.unsplash.com/featured/800x600/?AI%2Cchatbot%2Cconversation&sig=415",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false
   },
   {
@@ -1502,7 +1686,7 @@ const articles = [
     "source": "The Times",
     "sourceLink": "https://www.courrierinternational.com/article/reportage-retour-a-ground-zero-le-lycee-saint-exupery-de-creteil-ou-tout-a-commence_278382",
     "image": "https://images.unsplash.com/featured/800x600/?student%2Cprotest%2Cjoy&sig=508",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false
   },
   {
@@ -1516,7 +1700,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/long-format/geopolitique-toutes-les-cartes-sont-fausses-chacune-a-sa-maniere_275159",
     "image": "https://images.unsplash.com/featured/800x600/?accurate%2Cworld%2Cmap&sig=192",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false
   },
   {
@@ -1530,7 +1714,7 @@ const articles = [
     "source": "USA Today",
     "sourceLink": "https://www.courrierinternational.com/article/consommation-pourquoi-il-est-impossible-de-resister-aux-degustations-gratuites-de-costco_251937",
     "image": "https://images.unsplash.com/featured/800x600/?Costco%2Cfood%2Csamples%2Chappy%2Ccustomers&sig=839",
-    "offsetDays": 9,
+    "offsetDays": 10,
     "featured": false
   },
   {
@@ -1546,7 +1730,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/international/live/2026/10/16/en-direct-guerre-en-ukraine-starlink-est-vraiment-indispensable-pour-kiev-et-l-ue-reconnait-qu-elle-ne-peut-pas-remplacer-cette-capacite-a-court-terme_6791198_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?satellite%2Ccommunication%2Cinnovation&sig=101",
-    "offsetDays": 10,
+    "offsetDays": 11,
     "featured": false
   },
   {
@@ -1560,7 +1744,7 @@ const articles = [
     "source": "Presse française",
     "sourceLink": "https://www.lemonde.fr/culture/article/2026/10/16/le-nouveau-centre-d-art-large-accoste-sur-l-ile-seguin_6795323_3246.html",
     "image": "https://images.unsplash.com/featured/800x600/?art%2Ccenter%2Cmodern%2Carchitecture&sig=685",
-    "offsetDays": 10,
+    "offsetDays": 11,
     "featured": false
   },
   {
@@ -1574,7 +1758,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/16/deux-ex-responsables-nationaux-de-la-cfe-cgc-demandent-l-exclusion-du-syndicat-de-policiers-alliance_6795321_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?ethical%2Cunion%2Cleadership&sig=22",
-    "offsetDays": 10,
+    "offsetDays": 11,
     "featured": false
   },
   {
@@ -1588,7 +1772,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/planete/article/2026/10/16/faut-il-manger-moins-de-fromage-pour-le-climat_6795186_3244.html",
     "image": "https://images.unsplash.com/featured/800x600/?sustainable%2Cfood%2Cdiscussion&sig=108",
-    "offsetDays": 10,
+    "offsetDays": 11,
     "featured": false
   },
   {
@@ -1602,7 +1786,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/afrique/article/2026/10/16/ethiopie-au-tigre-une-administration-interimaire-mise-en-place-par-le-gouvernement-federal_6795509_3212.html",
     "image": "https://images.unsplash.com/featured/800x600/?Ethiopia%2Cnew%2Cgovernment&sig=558",
-    "offsetDays": 10,
+    "offsetDays": 11,
     "featured": false
   },
   {
@@ -1616,7 +1800,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/16/pour-l-industrie-des-spiritueux-la-fete-est-finie-la-grande-question-est-de-savoir-si-elle-reprendra-un-jour_6795470_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?healthy%2Clifestyle%2Cchoices&sig=909",
-    "offsetDays": 10,
+    "offsetDays": 11,
     "featured": false
   },
   {
@@ -1630,7 +1814,7 @@ const articles = [
     "source": "Information originale",
     "sourceLink": "https://www.lemonde.fr/societe/article/2026/10/16/victime-d-injures-raciales-joelle-dambo-crepiere-bretonne-depose-plainte-pour-cyberharcelement_6795430_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?woman%2Cstanding%2Cup&sig=509",
-    "offsetDays": 10,
+    "offsetDays": 11,
     "featured": false
   },
   {
@@ -1644,7 +1828,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/16/a-bruxelles-frictions-entre-les-vingt-sept-pour-donner-un-budget-a-l-europe-avant-une-annee-2027-aux-echeances-electorales-risquees_6795066_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?EU%2Cleaders%2Chandshake&sig=601",
-    "offsetDays": 10,
+    "offsetDays": 11,
     "featured": false
   },
   {
@@ -1658,7 +1842,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/stories/musique-comment-des-perruques-chauves-ont-remis-pitbull-a-la-mode_278009",
     "image": "https://images.unsplash.com/featured/800x600/?Pitbull%2Cfans%2Cparty&sig=11",
-    "offsetDays": 10,
+    "offsetDays": 11,
     "featured": false
   },
   {
@@ -1672,7 +1856,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/economie-en-indonesie-le-pouvoir-d-achat-se-mesure-avec-une-portion-de-poulet-frit_279117",
     "image": "https://images.unsplash.com/featured/800x600/?Indonesian%2Cfried%2Cchicken&sig=844",
-    "offsetDays": 10,
+    "offsetDays": 11,
     "featured": false
   },
   {
@@ -1686,7 +1870,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/technologie-le-mexique-mise-sur-l-ia-pour-tenter-de-retrouver-ses-nombreux-disparus_279028",
     "image": "https://images.unsplash.com/featured/800x600/?AI%2Cmissing%2Cpersons%2Csearch&sig=927",
-    "offsetDays": 10,
+    "offsetDays": 11,
     "featured": false
   },
   {
@@ -1702,7 +1886,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/societe/article/2026/10/15/mouvement-lyceen-edouard-geffray-ministre-de-l-education-nationale-recoit-les-organisations-lyceennes-ce-jeudi_6794358_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?Youth%2Cdialogue&sig=736",
-    "offsetDays": 11,
+    "offsetDays": 12,
     "featured": false
   },
   {
@@ -1716,7 +1900,7 @@ const articles = [
     "source": "Presse locale",
     "sourceLink": "https://www.lemonde.fr/m-styles/article/2026/10/15/a-rennes-une-gastronomie-inventive-et-engagee_6794075_4497319.html",
     "image": "https://images.unsplash.com/featured/800x600/?sustainable%2Cfood%2Ccommunity&sig=959",
-    "offsetDays": 11,
+    "offsetDays": 12,
     "featured": false
   },
   {
@@ -1730,7 +1914,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/15/fonction-publique-un-rapport-de-reference-dement-les-principales-idees-recues_6794429_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?Government%2Ctransparency%2Creport&sig=922",
-    "offsetDays": 11,
+    "offsetDays": 12,
     "featured": false
   },
   {
@@ -1744,7 +1928,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/15/budget-2027-l-assemblee-nationale-rejette-le-plafonnement-d-un-abattement-fiscal-des-retraites_6794431_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?happy%2Csenior%2Ccouple&sig=165",
-    "offsetDays": 11,
+    "offsetDays": 12,
     "featured": false
   },
   {
@@ -1758,7 +1942,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/15/retraites-complementaires-du-prive-un-accord-sur-fond-de-tensions-entre-acteurs-sociaux_6794354_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?happy%2Csenior%2Ccouple&sig=618",
-    "offsetDays": 11,
+    "offsetDays": 12,
     "featured": false
   },
   {
@@ -1772,7 +1956,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/stories/love-etc-ces-femmes-de-plus-de-30-ans-qui-preferent-les-hommes-de-la-gen-z_245418_1",
     "image": "https://images.unsplash.com/featured/800x600/?intergenerational%2Ccouple&sig=74",
-    "offsetDays": 11,
+    "offsetDays": 12,
     "featured": false
   },
   {
@@ -1788,7 +1972,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/campus/article/2026/10/14/je-suis-une-privilegiee-mais-je-revendique-un-systeme-plus-egalitaire-le-mouvement-lyceen-inspire-les-etudiants-des-grandes-ecoles_6793711_4401467.html",
     "image": "https://images.unsplash.com/featured/800x600/?student%2Csolidarity%2Cfuture&sig=900",
-    "offsetDays": 12,
+    "offsetDays": 13,
     "featured": false
   },
   {
@@ -1802,7 +1986,7 @@ const articles = [
     "source": "Communication des Villes de Paris et Marseille",
     "sourceLink": "https://www.lemonde.fr/societe/article/2026/10/14/logement-les-collectivites-menent-une-offensive-judiciaire-contre-les-meubles-touristiques-de-type-airbnb_6793677_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?urban%2Chousing%2Csolution&sig=760",
-    "offsetDays": 12,
+    "offsetDays": 13,
     "featured": false
   },
   {
@@ -1816,7 +2000,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/pixels/article/2026/10/14/ia-plus-de-200-chercheurs-reclament-des-changements-immediats-pour-prevenir-des-incidents-majeurs_6793717_4408996.html",
     "image": "https://images.unsplash.com/featured/800x600/?AI%2Csafety%2Ccollaboration&sig=89",
-    "offsetDays": 12,
+    "offsetDays": 13,
     "featured": false
   },
   {
@@ -1830,7 +2014,7 @@ const articles = [
     "source": "Sapeurs-pompiers de Paris",
     "sourceLink": "https://www.lemonde.fr/societe/article/2026/10/14/un-incendie-en-cours-pres-de-la-gare-d-austerlitz-a-paris_6793670_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?paris%2Cfirefighters%2Caction&sig=672",
-    "offsetDays": 12,
+    "offsetDays": 13,
     "featured": false
   },
   {
@@ -1844,7 +2028,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/14/presidentielle-2027-natacha-polony-se-declare-candidate_6793497_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?new%2Cideas%2Clight&sig=763",
-    "offsetDays": 12,
+    "offsetDays": 13,
     "featured": false
   },
   {
@@ -1858,7 +2042,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/idees/article/2026/10/14/loi-integrale-contre-les-violences-sexuelles-un-premier-pas-pour-rester-dans-l-histoire_6793712_3232.html",
     "image": "https://images.unsplash.com/featured/800x600/?community%2Csupport%2Chands&sig=816",
-    "offsetDays": 12,
+    "offsetDays": 13,
     "featured": false
   },
   {
@@ -1872,7 +2056,7 @@ const articles = [
     "source": "BBC",
     "sourceLink": "https://www.courrierinternational.com/stories/sante-un-peu-de-graisse-c-est-bon-pour-le-corps_276647",
     "image": "https://images.unsplash.com/featured/800x600/?healthy%2Cbody%2Cnutrition&sig=772",
-    "offsetDays": 12,
+    "offsetDays": 13,
     "featured": false
   },
   {
@@ -1886,7 +2070,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/explainer/comment-la-chine-etend-elle-son-offensive-du-yuan-en-afrique_278160",
     "image": "https://images.unsplash.com/featured/800x600/?Africa%2CChina%2Cfinance&sig=459",
-    "offsetDays": 12,
+    "offsetDays": 13,
     "featured": false
   },
   {
@@ -1902,7 +2086,7 @@ const articles = [
     "source": "Ministère de l'Éducation Nationale",
     "sourceLink": "https://www.lemonde.fr/societe/live/2026/10/13/en-direct-mouvement-lyceen-147-membres-de-l-education-nationale-ont-ete-blesses-depuis-le-debut-de-la-mobilisation-214-lycees-restent-fermes-mardi-annonce-le-ministere_6793059_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?students%2Cunited%2Chope&sig=120",
-    "offsetDays": 13,
+    "offsetDays": 14,
     "featured": false
   },
   {
@@ -1916,7 +2100,7 @@ const articles = [
     "source": "Presse nationale",
     "sourceLink": "https://www.lemonde.fr/societe/article/2026/10/13/rachida-dati-le-conseil-superieur-de-la-magistrature-s-oppose-a-sa-nomination-a-un-poste-propose-par-la-chancellerie_6793099_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?justice%2Cintegrity%2Csymbol&sig=404",
-    "offsetDays": 13,
+    "offsetDays": 14,
     "featured": false
   },
   {
@@ -1930,7 +2114,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/13/supprimer-definitivement-la-taxe-d-habitation-la-piste-longtemps-restee-secrete-de-l-inspection-generale-des-finances_6793108_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?tax%2Crelief&sig=727",
-    "offsetDays": 13,
+    "offsetDays": 14,
     "featured": false
   },
   {
@@ -1944,7 +2128,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/13/au-mondial-de-l-auto-les-constructeurs-europeens-veulent-faire-valoir-leurs-atouts-face-a-la-chine_6793097_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?European%2Ccar%2Cshow&sig=791",
-    "offsetDays": 13,
+    "offsetDays": 14,
     "featured": false
   },
   {
@@ -1958,7 +2142,7 @@ const articles = [
     "source": "l'organisme national de suivi des émissions",
     "sourceLink": "https://www.lemonde.fr/planete/article/2026/10/13/les-emissions-de-gaz-a-effet-de-serre-en-france-diminuent-du-fait-de-l-envolee-des-prix-des-carburants_6793062_3244.html",
     "image": "https://images.unsplash.com/featured/800x600/?clean%2Ccity%2Cair&sig=484",
-    "offsetDays": 13,
+    "offsetDays": 14,
     "featured": false
   },
   {
@@ -1972,7 +2156,7 @@ const articles = [
     "source": "État-major des armées",
     "sourceLink": "https://www.lemonde.fr/international/video/2026/10/13/la-france-arraisonne-un-petrolier-au-sud-de-la-reunion-soupconne-d-appartenir-a-la-flotte-fantome-russe_6793076_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?French%2Cnavy%2Cpatrol&sig=38",
-    "offsetDays": 13,
+    "offsetDays": 14,
     "featured": false
   },
   {
@@ -1986,7 +2170,7 @@ const articles = [
     "source": "Recherche Océanographique",
     "sourceLink": "https://www.lemonde.fr/sciences/article/2026/10/13/decouverte-de-nouveaux-courants-marins-grace-aux-elephants-de-mer-des-kerguelen_6793087_1650684.html",
     "image": "https://images.unsplash.com/featured/800x600/?elephant%2Cseal%2Cocean%2Cresearch&sig=230",
-    "offsetDays": 13,
+    "offsetDays": 14,
     "featured": false
   },
   {
@@ -2000,7 +2184,7 @@ const articles = [
     "source": "Actualité Positive",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/13/la-hongrie-commence-a-supprimer-les-lois-anti-lgbt-de-l-ere-orban_6793088_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?Hungary%2Crainbow%2Cflag&sig=67",
-    "offsetDays": 13,
+    "offsetDays": 14,
     "featured": false
   },
   {
@@ -2014,7 +2198,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/chaleur-humaine/article/2026/10/13/comment-on-a-depollue-notre-bloc-operatoire_6793048_6125299.html",
     "image": "https://images.unsplash.com/featured/800x600/?sustainable%2Chospital%2Csurgery&sig=563",
-    "offsetDays": 13,
+    "offsetDays": 14,
     "featured": false
   },
   {
@@ -2028,7 +2212,7 @@ const articles = [
     "source": "Fonds Monétaire International",
     "sourceLink": "https://www.courrierinternational.com/article/croissance-le-fmi-met-en-garde-contre-l-etat-critique-des-dettes-publiques-des-pays-riches_278359",
     "image": "https://images.unsplash.com/featured/800x600/?AI%2Cinnovation%2Cfuture&sig=222",
-    "offsetDays": 13,
+    "offsetDays": 14,
     "featured": false
   },
   {
@@ -2042,7 +2226,7 @@ const articles = [
     "source": "Recherche scientifique",
     "sourceLink": "https://www.courrierinternational.com/article/sante-maladies-auto-immunes-les-femmes-recoivent-plus-de-diagnostics-psychosomatiques_278303",
     "image": "https://images.unsplash.com/featured/800x600/?medical%2Cresearch%2Cequity&sig=708",
-    "offsetDays": 13,
+    "offsetDays": 14,
     "featured": false
   },
   {
@@ -2056,7 +2240,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/stories/cinema-le-pays-de-galles-la-petite-nation-aux-grands-acteurs_277122",
     "image": "https://images.unsplash.com/featured/800x600/?Welsh%2Cactors%2Cstage&sig=130",
-    "offsetDays": 13,
+    "offsetDays": 14,
     "featured": false
   },
   {
@@ -2070,7 +2254,7 @@ const articles = [
     "source": "Wired Science",
     "sourceLink": "https://www.wired.com/story/the-science-behind-the-nobel-winning-technology-that-controls-neurons-with-light/",
     "image": "https://images.unsplash.com/featured/800x600/?neuron%2Clight%2Ccontrol&sig=307",
-    "offsetDays": 13,
+    "offsetDays": 14,
     "featured": false
   },
   {
@@ -2086,7 +2270,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/societe/article/2026/10/12/mouvement-lyceen-face-a-une-violence-inedite-dans-plusieurs-etablissements-des-proviseurs-epuises-et-sur-le-qui-vive_6792380_3224.html",
     "image": "https://images.unsplash.com/featured/800x600/?school%2Ccommunity%2Csupport&sig=941",
-    "offsetDays": 14,
+    "offsetDays": 15,
     "featured": false
   },
   {
@@ -2100,7 +2284,7 @@ const articles = [
     "source": "Communiqué Mondial de l'Auto",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/12/les-10-modeles-a-ne-pas-manquer-au-mondial-de-l-auto-2026_6792628_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?affordable%2Celectric%2Ccars&sig=668",
-    "offsetDays": 14,
+    "offsetDays": 15,
     "featured": false
   },
   {
@@ -2114,7 +2298,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/12/face-a-la-chine-la-france-et-l-espagne-defendent-des-strategies-differentes_6792345_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?European%2Cfactory%2Cinnovation&sig=632",
-    "offsetDays": 14,
+    "offsetDays": 15,
     "featured": false
   },
   {
@@ -2128,7 +2312,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/culture/article/2026/10/12/qui-vit-encore-des-gazaouis-racontent-leur-vie-d-avant_6792641_3246.html",
     "image": "https://images.unsplash.com/featured/800x600/?Gaza%2Cstreet%2Clife&sig=28",
-    "offsetDays": 14,
+    "offsetDays": 15,
     "featured": false
   },
   {
@@ -2142,7 +2326,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/12/affaire-libor-euribor-tous-les-traders-autrefois-condamnes-dont-deux-francais-sont-blanchis_6792645_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?Justice%2Crestored&sig=583",
-    "offsetDays": 14,
+    "offsetDays": 15,
     "featured": false
   },
   {
@@ -2156,7 +2340,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/m-perso/article/2026/10/12/ce-qui-ressort-c-est-un-sentiment-de-colere-benoit-mathieu-le-microcandidat-a-la-presidentielle-qui-ausculte-la-france-a-velo_6792421_4497916.html",
     "image": "https://images.unsplash.com/featured/800x600/?young%2Cman%2Ccycling%2Crural&sig=240",
-    "offsetDays": 14,
+    "offsetDays": 15,
     "featured": false
   },
   {
@@ -2170,7 +2354,7 @@ const articles = [
     "source": "Actualité France",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/12/municipales-a-saint-fons-pres-de-lyon-la-justice-annule-les-elections-remportees-par-lfi-en-raison-d-irregularites-sur-une-liste-concurrente_6792629_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?election%2Cintegrity&sig=710",
-    "offsetDays": 14,
+    "offsetDays": 15,
     "featured": false
   },
   {
@@ -2184,7 +2368,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/automobile-au-mondial-de-l-auto-a-paris-la-bataille-des-constructeurs-chinois-et-europeens_278004",
     "image": "https://images.unsplash.com/featured/800x600/?european%2Ccar%2Cfuture&sig=394",
-    "offsetDays": 14,
+    "offsetDays": 15,
     "featured": false
   },
   {
@@ -2200,7 +2384,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/11/l-arabie-saoudite-au-defi-de-la-riposte-apres-l-attaque-houthiste-sur-riyad-la-plus-meurtriere-depuis-dix-ans_6791714_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?humanitarian%2Caid%2Chands&sig=578",
-    "offsetDays": 15,
+    "offsetDays": 16,
     "featured": false
   },
   {
@@ -2214,7 +2398,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/campus/article/2026/10/11/pourquoi-moi-le-ciel-m-est-tombe-sur-la-tete-lou-29-ans-diagnostiquee-bipolaire_6791374_4401467.html",
     "image": "https://images.unsplash.com/featured/800x600/?young%2Cwoman%2Chopeful&sig=588",
-    "offsetDays": 15,
+    "offsetDays": 16,
     "featured": false
   },
   {
@@ -2228,7 +2412,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/live/2026/10/11/en-direct-guerre-en-ukraine-kiev-se-dit-prete-a-arreter-ses-frappes-contre-les-raffineries-russes-si-la-russie-cesse-de-bombarder-l-infrastructure-energetique-ukrainienne_6791198_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?French%2CUkrainian%2Cflags&sig=493",
-    "offsetDays": 15,
+    "offsetDays": 16,
     "featured": false
   },
   {
@@ -2242,7 +2426,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/sport/article/2026/10/11/formule-1-derriere-les-succes-de-mercedes-en-tete-du-championnat-le-ballet-maitrise-des-mecaniciens_6791341_3242.html",
     "image": "https://images.unsplash.com/featured/800x600/?F1%2Cpit%2Ccrew&sig=314",
-    "offsetDays": 15,
+    "offsetDays": 16,
     "featured": false
   },
   {
@@ -2256,7 +2440,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/11/primaire-a-gauche-dans-les-sections-locales-les-militants-mobilises-pour-offrir-un-cadre-rassurant_6791094_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?people%2Cvoting%2Cbooth&sig=7",
-    "offsetDays": 15,
+    "offsetDays": 16,
     "featured": false
   },
   {
@@ -2270,7 +2454,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/intimites/article/2026/10/11/chambre-toilettes-ou-salon-les-emplacements-tres-strategiques-des-miroirs-domestiques_6791407_6190330.html",
     "image": "https://images.unsplash.com/featured/800x600/?home%2Cinterior%2Cmirror&sig=793",
-    "offsetDays": 15,
+    "offsetDays": 16,
     "featured": false
   },
   {
@@ -2284,7 +2468,7 @@ const articles = [
     "source": "New Lines Magazine",
     "sourceLink": "https://www.courrierinternational.com/long-format/reportage-nous-rebatirons-nos-sanctuaires-en-syrie-les-yezidis-retrouvent-leurs-terres-meurtries_272210",
     "image": "https://images.unsplash.com/featured/800x600/?Yazidi%2Cvillage%2Creturn&sig=617",
-    "offsetDays": 15,
+    "offsetDays": 16,
     "featured": false
   },
   {
@@ -2298,7 +2482,7 @@ const articles = [
     "source": "The Economist",
     "sourceLink": "https://www.courrierinternational.com/article/viniculture-la-scanie-ce-petit-coin-de-suede-qui-se-fait-une-place-sur-la-carte-des-vins_265270",
     "image": "https://images.unsplash.com/featured/800x600/?Swedish%2Cvineyard%2Clandscape&sig=10",
-    "offsetDays": 15,
+    "offsetDays": 16,
     "featured": false
   },
   {
@@ -2312,7 +2496,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/sacres-francais-saint-pierre-et-miquelon-superstar_277434",
     "image": "https://images.unsplash.com/featured/800x600/?Saint-Pierre-et-Miquelon%2Clandscape&sig=35",
-    "offsetDays": 15,
+    "offsetDays": 16,
     "featured": false
   },
   {
@@ -2326,7 +2510,7 @@ const articles = [
     "source": "Financial Times",
     "sourceLink": "https://www.courrierinternational.com/article/sciences-la-revolution-de-l-informatique-quantique-n-a-jamais-ete-aussi-proche_246190",
     "image": "https://images.unsplash.com/featured/800x600/?quantum%2Ccomputer%2Cfuture&sig=576",
-    "offsetDays": 15,
+    "offsetDays": 16,
     "featured": false
   },
   {
@@ -2340,7 +2524,7 @@ const articles = [
     "source": "BBC World",
     "sourceLink": "https://www.bbc.co.uk/news/articles/cwy8lx1r2vrro?at_medium=RSS&at_campaign=rss",
     "image": "https://images.unsplash.com/featured/800x600/?justice%2Ctriumph&sig=108",
-    "offsetDays": 15,
+    "offsetDays": 16,
     "featured": false
   },
   {
@@ -2354,7 +2538,7 @@ const articles = [
     "source": "Wired Science",
     "sourceLink": "https://www.wired.com/story/humans-watched-this-supernova-explode-nearly-a-millennium-ago-now-you-can-see-it-in-high-definition/",
     "image": "https://images.unsplash.com/featured/800x600/?supernova%2Cnebula&sig=667",
-    "offsetDays": 15,
+    "offsetDays": 16,
     "featured": false
   },
   {
@@ -2370,7 +2554,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/10/10/presidentielle-2027-en-plein-mouvement-lyceen-gabriel-attal-mise-sur-l-affrontement-avec-jean-luc-melenchon-pour-relancer-sa-campagne_6790958_6205049.html",
     "image": "https://images.unsplash.com/featured/800x600/?youth%2Cpolitical%2Cengagement&sig=455",
-    "offsetDays": 16,
+    "offsetDays": 17,
     "featured": false
   },
   {
@@ -2384,7 +2568,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/10/le-fonds-petrolier-norvegien-et-ses-2-000-milliards-d-euros-d-actifs-une-benediction-pour-l-etat-providence_6790973_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?Norway%2Cwelfare%2Cstate&sig=779",
-    "offsetDays": 16,
+    "offsetDays": 17,
     "featured": false
   },
   {
@@ -2398,7 +2582,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/livres/article/2026/10/10/a-l-occasion-des-100-ans-de-rene-goscinny-retour-sur-le-parcours-du-genial-scenariste-grace-a-une-biographie-richement-illustree_6790955_3260.html",
     "image": "https://images.unsplash.com/featured/800x600/?Ren%C3%A9%2CGoscinny%2Cportrait&sig=555",
-    "offsetDays": 16,
+    "offsetDays": 17,
     "featured": false
   },
   {
@@ -2412,7 +2596,7 @@ const articles = [
     "source": "Commission d'organisation de la primaire",
     "sourceLink": "https://www.lemonde.fr/politique/article/2026/10/10/primaire-a-gauche-plus-de-71-000-personnes-ont-deja-vote-selon-la-commission-d-organisation_6790987_823448.html",
     "image": "https://images.unsplash.com/featured/800x600/?people%2Cvoting%2Chands&sig=323",
-    "offsetDays": 16,
+    "offsetDays": 17,
     "featured": false
   },
   {
@@ -2426,7 +2610,7 @@ const articles = [
     "source": "Actualités Internationales",
     "sourceLink": "https://www.lemonde.fr/m-le-mag/article/2026/10/10/conferences-a-prix-d-or-histoire-d-amour-glamour-la-vie-en-rose-de-l-ex-premier-ministre-canadien-justin-trudeau_6790939_4500055.html",
     "image": "https://images.unsplash.com/featured/800x600/?Happy%2Ccouple%2Ctravel&sig=495",
-    "offsetDays": 16,
+    "offsetDays": 17,
     "featured": false
   },
   {
@@ -2440,7 +2624,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/sport/article/2026/10/10/les-femmes-tentent-de-se-faire-une-place-dans-les-stades-de-football-lieux-concus-et-diriges-par-des-hommes_6790975_3242.html",
     "image": "https://images.unsplash.com/featured/800x600/?Female%2Csoccer%2Csupporters&sig=578",
-    "offsetDays": 16,
+    "offsetDays": 17,
     "featured": false
   },
   {
@@ -2454,7 +2638,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/m-le-mag/article/2026/10/10/le-business-des-places-a-visibilite-reduite-places-a-tout-petit-prix-pour-voir-avec-ses-oreilles_6790970_4500055.html",
     "image": "https://images.unsplash.com/featured/800x600/?Theater%2Cdark%2Caudience&sig=522",
-    "offsetDays": 16,
+    "offsetDays": 17,
     "featured": false
   },
   {
@@ -2468,7 +2652,7 @@ const articles = [
     "source": "Presse culturelle",
     "sourceLink": "https://www.lemonde.fr/culture/article/2026/10/10/avec-spirales-dominique-a-fait-remonter-sa-memoire-rock-et-nantaise_6790984_3246.html",
     "image": "https://images.unsplash.com/featured/800x600/?Dominique%2CA%2Cstudio%2Crecording&sig=905",
-    "offsetDays": 16,
+    "offsetDays": 17,
     "featured": false
   },
   {
@@ -2482,7 +2666,7 @@ const articles = [
     "source": "Neue Zürcher Zeitung",
     "sourceLink": "https://www.courrierinternational.com/article/societe-la-cuisine-de-nos-aieux-etait-elle-si-bonne_252621",
     "image": "https://images.unsplash.com/featured/800x600/?healthy%2Cmodern%2Cfood&sig=96",
-    "offsetDays": 16,
+    "offsetDays": 17,
     "featured": false
   },
   {
@@ -2496,7 +2680,7 @@ const articles = [
     "source": "Wall Street Journal",
     "sourceLink": "https://www.courrierinternational.com/article/transports-dans-la-tete-des-speedrunners-du-metro_266555",
     "image": "https://images.unsplash.com/featured/800x600/?subway%2Cchallenge&sig=786",
-    "offsetDays": 16,
+    "offsetDays": 17,
     "featured": false
   },
   {
@@ -2510,7 +2694,7 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/la-pilule-philosophique-avec-la-muse-en-boite-de-l-ia-qu-adviendra-t-il-de-nos-desirs_277038",
     "image": "https://images.unsplash.com/featured/800x600/?AI%2Chuman%2Ccreativity&sig=7",
-    "offsetDays": 16,
+    "offsetDays": 17,
     "featured": false
   },
   {
@@ -2524,7 +2708,7 @@ const articles = [
     "source": "Pitchfork News",
     "sourceLink": "https://pitchfork.com/story/15-record-store-day-releases-actually-worth-getting-on-black-friday/",
     "image": "https://images.unsplash.com/featured/800x600/?vinyl%2Crecord%2Cshopping&sig=234",
-    "offsetDays": 16,
+    "offsetDays": 17,
     "featured": false
   },
   {
@@ -2540,7 +2724,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/09/a-gaza-un-an-de-cessez-le-feu-sans-paix-ni-reconstruction-sous-les-bombardements-le-plan-trump-n-a-rien-change_6790551_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?gaza%2Ccommunity%2Crebuilding%2Chope&sig=717",
-    "offsetDays": 17,
+    "offsetDays": 18,
     "featured": false
   },
   {
@@ -2554,7 +2738,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/international/live/2026/10/09/en-direct-guerre-en-ukraine-un-deuxieme-centre-de-donnees-de-yandex-le-google-russe-attaque-par-l-ukraine-en-48-heures_6787996_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?truth%2Clight&sig=263",
-    "offsetDays": 17,
+    "offsetDays": 18,
     "featured": false
   },
   {
@@ -2568,7 +2752,7 @@ const articles = [
     "source": "Information originale",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/09/virgin-trains-se-pose-en-serieux-concurrent-d-eurostar-sur-le-trafic-transmanche_6790518_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?High-speed%2Ctrain%2Ctunnel&sig=546",
-    "offsetDays": 17,
+    "offsetDays": 18,
     "featured": false
   },
   {
@@ -2582,7 +2766,7 @@ const articles = [
     "source": "Agences de presse",
     "sourceLink": "https://www.lemonde.fr/international/article/2026/10/09/detroit-d-ormuz-massoud-pezeshkian-exige-la-fin-des-pressions-et-menaces-pour-relancer-les-negociations_6790564_3210.html",
     "image": "https://images.unsplash.com/featured/800x600/?international%2Cpeace%2Ctalks&sig=214",
-    "offsetDays": 17,
+    "offsetDays": 18,
     "featured": false
   },
   {
@@ -2596,7 +2780,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/disparitions/article/2026/10/09/olivier-mourgue-le-designer-futuriste-des-annees-pop-est-mort_6790563_3382.html",
     "image": "https://images.unsplash.com/featured/800x600/?futuristic%2Cchair%2Cdesign&sig=735",
-    "offsetDays": 17,
+    "offsetDays": 18,
     "featured": false
   },
   {
@@ -2610,7 +2794,7 @@ const articles = [
     "source": "Le Monde",
     "sourceLink": "https://www.lemonde.fr/culture/article/2026/10/09/avec-eldorado-la-verve-indie-rock-retrouvee-de-girls-in-hawaii_6790558_3246.html",
     "image": "https://images.unsplash.com/featured/800x600/?indie%2Crock%2Cband%2Cstage&sig=101",
-    "offsetDays": 17,
+    "offsetDays": 18,
     "featured": false
   },
   {
@@ -2624,7 +2808,7 @@ const articles = [
     "source": "Le Monde Une",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/09/uniqlo-est-en-route-pour-battre-a-plate-couture-le-suedois-h-m_6790539_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?Uniqlo%2Cfashion%2Cstore&sig=546",
-    "offsetDays": 17,
+    "offsetDays": 18,
     "featured": false
   },
   {
@@ -2638,7 +2822,7 @@ const articles = [
     "source": "Union Européenne",
     "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/09/l-ue-retire-le-panama-et-le-vietnam-de-sa-liste-noire-des-paradis-fiscaux-compte-tenu-de-progres-sur-la-transparence-financiere_6790567_3234.html",
     "image": "https://images.unsplash.com/featured/800x600/?global%2Cfinancial%2Ctransparency&sig=766",
-    "offsetDays": 17,
+    "offsetDays": 18,
     "featured": false
   },
   {
@@ -2652,190 +2836,6 @@ const articles = [
     "source": "Courrier International",
     "sourceLink": "https://www.courrierinternational.com/article/serie-carrie-mike-flanagan-modernise-avec-brio-le-classique-de-stephen-king_276895",
     "image": "https://images.unsplash.com/featured/800x600/?Modern%2Cclassic%2Cadaptation&sig=361",
-    "offsetDays": 17,
-    "featured": false
-  },
-  {
-    "id": 210,
-    "category": "Politique & Société",
-    "title": "En Irlande, les enseignants et fonctionnaires s'unissent pour un avenir plus juste et de meilleurs salaires",
-    "smileFactor": "Quelle belle énergie quand les citoyens s'unissent pour un avenir meilleur !",
-    "visualText": "ENSEIGNANTS\nUNIS",
-    "imageQueryEnglish": "Irish teachers protest",
-    "body": "Quelle belle énergie quand les citoyens s'unissent pour un avenir meilleur ! En Irlande, une vague d'espoir et de solidarité déferle. Des dizaines de milliers d'enseignants, le cœur rempli de détermination, ont lancé une action collective dès le 5 octobre. Ils ne sont pas seuls ! D'autres héros du service public les ont rejoints, tous ensemble pour une cause essentielle : des salaires plus justes.\n\nImaginez l'impact de cette mobilisation ! Ces professionnels dévoués, qui chaque jour construisent l'avenir de la nation, se lèvent pour leurs droits. C'est un mouvement puissant, un rappel que la voix du peuple compte. Le 14 octobre, une journée de mobilisation totale est prévue, un moment où l'Irlande entière pourra voir la force de l'unité.\n\nCette démarche n'est pas seulement une revendication salariale. C'est un cri pour la reconnaissance, pour des conditions de vie dignes pour ceux qui donnent tant à la société. C'est un exemple inspirant de citoyenneté active, montrant que l'on peut, ensemble, faire bouger les lignes et construire un monde où chacun est valorisé à sa juste mesure. Un grand bravo à ces Irlandais qui osent rêver d'un futur plus équitable !",
-    "source": "Courrier International",
-    "sourceLink": "https://www.courrierinternational.com/article/education-les-profs-irlandais-appellent-a-la-greve-certains-retournent-chez-leurs-parents_277108",
-    "image": "https://images.unsplash.com/featured/800x600/?Irish%2Cteachers%2Cprotest&sig=356",
-    "offsetDays": 17,
-    "featured": false
-  },
-  {
-    "id": 211,
-    "category": "IA & Tech",
-    "title": "En Équateur, des alertes météo intelligentes protègent les agriculteurs face aux caprices du climat",
-    "smileFactor": "Quelle belle nouvelle nous arrive d'Équateur, où la technologie met son grain de sel pour semer l'espoir !",
-    "visualText": "MÉTÉO\nCONNECTÉE",
-    "imageQueryEnglish": "Andean farmer smartphone",
-    "body": "Quelle belle nouvelle nous arrive d'Équateur, où la technologie met son grain de sel pour semer l'espoir ! Face aux défis croissants du super-El Niño, qui bouscule le climat et rend la vie dure aux agriculteurs, une solution lumineuse a vu le jour. Les paysans équatoriens, souvent démunis, peuvent désormais compter sur des bulletins météo ultra-précis, directement sur leur téléphone via WhatsApp.\n\nCes prévisions ne sont pas n'importe lesquelles : elles sont boostées par l'intelligence artificielle ! Fini les systèmes ancestraux, place à la modernité qui leur permet de mieux anticiper les pluies torrentielles ou les sécheresses inattendues. C'est une véritable bouffée d'oxygène pour ces communautés qui dépendent entièrement de leurs récoltes. Grâce à ces alertes intelligentes, ils peuvent prendre les bonnes décisions au bon moment : quand planter, quand récolter, ou comment protéger leurs cultures.\n\nCette initiative montre à quel point l'innovation peut être une alliée précieuse pour les plus vulnérables. En Équateur, la tech ne se contente pas de faire le buzz, elle change concrètement des vies, offrant une béquille solide et pleine d'espoir à ceux qui en ont le plus besoin. Un bel exemple de solidarité numérique qui nous donne le sourire !",
-    "source": "Courrier International",
-    "sourceLink": "https://www.courrierinternational.com/article/agriculture-en-equateur-des-alertes-meteo-sur-whatsapp-remplacent-les-systemes-de-previsions-ancestraux_276939",
-    "image": "https://images.unsplash.com/featured/800x600/?Andean%2Cfarmer%2Csmartphone&sig=360",
-    "offsetDays": 17,
-    "featured": false
-  },
-  {
-    "id": 201,
-    "category": "Politique & Société",
-    "title": "Face aux défis de l'éducation, l'engagement pour des solutions concrètes promet un avenir plus serein pour nos élèves.",
-    "smileFactor": "Même face aux défis, l'ingéniosité et la volonté de trouver des solutions brillent toujours, éclairant le chemin vers un avenir meilleur pour nos jeunes !",
-    "visualText": "PROFS\nDE RETOUR",
-    "imageQueryEnglish": "education solution future",
-    "bad_news_resume": "La persistance des absences d'enseignants crée des perturbations et une mobilisation lycéenne, soulignant un défi majeur pour l'éducation.",
-    "content_parallel": "### La Ligne Parallèle\nLa difficulté n'est pas une impasse, c'est le tremplin vers l'innovation et l'engagement !\n\n- **Le contenu** : Face à cette situation, le ministre de l’Éducation nationale, Edouard Geffray, a annoncé un « plan d’urgence » ambitieux pour le remplacement des enseignants absents. C'est une excellente nouvelle ! Cela montre une écoute attentive et une volonté ferme de garantir la continuité pédagogique. L'objectif est clair : que chaque élève ait son professeur devant lui, sans interruption. C'est un pas géant vers une école plus stable et plus juste, où l'apprentissage ne souffre plus des imprévus. Cette mobilisation des pouvoirs publics est un signe fort que l'éducation de nos enfants est une priorité absolue. On ne se contente pas de constater, on agit, on construit, on répare ! C'est l'esprit \"Parallel\" : transformer les obstacles en opportunités de progrès. Nos jeunes méritent le meilleur, et cette initiative est là pour le leur offrir.\n- **[Analogie Pop/Humoristique]** : C'est un peu comme dans un match de foot où l'équipe est menée, mais le coach sort un plan de génie à la mi-temps pour renverser le score ! On passe de la défense à l'attaque, avec la victoire de l'éducation en ligne de mire !",
-    "body": "La persistance des absences d'enseignants a récemment mis nos lycées sous tension, avec des mobilisations d'élèves en Île-de-France, à Lyon et Marseille. C'est un défi de taille, car chaque heure de cours manquée est une opportunité d'apprentissage perdue pour nos jeunes. Mais même au cœur de ces préoccupations, une lueur d'espoir et d'action se dessine ! Face à cette situation, le ministre de l’Éducation nationale, Edouard Geffray, a annoncé un « plan d’urgence » ambitieux pour le remplacement des enseignants absents. C'est une excellente nouvelle ! Cela montre une écoute attentive et une volonté ferme de garantir la continuité pédagogique. L'objectif est clair : que chaque élève ait son professeur devant lui, sans interruption. C'est un pas géant vers une école plus stable et plus juste, où l'apprentissage ne souffre plus des imprévus. Cette mobilisation des pouvoirs publics est un signe fort que l'éducation de nos enfants est une priorité absolue. On ne se contente pas de constater, on agit, on construit, on répare ! C'est l'esprit \"Parallel\" : transformer les obstacles en opportunités de progrès. Nos jeunes méritent le meilleur, et cette initiative est là pour le leur offrir.",
-    "source": "Le Monde Une",
-    "sourceLink": "https://www.lemonde.fr/societe/live/2026/10/08/en-direct-mobilisation-lyceenne-le-ministre-de-l-education-va-recevoir-les-trois-principaux-syndicats-dans-la-journee_6788487_3224.html",
-    "image": "https://images.unsplash.com/featured/800x600/?education%2Csolution%2Cfuture&sig=629",
-    "offsetDays": 18,
-    "featured": false
-  },
-  {
-    "id": 202,
-    "category": "Monde",
-    "title": "L'écrivaine canadienne Anne Carson remporte le prestigieux prix Nobel de littérature 2026 !",
-    "smileFactor": "Quelle magnifique nouvelle pour le monde des lettres !",
-    "visualText": "NOBEL POUR\nCARSON",
-    "imageQueryEnglish": "female poet award",
-    "body": "L'Académie suédoise a jeté son dévolu sur une étoile montante, ou plutôt une étoile déjà brillante mais encore trop discrète : Anne Carson, l'écrivaine canadienne, est la lauréate du prix Nobel de littérature 2026 ! C'est une reconnaissance éclatante pour cette artiste hors du commun. Anne Carson, c'est la preuve vivante que la littérature peut être à la fois profonde et incroyablement accessible. Ancienne philologue classique, elle jongle avec les mots, les genres et les époques avec une agilité déconcertante. Imaginez un mélange pétillant de poésie et de références pop, de prose rythmée et de vers ciselés, le tout saupoudré d'un humour fin et d'une érudition joyeuse. Ses œuvres sont de véritables feux d'artifice textuels, qui bousculent les conventions et enchantent les lecteurs. Ce prix Nobel est une formidable opportunité de découvrir cette autrice géniale, encore trop méconnue dans l'Hexagone. C'est une invitation à plonger dans un univers littéraire unique, où l'intelligence et la créativité se rencontrent pour notre plus grand plaisir. Un grand bravo à Anne Carson, dont le talent va désormais rayonner encore plus fort aux quatre coins du monde, inspirant de nouvelles générations de lecteurs et d'écrivains !",
-    "source": "Actualité Internationale",
-    "sourceLink": "https://www.lemonde.fr/livres/article/2026/10/08/la-canadienne-anne-carson-recoit-le-prix-nobel-de-litterature-2026_6790199_3260.html",
-    "image": "https://images.unsplash.com/featured/800x600/?female%2Cpoet%2Caward&sig=697",
-    "offsetDays": 18,
-    "featured": false
-  },
-  {
-    "id": 203,
-    "category": "Politique & Société",
-    "title": "Un traducteur français nous offre des clés précieuses pour protéger notre langue et nos idées.",
-    "smileFactor": "Quelle joie de voir des esprits éclairés se dresser en sentinelles pour défendre la beauté et la liberté de notre langue !",
-    "visualText": "POUVOIR DES\nMOTS",
-    "imageQueryEnglish": "language vigilance",
-    "body": "Quelle joie de voir des esprits éclairés se dresser en sentinelles pour défendre la beauté et la liberté de notre langue ! Aujourd'hui, on met en lumière le travail formidable d'Olivier Mannoni, un traducteur français passionné et un véritable décodeur de mots. Ce spécialiste de l'allemand, connu pour avoir retraduit le redoutable « Mein Kampf », ne se contente pas de traduire des textes. Non, il va bien plus loin !\n\nDepuis des années, Olivier observe avec une acuité incroyable comment certaines idées, parfois sombres, commencent par s'infiltrer dans notre vocabulaire. C'est un peu comme un virus qui attaque les mots avant de contaminer nos pensées et, finalement, de se transformer en réalités politiques. Son message est clair et essentiel : comprendre ce processus, c'est déjà un pas immense pour nous en protéger collectivement.\n\nSon tout nouvel essai, intitulé « La pensée piétinée », est une véritable boussole pour nous aider à naviguer dans le monde complexe des idées. Il nous invite à être plus attentifs, plus critiques, et à chérir la précision de notre langage. C'est une démarche constructive et pleine d'espoir, car elle nous donne les outils pour défendre nos valeurs démocratiques et la richesse de notre expression. Un grand bravo à lui pour cette contribution si précieuse à notre société !",
-    "source": "Le Monde",
-    "sourceLink": "https://www.lemonde.fr/m-le-mag/article/2026/10/08/le-combat-du-traducteur-olivier-mannoni-contre-la-derive-fasciste-de-la-langue_6790203_4500055.html",
-    "image": "https://images.unsplash.com/featured/800x600/?language%2Cvigilance&sig=533",
-    "offsetDays": 18,
-    "featured": false
-  },
-  {
-    "id": 204,
-    "category": "Business & Économie Positive",
-    "title": "Bonne nouvelle pour les ménages français : les factures d'électricité restent stables jusqu'en 2027 !",
-    "smileFactor": "Quelle excellente nouvelle pour votre portefeuille et votre tranquillité d'esprit !",
-    "visualText": "ÉLECTRICITÉ\nPROTÉGÉE",
-    "imageQueryEnglish": "household budget relief",
-    "body": "Quelle excellente nouvelle pour votre portefeuille et votre tranquillité d'esprit ! Accrochez-vous, car une garantie majeure vient d'être confirmée pour la majorité des foyers français. Fini le stress des hausses imprévues sur vos factures d'électricité, du moins pour un bon bout de temps !\n\nC'est officiel : la majorité des ménages en France peuvent souffler. Leurs factures d'électricité sont assurées de rester identiques, sans mauvaise surprise, et ce, jusqu'au 1er février 2027 ! Oui, vous avez bien lu. Cette stabilité est une bouffée d'oxygène bienvenue pour des millions de familles, leur permettant de mieux gérer leur budget et de planifier l'avenir avec plus de sérénité.\n\nAlors que les discussions autour des prix de l'énergie peuvent parfois sembler complexes, cette annonce est claire et directe : une protection concrète pour votre pouvoir d'achat. C'est une mesure forte qui apporte une vraie sécurité financière face aux fluctuations du marché. Imaginez la tranquillité de savoir que cette dépense essentielle ne bougera pas pendant près de trois ans !\n\nC'est une victoire pour le quotidien des Français, une preuve que des solutions existent pour alléger la pression sur les budgets. Profitez de cette bonne nouvelle pour envisager vos projets avec plus de confiance. C'est ça, l'énergie positive !",
-    "source": "Le Monde Une",
-    "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/08/le-prix-de-l-electricite-ne-doit-pas-augmenter-cet-hiver-la-promesse-encore-floue-de-sebastien-lecornu_6790193_3234.html",
-    "image": "https://images.unsplash.com/featured/800x600/?household%2Cbudget%2Crelief&sig=131",
-    "offsetDays": 18,
-    "featured": false
-  },
-  {
-    "id": 205,
-    "category": "Business & Économie Positive",
-    "title": "Le président Macron met les géants de l'automobile au défi de protéger nos emplois européens !",
-    "smileFactor": "Quelle excellente nouvelle pour l'emploi et l'avenir de notre industrie européenne !",
-    "visualText": "EMPLOIS AUTO\nPROTÉGÉS",
-    "imageQueryEnglish": "European auto industry future",
-    "body": "Quelle excellente nouvelle pour l'emploi et l'avenir de notre industrie européenne ! Le président Emmanuel Macron a lancé une initiative audacieuse et pleine d'espoir pour notre secteur automobile. Il a personnellement missionné deux figures emblématiques de l'industrie : Florent Menegaux, le grand patron de Michelin, et Nicolas Peter, le directeur financier de BMW. Leur mission ? Rien de moins que de rapprocher les positions des constructeurs et des équipementiers.\n\nL'objectif est clair et motivant : trouver un accord solide sur la \"préférence européenne\". Concrètement, il s'agit de s'assurer que nos entreprises et nos travailleurs soient protégés face à la concurrence mondiale. C'est une démarche essentielle pour préserver au mieux les milliers d'emplois qui dépendent de cette filière vitale.\n\nFace aux défis actuels, cette collaboration au sommet est un véritable rayon de soleil. Elle montre une volonté forte de nos dirigeants et de nos industriels de travailler main dans la main pour l'intérêt commun. Plutôt que de subir, on agit ! C'est un signal puissant envoyé à toute l'Europe : nous avons les talents et la détermination pour construire un avenir prospère et solidaire pour notre automobile. Un grand bravo pour cette initiative qui met l'humain et l'emploi au cœur des préoccupations !",
-    "source": "Le Monde",
-    "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/08/les-patrons-de-michelin-et-de-bmw-missionnes-par-emmanuel-macron-pour-trouver-un-accord-sur-la-preference-europeenne-dans-l-automobile_6790195_3234.html",
-    "image": "https://images.unsplash.com/featured/800x600/?European%2Cauto%2Cindustry%2Cfuture&sig=442",
-    "offsetDays": 18,
-    "featured": false
-  },
-  {
-    "id": 206,
-    "category": "IA & Tech",
-    "title": "Le monde célèbre l'héritage de Margaret Hamilton, la pionnière qui a propulsé l'humanité vers la Lune",
-    "smileFactor": "Préparez-vous à un voyage inspirant dans l'histoire de la technologie, car aujourd'hui, nous célébrons une femme qui a littéralement envoyé l'humanité sur la Lune !",
-    "visualText": "GÉNIE DE\nL'INFO",
-    "imageQueryEnglish": "Margaret Hamilton coding",
-    "body": "Préparez-vous à un voyage inspirant dans l'histoire de la technologie, car aujourd'hui, nous célébrons une femme qui a littéralement envoyé l'humanité sur la Lune ! Margaret Hamilton, une véritable légende de l'informatique, nous a quittés à 90 ans, mais son héritage brille plus fort que jamais. C'est elle, cette brillante scientifique américaine, qui a développé le logiciel de vol pour la mission Apollo de la NASA. Imaginez un peu : grâce à son génie, les astronautes ont pu atterrir sur la Lune, et l'Amérique a remporté la course spatiale contre l'Union soviétique dans les années 60 et 70 !\n\nMargaret n'était pas juste une codeuse ; elle était une architecte de l'impossible. Son travail a posé les bases de l'ingénierie logicielle moderne, un domaine qu'elle a en grande partie inventé. Elle a rendu les systèmes informatiques fiables et sûrs, une prouesse technique incroyable pour l'époque. Son dévouement et sa vision ont prouvé que la science et la persévérance peuvent déplacer des montagnes... ou plutôt, envoyer des hommes sur la Lune ! Son histoire est un rappel éclatant que les contributions individuelles peuvent changer le cours de l'histoire et inspirer des générations. Un grand merci, Margaret, pour avoir ouvert la voie et nous avoir fait rêver plus grand !",
-    "source": "Le Monde",
-    "sourceLink": "https://www.lemonde.fr/disparitions/article/2026/10/08/margaret-hamilton-scientifique-qui-a-developpe-le-systeme-informatique-de-la-mission-apollo-est-morte-a-90-ans_6789925_3382.html",
-    "image": "https://images.unsplash.com/featured/800x600/?Margaret%2CHamilton%2Ccoding&sig=244",
-    "offsetDays": 18,
-    "featured": false
-  },
-  {
-    "id": 207,
-    "category": "Politique & Société",
-    "title": "Le gouvernement apporte un soutien concret aux agriculteurs pour surmonter la crise de la sécheresse",
-    "smileFactor": "Quelle excellente nouvelle pour nos agriculteurs ! Un vent d'espoir souffle sur nos campagnes, et ça, ça nous met le sourire aux lèvres !",
-    "visualText": "SOUTIEN À\nNOS FERMIERS",
-    "imageQueryEnglish": "happy farmer field",
-    "body": "Nos agriculteurs, piliers de notre alimentation et de nos paysages, ont traversé une période difficile, marquée par une sécheresse éprouvante. Mais la bonne nouvelle est tombée lors du Sommet de l’élevage à Cournon-d’Auvergne : le gouvernement a entendu leur appel et agit ! La ministre Annie Genevard a annoncé des mesures fortes pour les aider à surmonter cette crise.\n\nFini les soucis de trésorerie qui pèsent lourd ! Des prêts à taux zéro sont désormais disponibles pour nos éleveurs et cultivateurs. C'est un véritable coup de pouce, une bouffée d'oxygène qui va leur permettre de souffler et de regarder l'avenir avec plus de sérénité. Cette initiative montre que nos décideurs sont à l'écoute et prêts à soutenir ceux qui travaillent la terre avec passion et dévouement. C'est un pas important pour désamorcer les tensions et reconstruire la confiance. Nos campagnes méritent ce soutien, et cette aide concrète est une preuve que l'on ne les oublie pas. Un grand bravo pour cette action positive qui réchauffe les cœurs et donne de l'élan à notre agriculture !",
-    "source": "Actualités Nationales",
-    "sourceLink": "https://www.lemonde.fr/economie/article/2026/10/08/agriculture-le-gouvernement-annonce-de-nouvelles-aides-pour-tenter-de-desamorcer-la-crise-sociale-consecutive-a-la-secheresse_6790166_3234.html",
-    "image": "https://images.unsplash.com/featured/800x600/?happy%2Cfarmer%2Cfield&sig=739",
-    "offsetDays": 18,
-    "featured": false
-  },
-  {
-    "id": 208,
-    "category": "Santé",
-    "title": "La Chine s'engage pour la santé mondiale en présentant sa candidature à la direction de l'OMS",
-    "smileFactor": "Quelle excellente nouvelle pour la coopération mondiale et la santé de tous !",
-    "visualText": "SANTÉ\nMONDIALE",
-    "imageQueryEnglish": "global health collaboration",
-    "body": "La Chine a fait un pas important sur la scène internationale en annonçant sa candidature pour le poste de directeur général de l'Organisation Mondiale de la Santé (OMS). C'est un signal fort et positif pour l'avenir de la santé à l'échelle planétaire !\n\nDans un monde où les défis sanitaires ne connaissent pas de frontières, l'engagement des grandes nations est plus que jamais essentiel. Pékin a clairement indiqué que cette démarche est une preuve de son attachement profond au multilatéralisme et à l'ONU. C'est une main tendue vers la collaboration, un appel à l'unité pour affronter ensemble les épidémies, améliorer l'accès aux soins et promouvoir le bien-être partout sur la planète.\n\nImaginez un instant : des pays qui unissent leurs forces, partagent leurs connaissances et leurs ressources pour construire un avenir plus sain pour chacun d'entre nous. C'est exactement l'esprit que cette candidature souhaite insuffler. Elle nous rappelle que, malgré les différences, nous avons tous un objectif commun : une meilleure santé pour tous.\n\nCette initiative est une bouffée d'air frais, un rappel que la solidarité internationale est la clé pour surmonter les obstacles. Elle ouvre la voie à de nouvelles discussions et, espérons-le, à des avancées majeures pour la santé mondiale. C'est une belle preuve que l'engagement et la coopération peuvent vraiment changer le monde, un sourire à la fois !",
-    "source": "Le Monde Une",
-    "sourceLink": "https://www.lemonde.fr/international/article/2026/10/08/pekin-fait-acte-de-candidature-pour-le-poste-de-directeur-general-de-l-oms_6790184_3210.html",
-    "image": "https://images.unsplash.com/featured/800x600/?global%2Chealth%2Ccollaboration&sig=577",
-    "offsetDays": 18,
-    "featured": false
-  },
-  {
-    "id": 209,
-    "category": "Monde",
-    "title": "Le prix Nobel de littérature couronne l'audace et la créativité d'Anne Carson",
-    "smileFactor": "Préparez-vous à sourire : le monde de la littérature est en fête !",
-    "visualText": "NOBEL\nLITTÉRATURE",
-    "imageQueryEnglish": "poet woman reading",
-    "body": "Préparez-vous à sourire : le monde de la littérature est en fête ! Ce jeudi 8 octobre, une nouvelle éclatante a illuminé la scène culturelle mondiale : Anne Carson, une poétesse canadienne de 76 ans, a été couronnée du prestigieux prix Nobel de littérature par l'Académie suédoise. C'est une reconnaissance magnifique pour une artiste dont l'œuvre est tout simplement captivante !\n\nAnne Carson n'est pas une écrivaine comme les autres. Elle est une véritable magicienne des mots, osant mélanger la poésie et la prose avec une audace incroyable. Ses écrits nous emmènent dans des voyages fascinants, où les mythes anciens sont réinventés avec une fraîcheur et une modernité déconcertantes. Imaginez des histoires que vous pensiez connaître, mais racontées d'une manière totalement nouvelle, pleine de surprises et d'émotions !\n\nCe prix Nobel, c'est bien plus qu'une simple récompense. C'est un coup de projecteur sur la créativité sans limites, sur le courage d'explorer de nouvelles formes d'expression. Anne Carson nous montre que l'art n'a pas de frontières, qu'il peut toujours nous surprendre et nous émouvoir profondément. Son talent \"audacieux et inventif\" est désormais célébré à l'échelle planétaire, inspirant des millions de lecteurs et d'écrivains en herbe. Une belle leçon de vie et de persévérance !",
-    "source": "Académie suédoise",
-    "sourceLink": "https://www.courrierinternational.com/article/recompense-le-prix-nobel-de-litterature-est-attribue-a-anne-carson-ecrivaine-canadienne-audacieuse-et-inventive_276902",
-    "image": "https://images.unsplash.com/featured/800x600/?poet%2Cwoman%2Creading&sig=538",
-    "offsetDays": 18,
-    "featured": false
-  },
-  {
-    "id": 210,
-    "category": "Politique & Société",
-    "title": "La joie de Noël s'invite plus tôt dans nos vies et prolonge la magie des fêtes",
-    "smileFactor": "Préparez-vous à un sourire XXL, car la magie de Noël arrive plus tôt que jamais cette année, et c'est une excellente nouvelle pour notre moral !",
-    "visualText": "JOIE DES\nFÊTES",
-    "imageQueryEnglish": "early christmas decorations",
-    "body": "Préparez-vous à un sourire XXL, car la magie de Noël arrive plus tôt que jamais cette année, et c'est une excellente nouvelle pour notre moral ! Oubliez le « Christmas creep » et son côté « invasif » : et si on voyait plutôt l'arrivée précoce des décorations comme une chance de prolonger la joie ?\n\nDès septembre, les rayons des magasins se parent de guirlandes et de boules scintillantes. Loin d'être une invasion, c'est une invitation à savourer plus longtemps l'esprit des fêtes ! Comme le souligne le célèbre Time Magazine, ce phénomène, que certains appellent « Noël invasif », est en réalité une formidable opportunité. Imaginez : plus de temps pour choisir vos cadeaux sans stress, plus de soirées à rêver devant les vitrines illuminées, et surtout, plus de semaines pour se laisser emporter par la bonne humeur contagieuse de cette période.\n\nC'est une véritable bouffée d'air frais qui nous est offerte, une parenthèse enchantée qui s'étire. Pourquoi attendre le dernier moment pour ressentir cette chaleur et cette convivialité ? En accueillant Noël dès l'automne, nous nous offrons une dose supplémentaire de bonheur et d'anticipation. C'est une manière simple et efficace de chasser la grisaille et d'illuminer nos quotidiens. Alors, laissez-vous emporter par cette vague de joie précoce et profitez de chaque instant de cette saison prolongée !",
-    "source": "Time Magazine",
-    "sourceLink": "https://www.courrierinternational.com/stories/video-avant-noel-c-est-deja-noel-ce-que-devoile-le-christmas-creep_276415",
-    "image": "https://images.unsplash.com/featured/800x600/?early%2Cchristmas%2Cdecorations&sig=698",
-    "offsetDays": 18,
-    "featured": false
-  },
-  {
-    "id": 211,
-    "category": "Santé",
-    "title": "Bonne nouvelle : le risque de propagation de la peste est extrêmement faible !",
-    "smileFactor": "Respirez un grand coup, car aujourd'hui, on vous apporte une nouvelle qui va faire du bien à votre sérénité !",
-    "visualText": "SANTÉ\nPROTÉGÉE",
-    "imageQueryEnglish": "public health safety",
-    "body": "Respirez un grand coup, car aujourd'hui, on vous apporte une nouvelle qui va faire du bien à votre sérénité ! Une récente information a pu faire froncer quelques sourcils : le décès d'un employé de laboratoire en Russie, avec une possible implication de la peste. Mais attention, pas de panique ! Les experts sont formels et rassurants : même si la peste était en cause, les chances qu'elle se propage sont incroyablement minimes.\n\nC'est une excellente nouvelle qui souligne l'efficacité de nos systèmes de santé modernes et des protocoles de sécurité. Fini le temps où une telle maladie pouvait semer la terreur ! Aujourd'hui, grâce à la science et à la vigilance des autorités sanitaires, nous sommes bien mieux équipés pour contenir et gérer ce genre de situation. Les mesures de prévention et de contrôle sont robustes, et la surveillance est constante.\n\nAlors, on peut souffler ! Cette situation, bien que sérieuse pour les personnes directement concernées, ne représente absolument pas une menace pour la population générale. C'est une belle preuve que la science et la médecine travaillent sans relâche pour notre bien-être et notre sécurité collective. Continuons à faire confiance aux professionnels de la santé qui veillent sur nous chaque jour. Une raison de plus de sourire et de se sentir en sécurité !",
-    "source": "Wired Science",
-    "sourceLink": "https://www.wired.com/story/what-we-know-about-plague-russia/",
-    "image": "https://images.unsplash.com/featured/800x600/?public%2Chealth%2Csafety&sig=131",
     "offsetDays": 18,
     "featured": false
   }
